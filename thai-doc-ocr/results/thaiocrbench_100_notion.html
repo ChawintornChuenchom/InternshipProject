@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="th">
+<head><meta charset="utf-8"><title>ThaiOCRBench 100 ข้อ (12/11/2569)</title></head>
+<body>
+<h1>ThaiOCRBench 100 ข้อ (12/11/2569)</h1>
+<p>เทียบ Typhoon OCR 1.5 2B, Qwen3-VL-2B base, Qwen3-VL-2B thaidoc ผ่าน Ollama ใช้เทียบ 3 ตัวนี้กันเองเท่านั้น</p>
+
+<details><summary>สรุปสั้น</summary>
+<ul>
+<li><b>ชนะรวม:</b> Thaidoc 0.387, Base 0.329, Typhoon 0.326</li>
+<li><b>Thaidoc vs Base:</b> ดีขึ้น +0.058 (95% CI +0.014 ถึง +0.106) เป็นสัญญาณเบื้องต้น ยังไม่ใช่ข้อสรุปแน่นอน</li>
+<li><b>เหตุผลหลักที่ดีขึ้น:</b> วนลูปน้อยลง 16 เหลือ 7 ข้อ คะแนนที่เพิ่มมากกว่าครึ่งมาจากข้อที่ Base วนลูปแต่ Thaidoc ไม่วน</li>
+<li><b>Typhoon:</b> อ่านข้อความเก่งสุด แต่ได้ 0 ในงานดึงข้อมูล (F1) เพราะไม่ทำตามคำสั่ง</li>
+<li><b>ไม่มี error/timeout</b> ทั้ง 3 โมเดล</li>
+</ul>
+</details>
+
+<details><summary>วิธีวัด</summary>
+<ul>
+<li><b>ชุดข้อ:</b> scb10x/ThaiOCRBench test สุ่มแบบ --max_samples ของทางการ (shuffle seed 42 แล้ว select) 100 ข้อ ทุกโมเดลชุดเดียวกัน</li>
+<li><b>Prompt:</b> ดึงจาก run_inference.py ตรง ๆ ("Instruction: " + คำถาม + ประโยคไทยต่อท้าย) ไม่มี system prompt</li>
+<li><b>Inference:</b> Ollama /api/chat, temperature 0, num_predict 4096, num_ctx 8192, ย่อรูปด้านยาวไม่เกิน 1,800 px</li>
+<li><b>ให้คะแนน:</b> eval.py ของทางการ ไม่ได้แก้</li>
+<li><b>ค่าเฉลี่ยรวม:</b> เฉลี่ย 13 หมวดเท่ากัน (macro)</li>
+<li><b>4 กลุ่ม metric:</b> TED (Table / Chart / Document parsing), BMFL (Fine-grained, Full-page OCR, Handwritten), F1 (Key info extraction / mapping), ANLS (Text recognition, Doc classification, Diagram VQA, Cognition VQA, Infographics)</li>
+</ul>
+</details>
+
+<details><summary>คะแนนรวมและ 4 กลุ่ม</summary>
+<ul>
+<li><b>Typhoon (Q4_K_M):</b> รวม 0.326 · TED 0.386 · BMFL <b>0.395</b> · F1 0.000 · ANLS 0.379</li>
+<li><b>Base (q8_0):</b> รวม 0.329 · TED 0.323 · BMFL 0.296 · F1 <b>0.343</b> · ANLS 0.346</li>
+<li><b>Thaidoc (q8_0):</b> รวม <b>0.387</b> · TED <b>0.440</b> · BMFL 0.315 · F1 0.319 · ANLS <b>0.424</b></li>
+</ul>
+</details>
+
+<details><summary>คะแนนรายหมวด</summary>
+<p>ลำดับตัวเลข: Typhoon · Base · Thaidoc (n = จำนวนข้อ)</p>
+<details><summary>กลุ่ม TED</summary>
+<ul>
+<li><b>Table parsing (11):</b> 0.450 · 0.325 · 0.408</li>
+<li><b>Chart parsing (4):</b> 0.325 · 0.531 · 0.681</li>
+<li><b>Document parsing (1):</b> 0.385 · 0.114 · 0.231</li>
+</ul>
+</details>
+<details><summary>กลุ่ม BMFL</summary>
+<ul>
+<li><b>Fine-grained text recognition (6):</b> 0.228 · 0.270 · 0.308</li>
+<li><b>Full-page OCR (8):</b> 0.865 · 0.565 · 0.584</li>
+<li><b>Handwritten content extraction (6):</b> 0.092 · 0.053 · 0.053</li>
+</ul>
+</details>
+<details><summary>กลุ่ม F1</summary>
+<ul>
+<li><b>Key information extraction (6):</b> 0.000 · 0.143 · 0.143</li>
+<li><b>Key information mapping (10):</b> 0.000 · 0.542 · 0.495</li>
+</ul>
+</details>
+<details><summary>กลุ่ม ANLS</summary>
+<ul>
+<li><b>Text recognition (15):</b> 0.512 · 0.165 · 0.264</li>
+<li><b>Document classification (4):</b> 0.151 · 0.500 · 0.750</li>
+<li><b>Diagram VQA (6):</b> 0.333 · 0.260 · 0.260</li>
+<li><b>Cognition VQA (12):</b> 0.534 · 0.306 · 0.348</li>
+<li><b>Infographics (11):</b> 0.364 · 0.500 · 0.500</li>
+</ul>
+</details>
+</details>
+
+<details><summary>Thaidoc ดีกว่า Base ไหม</summary>
+<ul>
+<li><b>โดยรวม:</b> ดีขึ้น +0.058 ช่วง CI ไม่คร่อม 0</li>
+<li><b>รายข้อ:</b> ดีกว่า 28 ข้อ, แย่กว่า 19 ข้อ, เท่ากัน 53 ข้อ</li>
+<li><b>ดีขึ้น:</b> Text recognition +0.099 (15 ข้อ), Table parsing +0.083 (11 ข้อ)</li>
+<li><b>ดีขึ้นแต่ข้อน้อย:</b> Document classification +0.250, Chart parsing +0.151 (หมวดละ 4 ข้อ ต่างกันข้อเดียว)</li>
+<li><b>แย่ลง:</b> Key information mapping -0.047 (10 ข้อ)</li>
+<li><b>เท่าเดิม:</b> Key info extraction, Diagram VQA, Infographics, Handwritten (ลายมือได้ราว 0.05 ทั้งคู่)</li>
+<li><b>ข้อควรระวัง:</b> ไม่มีหมวดไหนต่างมากพอจะแยกจาก noise ได้เมื่อดูทีละหมวด</li>
+<li><b>ที่มาของคะแนน:</b> ผลต่างรวม +4.52 คะแนน ในนั้น +2.50 มาจากข้อที่ Base วนลูปแต่ Thaidoc ไม่วน แปลว่าเทรนแล้วหยุดตอบได้ถูกที่ขึ้น มากกว่าอ่านไทยแม่นขึ้น</li>
+</ul>
+</details>
+
+<details><summary>Typhoon</summary>
+<ul>
+<li><b>เก่ง:</b> Full-page OCR 0.865, Text recognition 0.512, Table parsing 0.450 (สูงสุดทั้ง 3 หมวด)</li>
+<li><b>F1 ได้ 0:</b> ไม่ดึง key ตามที่ถาม แต่ OCR ทั้งหน้ามาใส่ใน key เดียว</li>
+<li><b>Doc classification 0.151:</b> ตอบข้อความจากเอกสาร เช่น "บัตรประจำตัวประชาชน Thai National ID Card" แทนตัวเลือก "บัตรประชาชน"</li>
+<li><b>VQA:</b> Diagram VQA และ Cognition VQA ได้อันดับ 1 แต่ Infographics ได้อันดับ 3</li>
+<li><b>สาเหตุที่น่าจะเป็น:</b> Typhoon เทรนมากับ prompt เฉพาะของตัวเอง (document parsing) README ของ ThaiOCRBench เองก็ไม่วัด Typhoon ด้วยเหตุผลนี้</li>
+</ul>
+</details>
+
+<details><summary>เวลาและวนลูป</summary>
+<ul>
+<li><b>Typhoon:</b> 18.8 วิ/ข้อ, วนลูป 7 ข้อ</li>
+<li><b>Base:</b> 61.2 วิ/ข้อ, วนลูป 16 ข้อ</li>
+<li><b>Thaidoc:</b> 33.3 วิ/ข้อ, วนลูป 7 ข้อ</li>
+<li><b>วนลูป:</b> นับจากข้อที่ generate จนชน 4096 token ส่วนใหญ่อยู่ใน Table parsing, Full-page OCR, Text recognition</li>
+<li><b>ทำไม q8 ช้า:</b> ใช้ 3.6 GB เกิน VRAM 4 GB Ollama เลยแบ่ง CPU 50% GPU 50%</li>
+<li><b>รูปที่ถูกย่อ:</b> 35 จาก 100 รูป</li>
+</ul>
+</details>
+
+<details><summary>ข้อจำกัด</summary>
+<ul>
+<li><b>ข้อน้อย:</b> 100 จาก 2,808 ข้อ หมวดละ 1 ถึง 15 ข้อ (Document parsing มีข้อเดียว) คะแนนรายหมวดแกว่งมาก</li>
+<li><b>Quantize:</b> ผ่าน Ollama (Typhoon Q4_K_M, Qwen q8_0) ไม่ใช่ bf16 ผ่าน vLLM แบบเปเปอร์</li>
+<li><b>ตั้งค่าต่างจากทางการ:</b> ย่อรูป 1,800 px และ num_predict 4096 (ทางการ 11000)</li>
+<li><b>รันครั้งเดียว:</b> CI บอกแค่ความไม่แน่นอนจากการเลือกข้อ ไม่รวมการรันซ้ำ</li>
+<li><b>เทียบเปเปอร์ไม่ได้:</b> arXiv 2511.04479 ใช้เทียบ 3 โมเดลนี้กันเองเท่านั้น</li>
+<li><b>นิสัยของ eval.py:</b> ANLS ให้เต็มถ้าเฉลยอยู่ในคำตอบ, Table parsing ติดลบได้เล็กน้อย (เจอ 3 ข้อ)</li>
+</ul>
+</details>
+
+<details><summary>ปัญหาที่เจอตอนรันบน Windows</summary>
+<ul>
+<li><b>vLLM:</b> ใช้บน Windows ไม่ได้ เขียน runner ใหม่ยิงผ่าน Ollama API</li>
+<li><b>Polygon3:</b> build ไม่ผ่าน ข้ามได้เพราะใช้แค่ text spotting ภาษาอังกฤษ</li>
+<li><b>pythainlp:</b> eval ต้องใช้แต่ไม่อยู่ใน requirements.txt</li>
+<li><b>encoding:</b> eval.py เปิดไฟล์ไม่ระบุ encoding ต้องรันด้วย PYTHONUTF8=1</li>
+<li><b>nltk 3.10:</b> มีเพดาน 2,000 ตัวอักษรใน edit_distance ทำให้ eval crash ใช้ nltk 3.9.1 แทน</li>
+<li><b>num_ctx:</b> ต้องตั้ง 8192 เอง ค่า default ไม่พอสำหรับรูปใหญ่บวกคำตอบยาว</li>
+</ul>
+</details>
+
+<details><summary>ไฟล์</summary>
+<ul>
+<li><b>รายงานเต็ม:</b> thai-doc-ocr/results/thaiocrbench_100.md</li>
+<li><b>Runner:</b> ThaiOCRBench/ollama_eval/run_ollama.py, run_all.ps1, make_report.py</li>
+<li><b>คำตอบดิบ:</b> ThaiOCRBench/ollama_pred/</li>
+<li><b>ผล eval:</b> ThaiOCRBench/ollama_res/</li>
+<li><b>รันต่อเป็น 300 ข้อ:</b> run_all.ps1 แล้ว make_report.py 300</li>
+</ul>
+</details>
+</body>
+</html>

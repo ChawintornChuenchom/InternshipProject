@@ -1,0 +1,12 @@
+# The untrained model through LlamaFactory's API, for comparing with Typhoon OCR on the same images. From the LlamaFactory folder:
+#   .venv\Scripts\llamafactory-cli.exe api ..\thai-doc-ocr\configs\infer_base.yaml
+# evaluate.py --api already shrinks each page to a 1800 px longest side, so the limit here only stops a further shrink.
+model_name_or_path: Qwen/Qwen3-VL-2B-Instruct
+image_max_pixels: 3000000
+quantization_bit: 4
+quantization_method: bnb
+double_quantization: true
+template: qwen3_vl_nothink
+infer_backend: huggingface
+do_sample: false
+trust_remote_code: true

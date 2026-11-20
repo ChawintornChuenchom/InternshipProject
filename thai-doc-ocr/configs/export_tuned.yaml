@@ -1,0 +1,13 @@
+# Merge the trained LoRA adapter into Qwen3-VL-2B-Instruct as a full model, ready for GGUF conversion. From LlamaFactory:
+#   .venv\Scripts\llamafactory-cli.exe export ..\thai-doc-ocr\configs\export_tuned.yaml
+# The merge runs on the CPU in bf16: a 4GB card can't hold the unquantized model, and merging into 4-bit isn't possible.
+model_name_or_path: Qwen/Qwen3-VL-2B-Instruct
+adapter_name_or_path: saves/Qwen3-VL-2B-Instruct/lora/thai_doc_ocr
+template: qwen3_vl_nothink
+finetuning_type: lora
+trust_remote_code: true
+
+export_dir: models/qwen3vl-2b-thaidoc
+export_size: 5
+export_device: cpu
+export_legacy_format: false

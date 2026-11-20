@@ -1,0 +1,1310 @@
+﻿python.exe : [transformers] warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+At C:\Users\Pai\Desktop\Work\Work_2569\AI-Internship\NewProject\thai-doc-ocr\run_json_v2.ps1:15 char:1
++ & .\.venv\Scripts\python.exe ..\thai-doc-ocr\train.py ..\thai-doc-ocr ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([transformers] ...steps` instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WARNING|2026-11-10 11:56:58] llamafactory.hparams.parser:149 >> We recommend enable `upcast_layernorm` in quantized training.
+[INFO|2026-11-10 11:56:58] llamafactory.hparams.parser:678 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+[INFO|configuration_utils.py:780] 2026-11-10 11:56:59,148 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 11:56:59,149 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|configuration_utils.py:780] 2026-11-10 11:57:02,343 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 11:57:02,344 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|configuration_utils.py:780] 2026-11-10 11:57:02,621 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 11:57:02,623 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[WARNING|2026-11-10 11:57:04] llamafactory.data.template:149 >> You are using reasoning template. If the base model is NOT a reasoning model (i.e., it has a separate Instruct variant), please add `_nothink` suffix to disable thinking. For reasoning-only model families (e.g., Qwen3.6), the suffix is not needed. e.g., qwen3_vl_nothink
+[INFO|2026-11-10 11:57:04] llamafactory.data.loader:144 >> Loading dataset thai_doc_json_train_varied.json...
+Setting num_proc from 4 back to 1 for the train split to disable multiprocessing as it only contains one shard.
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 500 examples [00:00, 12761.52 examples/s]
+
+Converting format of dataset (num_proc=4):   0%|          | 0/500 [00:00<?, ? examples/s]
+Converting format of dataset (num_proc=4):  25%|██▌       | 125/500 [00:12<00:36, 10.31 examples/s]
+Converting format of dataset (num_proc=4): 100%|██████████| 500/500 [00:14<00:00, 35.25 examples/s]
+
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/500 [00:00<?, ? examples/s]
+Running tokenizer on dataset (num_proc=4):  25%|██▌       | 125/500 [00:15<00:47,  7.93 examples/s]
+Running tokenizer on dataset (num_proc=4):  50%|█████     | 250/500 [00:16<00:13, 17.88 examples/s]
+Running tokenizer on dataset (num_proc=4):  75%|███████▌  | 375/500 [00:17<00:04, 29.48 examples/s]
+Running tokenizer on dataset (num_proc=4): 100%|██████████| 500/500 [00:18<00:00, 42.74 examples/s]
+Running tokenizer on dataset (num_proc=4): 100%|██████████| 500/500 [00:20<00:00, 24.40 examples/s]
+training example:
+input_ids:
+[151644, 8948, 198, 28959, 279, 15688, 3685, 1119, 4718, 13, 14540, 1449, 897, 6896, 438, 432, 374, 5326, 11, 304, 1181, 4024, 4128, 25, 653, 537, 14683, 11, 312, 1158, 11, 73381, 476, 912, 4113, 13, 9645, 1635, 438, 807, 4994, 320, 69185, 9293, 990, 279, 46741, 47588, 568, 25193, 264, 2070, 4287, 979, 279, 2197, 3171, 944, 614, 432, 13, 1752, 264, 2618, 429, 374, 2058, 2087, 389, 11, 738, 835, 311, 845, 13, 151645, 198, 151644, 872, 198, 86348, 23271, 124289, 129687, 129328, 47642, 47839, 35648, 66256, 39855, 55770, 271, 20184, 123888, 127876, 89732, 20774, 123975, 124954, 271, 39855, 124039, 39855, 126859, 271, 2660, 22, 24, 35487, 905, 271, 15, 23, 18, 12, 24, 20, 24, 12, 17, 22, 17, 20, 271, 48120, 135678, 47642, 22287, 28319, 271, 35884, 126026, 72267, 198, 31772, 25115, 198, 37, 11491, 198, 6025, 29146, 198, 96157, 850, 198, 127382, 198, 127382, 125451, 198, 127382, 22929, 123874, 25200, 126136, 320, 5207, 36, 1317, 220, 23, 21, 15, 340, 124338, 47642, 54684, 123899, 37213, 23271, 39855, 30785, 271, 20184, 123888, 127876, 35884, 47171, 131172, 124090, 124208, 35648, 64684, 124441, 30785, 60416, 30785, 35884, 23271, 31782, 271, 133243, 93874, 86348, 55770, 126676, 198, 20184, 123888, 127876, 89732, 20774, 123975, 124954, 271, 125331, 30785, 123924, 23271, 35884, 220, 126371, 25200, 123992, 26283, 28319, 124016, 97930, 220, 130834, 124090, 271, 17, 20, 21, 15, 481, 220, 17, 20, 21, 17, 271, 95475, 124357, 124389, 124758, 39855, 124090, 39855, 126859, 37213, 124039, 28319, 126400, 198, 37033, 41586, 124103, 22929, 23271, 129662, 126026, 86348, 55770, 124375, 135766, 20184, 37033, 55770, 198, 127876, 125968, 60416, 47642, 123903, 23271, 86348, 127159, 55770, 35648, 85045, 40327, 57995, 198, 93874, 123863, 124239, 124455, 198, 124463, 30785, 123910, 124952, 124094, 28319, 220, 134463, 142771, 20184, 30785, 124844, 123863, 30785, 31782, 54684, 55770, 271, 126832, 37213, 30785, 124488, 20774, 31782, 124362, 36142, 41586, 22287, 128825, 271, 17, 20, 20, 24, 151645, 198, 151644, 77091, 198, 151667, 271, 151668, 271, 4913, 36738, 788, 61753, 41027, 788, 330, 124463, 30785, 123910, 124952, 124094, 28319, 497, 330, 2566, 788, 330, 134463, 142771, 20184, 30785, 124844, 123863, 30785, 31782, 54684, 55770, 497, 330, 21850, 788, 330, 126832, 37213, 30785, 124488, 20774, 31782, 124362, 36142, 41586, 22287, 128825, 497, 330, 3157, 788, 330, 17, 20, 20, 24, 9207, 1125, 330, 2332, 788, 330, 2660, 22, 24, 35487, 905, 497, 330, 49559, 788, 61753, 10139, 788, 330, 125331, 30785, 123924, 23271, 35884, 220, 126371, 25200, 123992, 26283, 28319, 124016, 97930, 220, 130834, 124090, 497, 330, 14871, 788, 4383, 95475, 124357, 124389, 124758, 39855, 124090, 39855, 126859, 37213, 124039, 28319, 126400, 497, 330, 37033, 41586, 124103, 22929, 23271, 129662, 126026, 86348, 55770, 124375, 135766, 20184, 37033, 55770, 497, 330, 127876, 125968, 60416, 47642, 123903, 23271, 86348, 127159, 55770, 35648, 85045, 40327, 57995, 7914, 330, 408, 788, 330, 17, 20, 21, 17, 497, 330, 2468, 788, 330, 17, 20, 21, 15, 497, 330, 2102, 788, 330, 20184, 123888, 127876, 89732, 20774, 123975, 124954, 9207, 1125, 330, 42824, 788, 4383, 127382, 125451, 497, 330, 127382, 22929, 123874, 25200, 126136, 320, 5207, 36, 1317, 220, 23, 21, 15, 8, 7914, 330, 2527, 788, 330, 48120, 135678, 47642, 22287, 28319, 497, 330, 606, 788, 330, 86348, 23271, 124289, 129687, 129328, 47642, 47839, 35648, 66256, 39855, 55770, 497, 330, 4844, 788, 330, 15, 23, 18, 12, 24, 20, 24, 12, 17, 22, 17, 20, 497, 330, 3487, 788, 330, 20184, 123888, 127876, 89732, 20774, 123975, 124954, 497, 330, 53240, 788, 4383, 31772, 25115, 497, 330, 37, 11491, 497, 330, 6025, 29146, 497, 330, 96157, 850, 7914, 330, 1708, 788, 330, 20184, 123888, 127876, 35884, 47171, 131172, 124090, 124208, 35648, 64684, 124441, 30785, 60416, 30785, 35884, 23271, 31782, 9207, 151645, 198]
+inputs:
+<|im_start|>system
+Extract the resume below into JSON. Copy every value exactly as it is written, in its original language: do not translate, reword, shorten or add anything. Write years as they appear (Thai documents use the Buddhist Era). Leave a field empty when the document doesn't have it. For a job that is still going on, set end to null.<|im_end|>
+<|im_start|>user
+ณัฐพล สุขสันต์
+
+นักออกแบบกราฟิก
+
+ติดต่อ
+
+me79@example.com
+
+083-959-2725
+
+ชลบุรี
+
+ทักษะ
+Photoshop
+Figma
+After Effects
+Illustrator
+ภาษา
+ภาษาไทย
+ภาษาอังกฤษ (TOEIC 860)
+สรุปประวัติ
+
+นักออกแบบที่ถนัดงานสื่อดิจิทัล
+
+ประสบการณ์ทำงาน
+นักออกแบบกราฟิก
+
+บริษัท บางกอกมีเดีย จำกัด
+
+2560 - 2562
+
+ถ่ายภาพและตัดต่อวิดีโอ
+ดูแลอัตลักษณ์ของแบรนด์
+ออกแบบบรรจุภัณฑ์สินค้า
+การศึกษา
+ปริญญาตรี สาขาการออกแบบนิเทศศิลป์
+
+มหาวิทยาลัยบูรพา
+
+2559<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+{"education": [{"degree": "ปริญญาตรี", "field": "สาขาการออกแบบนิเทศศิลป์", "school": "มหาวิทยาลัยบูรพา", "year": "2559"}], "email": "me79@example.com", "experience": [{"company": "บริษัท บางกอกมีเดีย จำกัด", "details": ["ถ่ายภาพและตัดต่อวิดีโอ", "ดูแลอัตลักษณ์ของแบรนด์", "ออกแบบบรรจุภัณฑ์สินค้า"], "end": "2562", "start": "2560", "title": "นักออกแบบกราฟิก"}], "languages": ["ภาษาไทย", "ภาษาอังกฤษ (TOEIC 860)"], "location": "ชลบุรี", "name": "ณัฐพล สุขสันต์", "phone": "083-959-2725", "position": "นักออกแบบกราฟิก", "skills": ["Photoshop", "Figma", "After Effects", "Illustrator"], "summary": "นักออกแบบที่ถนัดงานสื่อดิจิทัล"}<|im_end|>
+
+label_ids:
+[INFO|configuration_utils.py:780] 2026-11-10 11:57:40,931 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 11:57:40,933 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 4913, 36738, 788, 61753, 41027, 788, 330, 124463, 30785, 123910, 124952, 124094, 28319, 497, 330, 2566, 788, 330, 134463, 142771, 20184, 30785, 124844, 123863, 30785, 31782, 54684, 55770, 497, 330, 21850, 788, 330, 126832, 37213, 30785, 124488, 20774, 31782, 124362, 36142, 41586, 22287, 128825, 497, 330, 3157, 788, 330, 17, 20, 20, 24, 9207, 1125, 330, 2332, 788, 330, 2660, 22, 24, 35487, 905, 497, 330, 49559, 788, 61753, 10139, 788, 330, 125331, 30785, 123924, 23271, 35884, 220, 126371, 25200, 123992, 26283, 28319, 124016, 97930, 220, 130834, 124090, 497, 330, 14871, 788, 4383, 95475, 124357, 124389, 124758, 39855, 124090, 39855, 126859, 37213, 124039, 28319, 126400, 497, 330, 37033, 41586, 124103, 22929, 23271, 129662, 126026, 86348, 55770, 124375, 135766, 20184, 37033, 55770, 497, 330, 127876, 125968, 60416, 47642, 123903, 23271, 86348, 127159, 55770, 35648, 85045, 40327, 57995, 7914, 330, 408, 788, 330, 17, 20, 21, 17, 497, 330, 2468, 788, 330, 17, 20, 21, 15, 497, 330, 2102, 788, 330, 20184, 123888, 127876, 89732, 20774, 123975, 124954, 9207, 1125, 330, 42824, 788, 4383, 127382, 125451, 497, 330, 127382, 22929, 123874, 25200, 126136, 320, 5207, 36, 1317, 220, 23, 21, 15, 8, 7914, 330, 2527, 788, 330, 48120, 135678, 47642, 22287, 28319, 497, 330, 606, 788, 330, 86348, 23271, 124289, 129687, 129328, 47642, 47839, 35648, 66256, 39855, 55770, 497, 330, 4844, 788, 330, 15, 23, 18, 12, 24, 20, 24, 12, 17, 22, 17, 20, 497, 330, 3487, 788, 330, 20184, 123888, 127876, 89732, 20774, 123975, 124954, 497, 330, 53240, 788, 4383, 31772, 25115, 497, 330, 37, 11491, 497, 330, 6025, 29146, 497, 330, 96157, 850, 7914, 330, 1708, 788, 330, 20184, 123888, 127876, 35884, 47171, 131172, 124090, 124208, 35648, 64684, 124441, 30785, 60416, 30785, 35884, 23271, 31782, 9207, 151645, 198]
+labels:
+{"education": [{"degree": "ปริญญาตรี", "field": "สาขาการออกแบบนิเทศศิลป์", "school": "มหาวิทยาลัยบูรพา", "year": "2559"}], "email": "me79@example.com", "experience": [{"company": "บริษัท บางกอกมีเดีย จำกัด", "details": ["ถ่ายภาพและตัดต่อวิดีโอ", "ดูแลอัตลักษณ์ของแบรนด์", "ออกแบบบรรจุภัณฑ์สินค้า"], "end": "2562", "start": "2560", "title": "นักออกแบบกราฟิก"}], "languages": ["ภาษาไทย", "ภาษาอังกฤษ (TOEIC 860)"], "location": "ชลบุรี", "name": "ณัฐพล สุขสันต์", "phone": "083-959-2725", "position": "นักออกแบบกราฟิก", "skills": ["Photoshop", "Figma", "After Effects", "Illustrator"], "summary": "นักออกแบบที่ถนัดงานสื่อดิจิทัล"}<|im_end|>
+
+[INFO|2026-11-10 11:57:40] llamafactory.model.model_utils.quantization:144 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2026-11-10 11:57:40] llamafactory.model.model_utils.kv_cache:144 >> KV cache is disabled during training.
+W1110 11:57:42.364000 24752 Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will 
+not work for triton kernels
+[INFO|modeling_utils.py:769] 2026-11-10 11:57:43,338 >> loading weights file model.safetensors from cache at C:\Users\P
+ai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\model.safetensors
+.index.json
+[INFO|modeling_utils.py:839] 2026-11-10 11:57:43,339 >> Will use dtype=torch.bfloat16 as defined in model's config 
+object
+[INFO|configuration_utils.py:1086] 2026-11-10 11:57:43,340 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "use_cache": false
+}
+
+
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/311 [00:00<02:32,  2.03it/s]
+Loading weights:   1%|          | 2/311 [00:00<02:15,  2.28it/s]
+Loading weights:   2%|▏         | 5/311 [00:00<00:45,  6.69it/s]
+Loading weights:   7%|▋         | 21/311 [00:01<00:08, 34.91it/s]
+Loading weights:  12%|█▏        | 37/311 [00:01<00:04, 59.36it/s]
+Loading weights:  16%|█▌        | 50/311 [00:01<00:03, 72.58it/s]
+Loading weights:  23%|██▎       | 70/311 [00:01<00:02, 98.72it/s]
+Loading weights:  27%|██▋       | 83/311 [00:01<00:02, 103.06it/s]
+Loading weights:  33%|███▎      | 103/311 [00:01<00:01, 122.89it/s]
+Loading weights:  38%|███▊      | 117/311 [00:01<00:01, 122.33it/s]
+Loading weights:  44%|████▎     | 136/311 [00:01<00:01, 135.18it/s]
+Loading weights:  49%|████▊     | 151/311 [00:02<00:01, 133.40it/s]
+Loading weights:  53%|█████▎    | 165/311 [00:02<00:01, 132.01it/s]
+Loading weights:  58%|█████▊    | 180/311 [00:02<00:00, 135.11it/s]
+Loading weights:  62%|██████▏   | 194/311 [00:02<00:00, 130.84it/s]
+Loading weights:  68%|██████▊   | 213/311 [00:02<00:00, 140.24it/s]
+Loading weights:  73%|███████▎  | 228/311 [00:02<00:00, 136.20it/s]
+Loading weights:  78%|███████▊  | 244/311 [00:02<00:00, 142.29it/s]
+Loading weights:  83%|████████▎ | 259/311 [00:02<00:00, 128.43it/s]
+Loading weights:  88%|████████▊ | 274/311 [00:02<00:00, 133.06it/s]
+Loading weights:  93%|█████████▎| 290/311 [00:03<00:00, 134.20it/s]
+Loading weights:  98%|█████████▊| 304/311 [00:03<00:00, 129.92it/s]
+Loading weights: 100%|██████████| 311/311 [00:03<00:00, 97.43it/s] 
+[INFO|configuration_utils.py:1039] 2026-11-10 11:57:47,526 >> loading configuration file generation_config.json from 
+cache at C:\Users\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5
+e\generation_config.json
+[INFO|configuration_utils.py:1086] 2026-11-10 11:57:47,526 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:441] 2026-11-10 11:57:47,791 >> Could not locate the custom_generate/generate.py inside 
+Qwen/Qwen3-1.7B.
+[INFO|2026-11-10 11:57:47] llamafactory.model.model_utils.checkpointing:144 >> Gradient checkpointing enabled.
+[INFO|2026-11-10 11:57:47] llamafactory.model.model_utils.attention:144 >> Using torch SDPA for faster training and inference.
+[INFO|2026-11-10 11:57:47] llamafactory.model.adapter:144 >> Upcasting trainable params to float32.
+[INFO|2026-11-10 11:57:47] llamafactory.model.adapter:144 >> Fine-tuning method: LoRA
+[INFO|2026-11-10 11:57:47] llamafactory.model.model_utils.misc:144 >> Found linear modules: q_proj,up_proj,gate_proj,down_proj,o_proj,v_proj,k_proj
+[INFO|2026-11-10 11:57:48] llamafactory.model.loader:144 >> trainable params: 17,432,576 || all params: 1,738,007,552 || trainable%: 1.0030
+[WARNING|trainer_utils.py:1238] 2026-11-10 11:57:48,177 >> The tokenizer has new PAD/BOS/EOS tokens that differ from 
+the model config and generation config. The model config and generation config were aligned accordingly, being updated 
+with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[INFO|trainer.py:1469] 2026-11-10 11:57:48,412 >> ***** Running training *****
+[INFO|trainer.py:1470] 2026-11-10 11:57:48,412 >>   Num examples = 500
+[INFO|trainer.py:1471] 2026-11-10 11:57:48,412 >>   Num Epochs = 2
+[INFO|trainer.py:1472] 2026-11-10 11:57:48,413 >>   Num update steps per epoch = 63
+[INFO|trainer.py:1473] 2026-11-10 11:57:48,413 >>   Instantaneous batch size per device = 1
+[INFO|trainer.py:1476] 2026-11-10 11:57:48,413 >>   Total train batch size (w. parallel, distributed & accumulation) = 
+8
+[INFO|trainer.py:1477] 2026-11-10 11:57:48,413 >>   Gradient Accumulation steps = 8
+[INFO|trainer.py:1478] 2026-11-10 11:57:48,413 >>   Total optimization steps = 126
+[INFO|trainer.py:1479] 2026-11-10 11:57:48,415 >>   Number of trainable parameters = 17,432,576
+
+[memory] step 1: peak allocated 3070 MiB, reserved 2180 MiB, patched=True (8 calls)
+  0%|          | 0/126 [00:00<?, ?it/s]
+[memory] step 2: peak allocated 2175 MiB, reserved 2294 MiB, patched=True (16 calls)
+  1%|          | 1/126 [00:11<23:03, 11.07s/it]
+[memory] step 3: peak allocated 2117 MiB, reserved 2220 MiB, patched=True (24 calls)
+  2%|▏         | 2/126 [00:23<24:38, 11.92s/it]
+[memory] step 4: peak allocated 2130 MiB, reserved 2218 MiB, patched=True (32 calls)
+  2%|▏         | 3/126 [00:33<22:26, 10.95s/it]
+[memory] step 5: peak allocated 2171 MiB, reserved 2296 MiB, patched=True (40 calls)
+  3%|▎         | 4/126 [00:45<23:20, 11.48s/it]
+  4%|▍         | 5/126 [00:57<23:07, 11.47s/it]
+                                               
+
+{'loss': '5.178', 'grad_norm': '22.94', 'learning_rate': '3.077e-05', 'epoch': '0.08'}
+[memory] step 6: peak allocated 2087 MiB, reserved 2218 MiB, patched=True (48 calls)
+  4%|▍         | 5/126 [00:57<23:07, 11.47s/it]
+[memory] step 7: peak allocated 2172 MiB, reserved 2370 MiB, patched=True (56 calls)
+  5%|▍         | 6/126 [01:08<22:45, 11.38s/it]
+[memory] step 8: peak allocated 2175 MiB, reserved 2292 MiB, patched=True (64 calls)
+  6%|▌         | 7/126 [01:21<23:31, 11.86s/it]
+[memory] step 9: peak allocated 2193 MiB, reserved 2368 MiB, patched=True (72 calls)
+  6%|▋         | 8/126 [01:33<23:30, 11.95s/it]
+[memory] step 10: peak allocated 2138 MiB, reserved 2218 MiB, patched=True (80 calls)
+  7%|▋         | 9/126 [01:46<23:50, 12.22s/it]
+  8%|▊         | 10/126 [01:59<24:02, 12.43s/it]
+                                                
+
+{'loss': '3.075', 'grad_norm': '11.55', 'learning_rate': '6.923e-05', 'epoch': '0.16'}
+[memory] step 11: peak allocated 2203 MiB, reserved 2294 MiB, patched=True (88 calls)
+  8%|▊         | 10/126 [01:59<24:02, 12.43s/it]
+[memory] step 12: peak allocated 2089 MiB, reserved 2218 MiB, patched=True (96 calls)
+  9%|▊         | 11/126 [02:11<23:35, 12.31s/it]
+[memory] step 13: peak allocated 2108 MiB, reserved 2220 MiB, patched=True (104 calls)
+ 10%|▉         | 12/126 [02:22<22:52, 12.04s/it]
+[memory] step 14: peak allocated 2102 MiB, reserved 2218 MiB, patched=True (112 calls)
+ 10%|█         | 13/126 [02:33<21:58, 11.67s/it]
+[memory] step 15: peak allocated 2108 MiB, reserved 2218 MiB, patched=True (120 calls)
+ 11%|█         | 14/126 [02:44<21:13, 11.37s/it]
+ 12%|█▏        | 15/126 [02:54<20:29, 11.08s/it]
+                                                
+
+{'loss': '1.403', 'grad_norm': '5.574', 'learning_rate': '9.998e-05', 'epoch': '0.24'}
+[memory] step 16: peak allocated 2140 MiB, reserved 2294 MiB, patched=True (128 calls)
+ 12%|█▏        | 15/126 [02:54<20:29, 11.08s/it]
+[memory] step 17: peak allocated 2087 MiB, reserved 2218 MiB, patched=True (136 calls)
+ 13%|█▎        | 16/126 [03:06<20:42, 11.29s/it]
+[memory] step 18: peak allocated 2097 MiB, reserved 2218 MiB, patched=True (144 calls)
+ 13%|█▎        | 17/126 [03:16<20:09, 11.10s/it]
+[memory] step 19: peak allocated 2156 MiB, reserved 2296 MiB, patched=True (152 calls)
+ 14%|█▍        | 18/126 [03:27<19:28, 10.82s/it]
+[memory] step 20: peak allocated 2187 MiB, reserved 2434 MiB, patched=True (160 calls)
+ 15%|█▌        | 19/126 [03:38<19:45, 11.08s/it]
+ 16%|█▌        | 20/126 [03:51<20:31, 11.61s/it]
+                                                
+
+{'loss': '0.6057', 'grad_norm': '1.943', 'learning_rate': '9.931e-05', 'epoch': '0.32'}
+[memory] step 21: peak allocated 2051 MiB, reserved 2218 MiB, patched=True (168 calls)
+ 16%|█▌        | 20/126 [03:51<20:31, 11.61s/it]
+[memory] step 22: peak allocated 2080 MiB, reserved 2218 MiB, patched=True (176 calls)
+ 17%|█▋        | 21/126 [04:01<19:30, 11.15s/it]
+[memory] step 23: peak allocated 2146 MiB, reserved 2296 MiB, patched=True (184 calls)
+ 17%|█▋        | 22/126 [04:12<19:06, 11.03s/it]
+[memory] step 24: peak allocated 2167 MiB, reserved 2296 MiB, patched=True (192 calls)
+ 18%|█▊        | 23/126 [04:23<18:58, 11.05s/it]
+[memory] step 25: peak allocated 2120 MiB, reserved 2220 MiB, patched=True (200 calls)
+ 19%|█▉        | 24/126 [04:35<19:13, 11.31s/it]
+ 20%|█▉        | 25/126 [04:47<19:41, 11.69s/it]
+                                                
+
+ 20%|█▉        | 25/126 [04:47<19:41, 11.69s/it][INFO|trainer.py:3815] 2026-11-10 12:02:36,388 >> Saving model 
+checkpoint to saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-25
+[INFO|configuration_utils.py:780] 2026-11-10 12:02:37,022 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 12:02:37,023 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:3281] 2026-11-10 12:02:37,109 >> chat template saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-25\chat_template.jinja
+[INFO|tokenization_utils_base.py:2114] 2026-11-10 12:02:37,110 >> tokenizer config file saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-25\tokenizer_config.json
+{'loss': '0.2986', 'grad_norm': '2.137', 'learning_rate': '9.768e-05', 'epoch': '0.4'}
+[memory] step 26: peak allocated 2170 MiB, reserved 2372 MiB, patched=True (208 calls)
+
+[memory] step 27: peak allocated 2157 MiB, reserved 2296 MiB, patched=True (216 calls)
+ 21%|██        | 26/126 [05:01<20:26, 12.27s/it]
+[memory] step 28: peak allocated 2061 MiB, reserved 2218 MiB, patched=True (224 calls)
+ 21%|██▏       | 27/126 [05:12<19:43, 11.95s/it]
+[memory] step 29: peak allocated 2049 MiB, reserved 2218 MiB, patched=True (232 calls)
+ 22%|██▏       | 28/126 [05:24<19:16, 11.80s/it]
+[memory] step 30: peak allocated 2182 MiB, reserved 2292 MiB, patched=True (240 calls)
+ 23%|██▎       | 29/126 [05:35<18:36, 11.51s/it]
+ 24%|██▍       | 30/126 [05:48<19:18, 12.07s/it]
+                                                
+
+{'loss': '0.1501', 'grad_norm': '1.802', 'learning_rate': '9.513e-05', 'epoch': '0.48'}
+[memory] step 31: peak allocated 2132 MiB, reserved 2218 MiB, patched=True (248 calls)
+ 24%|██▍       | 30/126 [05:48<19:18, 12.07s/it]
+[memory] step 32: peak allocated 2106 MiB, reserved 2218 MiB, patched=True (256 calls)
+ 25%|██▍       | 31/126 [05:59<18:49, 11.89s/it]
+[memory] step 33: peak allocated 2119 MiB, reserved 2216 MiB, patched=True (264 calls)
+ 25%|██▌       | 32/126 [06:09<17:43, 11.31s/it]
+[memory] step 34: peak allocated 2182 MiB, reserved 2368 MiB, patched=True (272 calls)
+ 26%|██▌       | 33/126 [06:22<18:06, 11.68s/it]
+[memory] step 35: peak allocated 2177 MiB, reserved 2294 MiB, patched=True (280 calls)
+ 27%|██▋       | 34/126 [06:35<18:40, 12.18s/it]
+ 28%|██▊       | 35/126 [06:46<17:57, 11.84s/it]
+                                                
+
+{'loss': '0.1841', 'grad_norm': '2.3', 'learning_rate': '9.172e-05', 'epoch': '0.56'}
+[memory] step 36: peak allocated 2204 MiB, reserved 2370 MiB, patched=True (288 calls)
+ 28%|██▊       | 35/126 [06:46<17:57, 11.84s/it]
+[memory] step 37: peak allocated 2056 MiB, reserved 2220 MiB, patched=True (296 calls)
+ 29%|██▊       | 36/126 [06:59<18:07, 12.08s/it]
+[memory] step 38: peak allocated 2198 MiB, reserved 2438 MiB, patched=True (304 calls)
+ 29%|██▉       | 37/126 [07:09<17:08, 11.56s/it]
+[memory] step 39: peak allocated 2122 MiB, reserved 2220 MiB, patched=True (312 calls)
+ 30%|███       | 38/126 [07:22<17:32, 11.96s/it]
+[memory] step 40: peak allocated 2040 MiB, reserved 2218 MiB, patched=True (320 calls)
+ 31%|███       | 39/126 [07:33<16:55, 11.67s/it]
+ 32%|███▏      | 40/126 [07:44<16:20, 11.40s/it]
+                                                
+
+{'loss': '0.1239', 'grad_norm': '0.8771', 'learning_rate': '8.75e-05', 'epoch': '0.64'}
+[memory] step 41: peak allocated 2194 MiB, reserved 2438 MiB, patched=True (328 calls)
+ 32%|███▏      | 40/126 [07:44<16:20, 11.40s/it]
+[memory] step 42: peak allocated 2055 MiB, reserved 2218 MiB, patched=True (336 calls)
+ 33%|███▎      | 41/126 [07:56<16:15, 11.47s/it]
+[memory] step 43: peak allocated 2159 MiB, reserved 2294 MiB, patched=True (344 calls)
+ 33%|███▎      | 42/126 [08:06<15:39, 11.19s/it]
+[memory] step 44: peak allocated 2109 MiB, reserved 2216 MiB, patched=True (352 calls)
+ 34%|███▍      | 43/126 [08:19<15:59, 11.56s/it]
+[memory] step 45: peak allocated 2062 MiB, reserved 2220 MiB, patched=True (360 calls)
+ 35%|███▍      | 44/126 [08:30<15:35, 11.41s/it]
+ 36%|███▌      | 45/126 [08:40<15:04, 11.17s/it]
+                                                
+
+{'loss': '0.08397', 'grad_norm': '0.9281', 'learning_rate': '8.255e-05', 'epoch': '0.72'}
+[memory] step 46: peak allocated 2195 MiB, reserved 2440 MiB, patched=True (368 calls)
+ 36%|███▌      | 45/126 [08:40<15:04, 11.17s/it]
+[memory] step 47: peak allocated 2187 MiB, reserved 2434 MiB, patched=True (376 calls)
+ 37%|███▋      | 46/126 [08:52<14:58, 11.23s/it]
+[memory] step 48: peak allocated 2167 MiB, reserved 2296 MiB, patched=True (384 calls)
+ 37%|███▋      | 47/126 [09:03<14:56, 11.34s/it]
+[memory] step 49: peak allocated 2169 MiB, reserved 2294 MiB, patched=True (392 calls)
+ 38%|███▊      | 48/126 [09:16<15:08, 11.65s/it]
+[memory] step 50: peak allocated 2221 MiB, reserved 2372 MiB, patched=True (400 calls)
+ 39%|███▉      | 49/126 [09:27<14:56, 11.64s/it]
+ 40%|███▉      | 50/126 [09:39<14:57, 11.82s/it]
+                                                
+
+ 40%|███▉      | 50/126 [09:39<14:57, 11.82s/it][INFO|trainer.py:3815] 2026-11-10 12:07:28,321 >> Saving model 
+checkpoint to saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-50
+[INFO|configuration_utils.py:780] 2026-11-10 12:07:28,988 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 12:07:28,990 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:3281] 2026-11-10 12:07:29,058 >> chat template saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-50\chat_template.jinja
+[INFO|tokenization_utils_base.py:2114] 2026-11-10 12:07:29,059 >> tokenizer config file saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-50\tokenizer_config.json
+{'loss': '0.1122', 'grad_norm': '0.9944', 'learning_rate': '7.698e-05', 'epoch': '0.8'}
+[memory] step 51: peak allocated 2051 MiB, reserved 2218 MiB, patched=True (408 calls)
+
+[memory] step 52: peak allocated 2125 MiB, reserved 2218 MiB, patched=True (416 calls)
+ 40%|████      | 51/126 [09:50<14:12, 11.36s/it]
+[memory] step 53: peak allocated 2114 MiB, reserved 2294 MiB, patched=True (424 calls)
+ 41%|████▏     | 52/126 [10:01<14:04, 11.42s/it]
+[memory] step 54: peak allocated 2128 MiB, reserved 2438 MiB, patched=True (432 calls)
+ 42%|████▏     | 53/126 [10:13<14:07, 11.61s/it]
+[memory] step 55: peak allocated 2121 MiB, reserved 2294 MiB, patched=True (440 calls)
+ 43%|████▎     | 54/126 [10:25<13:53, 11.58s/it]
+ 44%|████▎     | 55/126 [10:37<13:44, 11.61s/it]
+                                                
+
+{'loss': '0.06484', 'grad_norm': '0.5414', 'learning_rate': '7.089e-05', 'epoch': '0.88'}
+[memory] step 56: peak allocated 2094 MiB, reserved 2218 MiB, patched=True (448 calls)
+ 44%|████▎     | 55/126 [10:37<13:44, 11.61s/it]
+[memory] step 57: peak allocated 2113 MiB, reserved 2296 MiB, patched=True (456 calls)
+ 44%|████▍     | 56/126 [10:47<13:14, 11.35s/it]
+[memory] step 58: peak allocated 2120 MiB, reserved 2220 MiB, patched=True (464 calls)
+ 45%|████▌     | 57/126 [10:59<13:15, 11.52s/it]
+[memory] step 59: peak allocated 2119 MiB, reserved 2220 MiB, patched=True (472 calls)
+ 46%|████▌     | 58/126 [11:11<13:11, 11.64s/it]
+[memory] step 60: peak allocated 2172 MiB, reserved 2294 MiB, patched=True (480 calls)
+ 47%|████▋     | 59/126 [11:23<13:00, 11.65s/it]
+ 48%|████▊     | 60/126 [11:34<12:43, 11.57s/it]
+                                                
+
+{'loss': '0.07359', 'grad_norm': '1.108', 'learning_rate': '6.439e-05', 'epoch': '0.96'}
+[memory] step 61: peak allocated 2055 MiB, reserved 2220 MiB, patched=True (488 calls)
+ 48%|████▊     | 60/126 [11:34<12:43, 11.57s/it]
+[memory] step 62: peak allocated 2204 MiB, reserved 2294 MiB, patched=True (496 calls)
+ 48%|████▊     | 61/126 [11:45<12:21, 11.41s/it]
+[memory] step 63: peak allocated 2184 MiB, reserved 2368 MiB, patched=True (500 calls)
+ 49%|████▉     | 62/126 [11:57<12:14, 11.48s/it]
+[memory] step 64: peak allocated 2179 MiB, reserved 2296 MiB, patched=True (508 calls)
+ 50%|█████     | 63/126 [12:04<10:44, 10.23s/it]
+[memory] step 65: peak allocated 2125 MiB, reserved 2220 MiB, patched=True (516 calls)
+ 51%|█████     | 64/126 [12:15<10:47, 10.45s/it]
+ 52%|█████▏    | 65/126 [12:25<10:36, 10.43s/it]
+                                                
+
+{'loss': '0.06792', 'grad_norm': '0.9462', 'learning_rate': '5.762e-05', 'epoch': '1.032'}
+[memory] step 66: peak allocated 2122 MiB, reserved 2220 MiB, patched=True (524 calls)
+ 52%|█████▏    | 65/126 [12:25<10:36, 10.43s/it]
+[memory] step 67: peak allocated 2151 MiB, reserved 2294 MiB, patched=True (532 calls)
+ 52%|█████▏    | 66/126 [12:37<10:53, 10.90s/it]
+[memory] step 68: peak allocated 2115 MiB, reserved 2220 MiB, patched=True (540 calls)
+ 53%|█████▎    | 67/126 [12:49<10:58, 11.16s/it]
+[memory] step 69: peak allocated 2203 MiB, reserved 2296 MiB, patched=True (548 calls)
+ 54%|█████▍    | 68/126 [13:00<10:38, 11.01s/it]
+[memory] step 70: peak allocated 2187 MiB, reserved 2436 MiB, patched=True (556 calls)
+ 55%|█████▍    | 69/126 [13:11<10:29, 11.04s/it]
+ 56%|█████▌    | 70/126 [13:22<10:22, 11.11s/it]
+                                                
+
+{'loss': '0.03352', 'grad_norm': '0.532', 'learning_rate': '5.07e-05', 'epoch': '1.112'}
+[memory] step 71: peak allocated 2166 MiB, reserved 2296 MiB, patched=True (564 calls)
+ 56%|█████▌    | 70/126 [13:22<10:22, 11.11s/it]
+[memory] step 72: peak allocated 2053 MiB, reserved 2220 MiB, patched=True (572 calls)
+ 56%|█████▋    | 71/126 [13:33<10:00, 10.92s/it]
+[memory] step 73: peak allocated 2140 MiB, reserved 2220 MiB, patched=True (580 calls)
+ 57%|█████▋    | 72/126 [13:42<09:25, 10.48s/it]
+[memory] step 74: peak allocated 2221 MiB, reserved 2436 MiB, patched=True (588 calls)
+ 58%|█████▊    | 73/126 [13:54<09:36, 10.87s/it]
+[memory] step 75: peak allocated 2204 MiB, reserved 2372 MiB, patched=True (596 calls)
+ 59%|█████▊    | 74/126 [14:06<09:47, 11.30s/it]
+ 60%|█████▉    | 75/126 [14:20<10:12, 12.02s/it]
+                                                
+
+ 60%|█████▉    | 75/126 [14:20<10:12, 12.02s/it][INFO|trainer.py:3815] 2026-11-10 12:12:08,915 >> Saving model 
+checkpoint to saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-75
+[INFO|configuration_utils.py:780] 2026-11-10 12:12:09,561 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 12:12:09,563 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:3281] 2026-11-10 12:12:09,636 >> chat template saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-75\chat_template.jinja
+[INFO|tokenization_utils_base.py:2114] 2026-11-10 12:12:09,636 >> tokenizer config file saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-75\tokenizer_config.json
+{'loss': '0.06399', 'grad_norm': '0.02181', 'learning_rate': '4.376e-05', 'epoch': '1.192'}
+[memory] step 76: peak allocated 2120 MiB, reserved 2218 MiB, patched=True (604 calls)
+
+[memory] step 77: peak allocated 2172 MiB, reserved 2294 MiB, patched=True (612 calls)
+ 60%|██████    | 76/126 [14:32<10:00, 12.01s/it]
+[memory] step 78: peak allocated 2171 MiB, reserved 2296 MiB, patched=True (620 calls)
+ 61%|██████    | 77/126 [14:43<09:33, 11.71s/it]
+[memory] step 79: peak allocated 2095 MiB, reserved 2218 MiB, patched=True (628 calls)
+ 62%|██████▏   | 78/126 [14:54<09:17, 11.62s/it]
+[memory] step 80: peak allocated 2108 MiB, reserved 2220 MiB, patched=True (636 calls)
+ 63%|██████▎   | 79/126 [15:05<08:57, 11.44s/it]
+ 63%|██████▎   | 80/126 [15:17<08:44, 11.41s/it]
+                                                
+
+{'loss': '0.0509', 'grad_norm': '0.6755', 'learning_rate': '3.695e-05', 'epoch': '1.272'}
+[memory] step 81: peak allocated 2159 MiB, reserved 2292 MiB, patched=True (644 calls)
+ 63%|██████▎   | 80/126 [15:17<08:44, 11.41s/it]
+[memory] step 82: peak allocated 2195 MiB, reserved 2368 MiB, patched=True (652 calls)
+ 64%|██████▍   | 81/126 [15:29<08:42, 11.62s/it]
+[memory] step 83: peak allocated 2195 MiB, reserved 2438 MiB, patched=True (660 calls)
+ 65%|██████▌   | 82/126 [15:41<08:39, 11.81s/it]
+[memory] step 84: peak allocated 2198 MiB, reserved 2438 MiB, patched=True (668 calls)
+ 66%|██████▌   | 83/126 [15:53<08:24, 11.74s/it]
+[memory] step 85: peak allocated 2116 MiB, reserved 2218 MiB, patched=True (676 calls)
+ 67%|██████▋   | 84/126 [16:05<08:21, 11.93s/it]
+ 67%|██████▋   | 85/126 [16:16<07:58, 11.67s/it]
+                                                
+
+{'loss': '0.06192', 'grad_norm': '1.315', 'learning_rate': '3.039e-05', 'epoch': '1.352'}
+[memory] step 86: peak allocated 2181 MiB, reserved 2368 MiB, patched=True (684 calls)
+ 67%|██████▋   | 85/126 [16:16<07:58, 11.67s/it]
+[memory] step 87: peak allocated 2157 MiB, reserved 2434 MiB, patched=True (692 calls)
+ 68%|██████▊   | 86/126 [16:29<08:04, 12.11s/it]
+[memory] step 88: peak allocated 2196 MiB, reserved 2440 MiB, patched=True (700 calls)
+ 69%|██████▉   | 87/126 [16:41<07:51, 12.10s/it]
+[memory] step 89: peak allocated 2071 MiB, reserved 2218 MiB, patched=True (708 calls)
+ 70%|██████▉   | 88/126 [16:54<07:43, 12.20s/it]
+[memory] step 90: peak allocated 2105 MiB, reserved 2218 MiB, patched=True (716 calls)
+ 71%|███████   | 89/126 [17:04<07:12, 11.70s/it]
+ 71%|███████▏  | 90/126 [17:15<06:53, 11.48s/it]
+                                                
+
+{'loss': '0.03752', 'grad_norm': '0.8436', 'learning_rate': '2.42e-05', 'epoch': '1.432'}
+[memory] step 91: peak allocated 2180 MiB, reserved 2296 MiB, patched=True (724 calls)
+ 71%|███████▏  | 90/126 [17:15<06:53, 11.48s/it]
+[memory] step 92: peak allocated 2120 MiB, reserved 2220 MiB, patched=True (732 calls)
+ 72%|███████▏  | 91/126 [17:26<06:38, 11.37s/it]
+[memory] step 93: peak allocated 2175 MiB, reserved 2370 MiB, patched=True (740 calls)
+ 73%|███████▎  | 92/126 [17:38<06:26, 11.37s/it]
+[memory] step 94: peak allocated 2116 MiB, reserved 2218 MiB, patched=True (748 calls)
+ 74%|███████▍  | 93/126 [17:51<06:28, 11.78s/it]
+[memory] step 95: peak allocated 2175 MiB, reserved 2294 MiB, patched=True (756 calls)
+ 75%|███████▍  | 94/126 [18:01<06:04, 11.39s/it]
+ 75%|███████▌  | 95/126 [18:12<05:52, 11.38s/it]
+                                                
+
+{'loss': '0.05779', 'grad_norm': '0.8753', 'learning_rate': '1.852e-05', 'epoch': '1.512'}
+[memory] step 96: peak allocated 2166 MiB, reserved 2296 MiB, patched=True (764 calls)
+ 75%|███████▌  | 95/126 [18:12<05:52, 11.38s/it]
+[memory] step 97: peak allocated 2046 MiB, reserved 2218 MiB, patched=True (772 calls)
+ 76%|███████▌  | 96/126 [18:24<05:45, 11.50s/it]
+[memory] step 98: peak allocated 2105 MiB, reserved 2218 MiB, patched=True (780 calls)
+ 77%|███████▋  | 97/126 [18:35<05:26, 11.26s/it]
+[memory] step 99: peak allocated 2194 MiB, reserved 2436 MiB, patched=True (788 calls)
+ 78%|███████▊  | 98/126 [18:46<05:12, 11.16s/it]
+[memory] step 100: peak allocated 2172 MiB, reserved 2296 MiB, patched=True (796 calls)
+ 79%|███████▊  | 99/126 [18:57<05:05, 11.30s/it]
+ 79%|███████▉  | 100/126 [19:09<04:58, 11.47s/it]
+                                                 
+
+ 79%|███████▉  | 100/126 [19:09<04:58, 11.47s/it][INFO|trainer.py:3815] 2026-11-10 12:16:58,180 >> Saving model 
+checkpoint to saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-100
+[INFO|configuration_utils.py:780] 2026-11-10 12:16:58,812 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 12:16:58,813 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:3281] 2026-11-10 12:16:58,892 >> chat template saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-100\chat_template.jinja
+[INFO|tokenization_utils_base.py:2114] 2026-11-10 12:16:58,893 >> tokenizer config file saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-100\tokenizer_config.json
+{'loss': '0.03598', 'grad_norm': '0.2016', 'learning_rate': '1.344e-05', 'epoch': '1.592'}
+[memory] step 101: peak allocated 2052 MiB, reserved 2216 MiB, patched=True (804 calls)
+
+[memory] step 102: peak allocated 2067 MiB, reserved 2220 MiB, patched=True (812 calls)
+ 80%|████████  | 101/126 [19:21<04:48, 11.55s/it]
+[memory] step 103: peak allocated 2090 MiB, reserved 2220 MiB, patched=True (820 calls)
+ 81%|████████  | 102/126 [19:31<04:27, 11.13s/it]
+[memory] step 104: peak allocated 2069 MiB, reserved 2216 MiB, patched=True (828 calls)
+ 82%|████████▏ | 103/126 [19:41<04:09, 10.87s/it]
+[memory] step 105: peak allocated 2092 MiB, reserved 2220 MiB, patched=True (836 calls)
+ 83%|████████▎ | 104/126 [19:53<04:07, 11.23s/it]
+ 83%|████████▎ | 105/126 [20:05<03:55, 11.20s/it]
+                                                 
+
+{'loss': '0.0541', 'grad_norm': '0.3715', 'learning_rate': '9.065e-06', 'epoch': '1.672'}
+[memory] step 106: peak allocated 2121 MiB, reserved 2218 MiB, patched=True (844 calls)
+ 83%|████████▎ | 105/126 [20:05<03:55, 11.20s/it]
+[memory] step 107: peak allocated 2138 MiB, reserved 2218 MiB, patched=True (852 calls)
+ 84%|████████▍ | 106/126 [20:16<03:45, 11.30s/it]
+[memory] step 108: peak allocated 2193 MiB, reserved 2434 MiB, patched=True (860 calls)
+ 85%|████████▍ | 107/126 [20:28<03:39, 11.55s/it]
+[memory] step 109: peak allocated 2175 MiB, reserved 2292 MiB, patched=True (868 calls)
+ 86%|████████▌ | 108/126 [20:42<03:38, 12.14s/it]
+[memory] step 110: peak allocated 2182 MiB, reserved 2370 MiB, patched=True (876 calls)
+ 87%|████████▋ | 109/126 [20:54<03:26, 12.17s/it]
+ 87%|████████▋ | 110/126 [21:06<03:15, 12.24s/it]
+                                                 
+
+{'loss': '0.02249', 'grad_norm': '0.2504', 'learning_rate': '5.481e-06', 'epoch': '1.752'}
+[memory] step 111: peak allocated 2135 MiB, reserved 2216 MiB, patched=True (884 calls)
+ 87%|████████▋ | 110/126 [21:06<03:15, 12.24s/it]
+[memory] step 112: peak allocated 2048 MiB, reserved 2220 MiB, patched=True (892 calls)
+ 88%|████████▊ | 111/126 [21:19<03:05, 12.34s/it]
+[memory] step 113: peak allocated 2182 MiB, reserved 2296 MiB, patched=True (900 calls)
+ 89%|████████▉ | 112/126 [21:29<02:44, 11.73s/it]
+[memory] step 114: peak allocated 2092 MiB, reserved 2220 MiB, patched=True (908 calls)
+ 90%|████████▉ | 113/126 [21:41<02:30, 11.61s/it]
+[memory] step 115: peak allocated 2173 MiB, reserved 2370 MiB, patched=True (916 calls)
+ 90%|█████████ | 114/126 [21:50<02:12, 11.04s/it]
+ 91%|█████████▏| 115/126 [22:02<02:04, 11.29s/it]
+                                                 
+
+{'loss': '0.02563', 'grad_norm': '1.602', 'learning_rate': '2.757e-06', 'epoch': '1.832'}
+[memory] step 116: peak allocated 2103 MiB, reserved 2218 MiB, patched=True (924 calls)
+ 91%|█████████▏| 115/126 [22:02<02:04, 11.29s/it]
+[memory] step 117: peak allocated 2167 MiB, reserved 2296 MiB, patched=True (932 calls)
+ 92%|█████████▏| 116/126 [22:14<01:54, 11.48s/it]
+[memory] step 118: peak allocated 2114 MiB, reserved 2220 MiB, patched=True (940 calls)
+ 93%|█████████▎| 117/126 [22:25<01:42, 11.35s/it]
+[memory] step 119: peak allocated 2141 MiB, reserved 2218 MiB, patched=True (948 calls)
+ 94%|█████████▎| 118/126 [22:35<01:26, 10.76s/it]
+[memory] step 120: peak allocated 2114 MiB, reserved 2218 MiB, patched=True (956 calls)
+ 94%|█████████▍| 119/126 [22:46<01:17, 11.00s/it]
+ 95%|█████████▌| 120/126 [22:58<01:06, 11.15s/it]
+                                                 
+
+{'loss': '0.0452', 'grad_norm': '0.4819', 'learning_rate': '9.439e-07', 'epoch': '1.912'}
+[memory] step 121: peak allocated 2106 MiB, reserved 2220 MiB, patched=True (964 calls)
+ 95%|█████████▌| 120/126 [22:58<01:06, 11.15s/it]
+[memory] step 122: peak allocated 2121 MiB, reserved 2218 MiB, patched=True (972 calls)
+ 96%|█████████▌| 121/126 [23:08<00:54, 10.95s/it]
+[memory] step 123: peak allocated 2119 MiB, reserved 2294 MiB, patched=True (980 calls)
+ 97%|█████████▋| 122/126 [23:20<00:44, 11.22s/it]
+[memory] step 124: peak allocated 2119 MiB, reserved 2218 MiB, patched=True (988 calls)
+ 98%|█████████▊| 123/126 [23:32<00:34, 11.44s/it]
+[memory] step 125: peak allocated 2204 MiB, reserved 2436 MiB, patched=True (996 calls)
+ 98%|█████████▊| 124/126 [23:43<00:22, 11.24s/it]
+ 99%|█████████▉| 125/126 [23:55<00:11, 11.56s/it]
+                                                 
+
+ 99%|█████████▉| 125/126 [23:55<00:11, 11.56s/it][INFO|trainer.py:3815] 2026-11-10 12:21:43,939 >> Saving model 
+checkpoint to saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-125
+[INFO|configuration_utils.py:780] 2026-11-10 12:21:44,587 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 12:21:44,589 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:3281] 2026-11-10 12:21:44,658 >> chat template saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-125\chat_template.jinja
+[INFO|tokenization_utils_base.py:2114] 2026-11-10 12:21:44,659 >> tokenizer config file saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-125\tokenizer_config.json
+{'loss': '0.02669', 'grad_norm': '0.3785', 'learning_rate': '7.727e-08', 'epoch': '1.992'}
+[memory] step 126: peak allocated 2179 MiB, reserved 2294 MiB, patched=True (1000 calls)
+
+100%|██████████| 126/126 [24:02<00:00, 10.28s/it][INFO|trainer.py:3815] 2026-11-10 12:21:51,220 >> Saving model 
+checkpoint to saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-126
+[INFO|configuration_utils.py:780] 2026-11-10 12:21:51,833 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 12:21:51,834 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:3281] 2026-11-10 12:21:51,899 >> chat template saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-126\chat_template.jinja
+[INFO|tokenization_utils_base.py:2114] 2026-11-10 12:21:51,899 >> tokenizer config file saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\checkpoint-126\tokenizer_config.json
+[INFO|trainer.py:1823] 2026-11-10 12:21:52,141 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+
+                                                 
+
+100%|██████████| 126/126 [24:03<00:00, 10.28s/it]
+100%|██████████| 126/126 [24:03<00:00, 11.46s/it]
+[INFO|trainer.py:3815] 2026-11-10 12:21:52,143 >> Saving model checkpoint to saves/Qwen3-1.7B/lora/thai_doc_json_v2
+[INFO|configuration_utils.py:780] 2026-11-10 12:21:52,760 >> loading configuration file config.json from cache at C:\Us
+ers\Pai\.cache\huggingface\hub\models--Qwen--Qwen3-1.7B\snapshots\70d244cc86ccca08cf5af4e1e306ecf908b1ad5e\config.json
+[INFO|configuration_utils.py:856] 2026-11-10 12:21:52,762 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 6144,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 28,
+  "model_type": "qwen3",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 8,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.8.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:3281] 2026-11-10 12:21:52,828 >> chat template saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\chat_template.jinja
+[INFO|tokenization_utils_base.py:2114] 2026-11-10 12:21:52,829 >> tokenizer config file saved in 
+saves/Qwen3-1.7B/lora/thai_doc_json_v2\tokenizer_config.json
+{'train_runtime': '1444', 'train_samples_per_second': '0.693', 'train_steps_per_second': '0.087', 'train_loss': '0.4738', 'epoch': '2'}
+***** train metrics *****
+  epoch                    =        2.0
+  total_flos               =  5043339GF
+  train_loss               =     0.4738
+  train_runtime            = 0:24:03.72
+  train_samples_per_second =      0.693
+  train_steps_per_second   =      0.087
+Figure saved at: saves/Qwen3-1.7B/lora/thai_doc_json_v2\training_loss.png
+[WARNING|2026-11-10 12:21:53] llamafactory.extras.ploting:149 >> No metric eval_loss to plot.
+[WARNING|2026-11-10 12:21:53] llamafactory.extras.ploting:149 >> No metric eval_accuracy to plot.
+[INFO|modelcard.py:263] 2026-11-10 12:21:53,004 >> Dropping the following result as it does not have all the necessary 
+fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}

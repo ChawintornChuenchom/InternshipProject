@@ -1,0 +1,12 @@
+# Typhoon OCR 1.5 2B: Qwen3-VL-2B-Instruct fine-tuned for Thai documents by SCB10X. Served exactly like infer_base.yaml,
+# so the two differ only in weights (and prompt: evaluate.py uses Typhoon's own when the label contains "typhoon").
+#   .venv\Scripts\llamafactory-cli.exe api ..\thai-doc-ocr\configs\infer_typhoon.yaml
+model_name_or_path: typhoon-ai/typhoon-ocr1.5-2b
+image_max_pixels: 3000000
+quantization_bit: 4
+quantization_method: bnb
+double_quantization: true
+template: qwen3_vl_nothink
+infer_backend: huggingface
+do_sample: false
+trust_remote_code: true

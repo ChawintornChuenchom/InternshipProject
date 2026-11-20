@@ -1,0 +1,13 @@
+# Merge the text-to-JSON LoRA adapter into Qwen3-1.7B as a full model, ready for GGUF conversion. From LlamaFactory:
+#   .venv\Scripts\llamafactory-cli.exe export ..\thai-doc-ocr\configs\export_json.yaml
+#   cd ..\thai-doc-ocr; ..\LlamaFactory\.venv\Scripts\python.exe to_ollama.py ..\LlamaFactory\models\qwen3-1.7b-thaidoc-json qwen3-1.7b-json-q8 --text
+model_name_or_path: Qwen/Qwen3-1.7B
+adapter_name_or_path: saves/Qwen3-1.7B/lora/thai_doc_json
+template: qwen3
+finetuning_type: lora
+trust_remote_code: true
+
+export_dir: models/qwen3-1.7b-thaidoc-json
+export_size: 5
+export_device: cpu
+export_legacy_format: false

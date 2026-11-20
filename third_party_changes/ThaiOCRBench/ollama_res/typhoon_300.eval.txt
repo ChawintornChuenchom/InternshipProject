@@ -1,0 +1,98 @@
+  0%|          | 0/200 [00:00<?, ?it/s]  1%|          | 2/200 [00:01<03:03,  1.08it/s]  2%|▎         | 5/200 [00:10<07:37,  2.34s/it]C:\Users\Pai\Desktop\Work\Work_2569\AI-Internship\NewProject\ThaiOCRBench\.venv\Lib\site-packages\nltk\translate\bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+C:\Users\Pai\Desktop\Work\Work_2569\AI-Internship\NewProject\ThaiOCRBench\.venv\Lib\site-packages\nltk\translate\bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 3-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+C:\Users\Pai\Desktop\Work\Work_2569\AI-Internship\NewProject\ThaiOCRBench\.venv\Lib\site-packages\nltk\translate\bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+  9%|▉         | 18/200 [00:11<01:23,  2.17it/s] 19%|█▉        | 38/200 [00:11<00:31,  5.17it/s] 20%|██        | 41/200 [00:13<00:37,  4.24it/s] 22%|██▎       | 45/200 [00:14<00:38,  4.03it/s] 24%|██▎       | 47/200 [00:16<00:46,  3.28it/s] 24%|██▍       | 48/200 [00:16<00:44,  3.43it/s] 25%|██▌       | 50/200 [00:16<00:39,  3.82it/s] 27%|██▋       | 54/200 [00:19<01:03,  2.30it/s] 29%|██▉       | 58/200 [00:20<00:45,  3.11it/s] 34%|███▍      | 68/200 [00:20<00:23,  5.72it/s] 36%|███▌      | 72/200 [00:21<00:26,  4.83it/s] 41%|████      | 82/200 [00:22<00:14,  7.99it/s] 44%|████▍     | 89/200 [00:22<00:10, 10.42it/s] 48%|████▊     | 96/200 [00:22<00:07, 13.42it/s] 50%|████▉     | 99/200 [00:24<00:19,  5.09it/s] 57%|█████▋    | 114/200 [00:25<00:09,  8.68it/s] 60%|██████    | 121/200 [00:29<00:18,  4.29it/s] 62%|██████▎   | 125/200 [00:30<00:17,  4.29it/s] 64%|██████▎   | 127/200 [00:32<00:23,  3.08it/s] 71%|███████   | 142/200 [00:32<00:08,  6.51it/s] 73%|███████▎  | 146/200 [00:34<00:10,  4.92it/s] 76%|███████▌  | 151/200 [00:35<00:08,  5.63it/s] 79%|███████▉  | 158/200 [00:40<00:15,  2.68it/s] 88%|████████▊ | 176/200 [00:40<00:04,  5.68it/s] 90%|█████████ | 181/200 [00:40<00:02,  6.63it/s] 93%|█████████▎| 186/200 [00:42<00:02,  5.57it/s] 96%|█████████▌| 191/200 [00:42<00:01,  6.38it/s] 97%|█████████▋| 194/200 [00:42<00:00,  7.12it/s] 98%|█████████▊| 197/200 [00:43<00:00,  6.19it/s]100%|██████████| 200/200 [00:43<00:00,  4.58it/s]
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+
+Fine-grained text recognition
+Task Fine-grained text recognition, total instructions: 17.0, average score: 0.188
+
+
+Key information extraction
+Task Key information extraction, total instructions: 12.0, average score: 0.000
+
+
+Document classification
+Task Document classification, total instructions: 10.0, average score: 0.160
+
+
+Chart parsing
+Task Chart parsing, total instructions: 11.0, average score: 0.322
+
+
+Table parsing
+Task Table parsing, total instructions: 14.0, average score: 0.419
+
+
+Diagram VQA
+Task Diagram VQA, total instructions: 14.0, average score: 0.214
+
+
+Full-page OCR
+Task Full-page OCR, total instructions: 16.0, average score: 0.783
+
+
+Handwritten content extraction
+Task Handwritten content extraction, total instructions: 15.0, average score: 0.291
+
+
+Text recognition
+Task Text recognition, total instructions: 26.0, average score: 0.590
+
+
+Key information mapping
+Task Key information mapping, total instructions: 14.0, average score: 0.000
+
+
+Infographics
+Task Infographics, total instructions: 22.0, average score: 0.250
+
+
+Document parsing
+Task Document parsing, total instructions: 7.0, average score: 0.197
+
+
+Cognition VQA
+Task Cognition VQA, total instructions: 22.0, average score: 0.674
+
+End of Code!

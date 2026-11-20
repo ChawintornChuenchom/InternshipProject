@@ -1,0 +1,5 @@
+{"idx": 0, "id": "30467D2D", "type": "Diagram VQA", "seconds": 13.42, "error": null, "done_reason": "stop", "eval_count": 10, "prompt_eval_count": 2429, "load_seconds": 5.81, "orig_size": [1536, 2048], "sent_size": [1350, 1800]}
+{"idx": 1, "id": "92CFD00A", "type": "Fine-grained text recognition", "seconds": 10.26, "error": null, "done_reason": "stop", "eval_count": 85, "prompt_eval_count": 2022, "load_seconds": 0.06, "orig_size": [1250, 2047], "sent_size": [1099, 1800]}
+{"idx": 2, "id": "2D381A2F", "type": "Cognition VQA", "seconds": 6.25, "error": null, "done_reason": "stop", "eval_count": 11, "prompt_eval_count": 1849, "load_seconds": 0.05, "orig_size": [1200, 1500], "sent_size": [1200, 1500]}
+{"idx": 3, "id": "CD3DA96B", "type": "Cognition VQA", "seconds": 4.76, "error": null, "done_reason": "stop", "eval_count": 12, "prompt_eval_count": 1090, "load_seconds": 0.04, "orig_size": [1347, 636], "sent_size": [1347, 636]}
+{"idx": 4, "id": "A9024B46", "type": "Table parsing", "seconds": 205.78, "error": null, "done_reason": "stop", "eval_count": 3329, "prompt_eval_count": 1116, "load_seconds": 0.03, "orig_size": [605, 860], "sent_size": [605, 860]}

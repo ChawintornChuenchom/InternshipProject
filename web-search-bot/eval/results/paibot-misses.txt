@@ -1,0 +1,17 @@
+1/1  ml  want=has  got=unsure  Strong SQL skills
+1/1  ml  want=no  got=unsure  Experience with Java
+1/1  ml  want=no  got=unsure  PhD in Computer Science
+1/1  analyst  want=no  got=has  Experience with Tableau
+1/1  chef  want=no  got=unsure  Good English communication
+1/1  chef  want=no  got=unsure  Bachelor's degree in Computer Science
+1/1  chef  want=no  got=unsure  สื่อสารภาษาอังกฤษได้ดี
+1/1  chef  want=no  got=unsure  จบปริญญาตรีสาขาสถิติ
+1/1  sales  want=no  got=unsure  Experience with HubSpot
+1/1  sales  want=no  got=has  Master's degree in Business
+1/1  sales  want=no  got=has  Good English communication
+1/1  th_analyst  want=no  got=has  จบปริญญาโท
+1/1  th_acct  want=has  got=no  มีใบอนุญาตผู้สอบบัญชี
+1/1  th_dev  want=has  got=unsure  มีประสบการณ์ทำงานแบบ Agile
+1/1  th_dev  want=no  got=unsure  ใช้ Vue.js ได้
+1/1  th_cook  want=no  got=unsure  สื่อสารภาษาอังกฤษได้ดี
+1/1  th_cook  want=no  got=has  จบปริญญาตรี

@@ -1,0 +1,2378 @@
+{
+ "resume-001": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Accounting",
+    "school": "Kasetsart University",
+    "year": "/2017/"
+   }
+  ],
+  "email": "work42@example.com",
+  "experience": [
+   {
+    "company": "Mekong Foods Co., Ltd.",
+    "details": [
+     "Reviewed accounting documents",
+     "Closed the monthly accounts",
+     "Filed VAT and withholding tax"
+    ],
+    "end": "Present",
+    "start": "2020",
+    "title": "Accountant"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "Prepared profit and loss statements",
+     "Reviewed accounting documents",
+     "Filed VAT and withholding tax"
+    ],
+    "end": "2020",
+    "start": "2019",
+    "title": "Accountant"
+   },
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "Filed VAT and withholding tax",
+     "Reviewed accounting documents"
+    ],
+    "end": "2019",
+    "start": "2018",
+    "title": "Accountant"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 800)"
+  ],
+  "location": "Bangkok",
+  "name": "Wichai Keawmanee",
+  "phone": "082-826-2759",
+  "position": "Accountant",
+  "skills": [
+   "Express",
+   "Peak Account",
+   "Excel",
+   "SAP"
+  ],
+  "summary": "Accountant with a strong tax background"
+ },
+ "resume-002": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาการออกแบบนิเทศศิลป์",
+    "field": "การออกแบบนิเทศศิลป์",
+    "school": "มหาวิทยาลัยเกษตรศาสตร์",
+    "year": "/2559"
+   }
+  ],
+  "email": "contact36@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ออกแบบสื่อโฆษณาออนไลน์"
+    ],
+    "end": null,
+    "start": "2564",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ออกแบบสื่อโฆษณาออนไลน์"
+    ],
+    "end": null,
+    "start": "2561",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": null,
+    "start": "2560",
+    "title": "นักออกแบบกราฟิก"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 830)"
+  ],
+  "location": "กรุงเทพมหานคร",
+  "name": "ภูมิ ใจดี",
+  "phone": "083-711-9079",
+  "position": "นักออกแบบกราฟิก",
+  "skills": [
+   "Canva",
+   "Figma",
+   "Illustrator",
+   "Photoshop"
+  ],
+  "summary": "มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ"
+ },
+ "resume-003": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาการออกแบบนิเทศศิลป์",
+    "field": "การออกแบบนิเทศศิลป์",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "/2563"
+   }
+  ],
+  "email": "me84@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": null,
+    "start": "2566",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": "2566",
+    "start": "2564",
+    "title": "นักออกแบบกราฟิก"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 700)"
+  ],
+  "location": "นครราชสีมา",
+  "name": "ภูมิ ชัยมงคล",
+  "phone": "087-314-6185",
+  "position": "นักออกแบบกราฟิก",
+  "skills": [
+   "Figma",
+   "Photoshop",
+   "Canva",
+   "After Effects"
+  ],
+  "summary": "นักออกแบบที่ถนัดงานสื่อดิจิทัล"
+ },
+ "resume-004": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาพยาบาลศาสตร์",
+    "field": "พยาบาลศาสตร์",
+    "school": "มหาวิทยาลัยเกษตรศาสตร์",
+    "year": "2556"
+   }
+  ],
+  "email": "me13@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "2559 - ปัจจุบัน",
+     "ทำงานเป็นกะ",
+     "ดูแลผู้ป่วยในหอผู้ป่วยวิกฤต"
+    ],
+    "end": null,
+    "start": "2559",
+    "title": "พยาบาลวิชาชีพ"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "2558 - 2559",
+     "อบรมพยาบาลใหม่",
+     "ทำงานเป็นกะ",
+     "พยาบาลวิชาชีพ"
+    ],
+    "end": null,
+    "start": "2558",
+    "title": "พยาบาลวิชาชีพ"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "2557 - 2558",
+     "ทำงานเป็นกะ",
+     "ดูแลผู้ป่วยในหอผู้ป่วยวิกฤต",
+     "ให้ยาและบันทึกอาการ"
+    ],
+    "end": null,
+    "start": "2557",
+    "title": "พยาบาลวิชาชีพ"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 900)"
+  ],
+  "location": "นนทบุรี",
+  "name": "อนุชา พงษ์ไพบูลย์",
+  "phone": "082-260-7029",
+  "position": "พยาบาลวิชาชีพ",
+  "skills": [
+   "การปฐมพยาบาล",
+   "การให้ยา",
+   "HOSxP",
+   "การดูแลผู้ป่วยวิกฤต"
+  ],
+  "summary": "เน้นการดูแลผู้ป่วยอย่างปลอดภัย"
+ },
+ "resume-005": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาพยาบาลศาสตร์",
+    "field": "พยาบาลศาสตร์",
+    "school": "Chulalongkorn University",
+    "year": "2011"
+   }
+  ],
+  "email": "contact95@example.com",
+  "experience": [
+   {
+    "company": "Mekong Foods Co., Ltd.",
+    "details": [
+     "พยาบาลวิชาชีพ",
+     "2014 - Present",
+     "ให้ยาและบันทึกอาการ",
+     "ทำงานกะที่หลากหลาย",
+     "ฝึกอบรมพยาบาลใหม่"
+    ],
+    "end": null,
+    "start": "2014",
+    "title": "Registered Nurse"
+   },
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "พยาบาลวิชาชีพ",
+     "2013 - 2014",
+     "ดูแลผู้ป่วยในหอผู้ป่วยวิกฤต",
+     "ให้ยาและบันทึกอาการ",
+     "ทำงานกะที่หลากหลาย"
+    ],
+    "end": null,
+    "start": "2013",
+    "title": "Registered Nurse"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "พยาบาลวิชาชีพ",
+     "2012 - 2013",
+     "ทำงานเป็นกะ",
+     "ฝึกอบรมพยาบาลใหม่"
+    ],
+    "end": null,
+    "start": "2012",
+    "title": "Registered Nurse"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 840)"
+  ],
+  "location": "ชลบุรี",
+  "name": "วีรภัทร ชัยมงคล",
+  "phone": "089-645-3540",
+  "position": "พยาบาลวิชาชีพ",
+  "skills": [
+   "Excel",
+   "HOSxP",
+   "การปฐมพยาบาล",
+   "การดูแลผู้ป่วยวิกฤต",
+   "การให้ยา"
+  ],
+  "summary": "Focused on safe patient care"
+ },
+ "resume-006": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาการจัดการทรัพยากรมนุษย์",
+    "field": "การจัดการทรัพยากรมนุษย์",
+    "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "year": "/2561"
+   }
+  ],
+  "email": "work84@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "สรรหาและคัดเลือกพนักงาน",
+     "ดูแลเงินเดือนและสวัสดิการ"
+    ],
+    "end": null,
+    "start": "2565",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   },
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "ดูแลเงินเดือนและสวัสดิการ",
+     "ให้คำปรึกษาด้านกฎหมายแรงงาน"
+    ],
+    "end": "2565",
+    "start": "2564",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "สรรหาและคัดเลือกพนักงาน",
+     "จัดอบรมพนักงานใหม่",
+     "ดูแลเงินเดือนและสวัสดิการ"
+    ],
+    "end": "2564",
+    "start": "2562",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 930)"
+  ],
+  "location": "ภูเก็ต",
+  "name": "ภูมิ สายทอง",
+  "phone": "085-401-8455",
+  "position": "เจ้าหน้าที่ทรัพยากรบุคคล",
+  "skills": [
+   "Excel",
+   "HRIS",
+   "Canva",
+   "Google Workspace"
+  ],
+  "summary": "เจ้าหน้าที่ทรัพยากรบุคคลที่ถนัดงานสรรหา"
+ },
+ "resume-007": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Marketing",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "2015"
+   }
+  ],
+  "email": "me96@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "Sales Executive",
+     "2019 - Present",
+     "เสนอขายสินค้าให้ลูกค้าองค์กร",
+     "จัดทำรายงานยอดขาย",
+     "เจรจาต่อรองสัญญา"
+    ],
+    "end": null,
+    "start": "2019",
+    "title": "Sales Executive"
+   },
+   {
+    "company": "Siam Data Co., Ltd",
+    "details": [
+     "Sales Executive",
+     "2017 - 2019",
+     "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+     "Prepared sales reports"
+    ],
+    "end": null,
+    "start": "2017",
+    "title": "Sales Executive"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "Sales Executive",
+     "2016 - 2017",
+     "เจรจาต่อรองสัญญา",
+     "Sold products to corporate customers"
+    ],
+    "end": null,
+    "start": "2016",
+    "title": "Sales Executive"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "English (TOEIC 720)"
+  ],
+  "location": "นนทบุรี",
+  "name": "ภูมิ สายทอง",
+  "phone": "086-170-5076",
+  "position": "พนักงานขาย",
+  "skills": [
+   "CRM",
+   "LINE Official Account",
+   "Excel",
+   "Salesforce"
+  ],
+  "summary": "Sales executive who consistently hits targets"
+ },
+ "resume-008": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Visual Communication Design",
+    "school": "Kasetsart University",
+    "year": "{year}"
+   }
+  ],
+  "email": "contact20@example.com",
+  "experience": [
+   {
+    "company": "Mekong Foods Co., Ltd.",
+    "details": [
+     "Designed online advertising",
+     "Shot photos and edited video",
+     "Designed product packaging"
+    ],
+    "end": null,
+    "start": "2015",
+    "title": "Graphic Designer"
+   },
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "Designed product packaging",
+     "Designed online advertising",
+     "Shot photos and edited video"
+    ],
+    "end": "2015",
+    "start": "2014",
+    "title": "Graphic Designer"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "Shot photos and edited video",
+     "Designed product packaging"
+    ],
+    "end": "2014",
+    "start": "2012",
+    "title": "Graphic Designer"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 610)"
+  ],
+  "location": "Chonburi",
+  "name": "Wichai Keawmanee",
+  "phone": "089-333-9245",
+  "position": "Graphic Designer",
+  "skills": [
+   "Illustrator",
+   "Canva",
+   "After Effects",
+   "Figma"
+  ],
+  "summary": "Experienced in working with leading brands"
+ },
+ "resume-009": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี",
+    "field": "การจัดการทรัพยากรมนุษย์",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "/2561"
+   }
+  ],
+  "email": "me44@example.com",
+  "experience": [
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "ให้คำปรึกษาด้านกฎหมายแรงงาน",
+     "สรรหาและคัดเลือกพนักงาน",
+     "จัดอบรมพนักงานใหม่"
+    ],
+    "end": null,
+    "start": "2567",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ให้คำปรึกษาด้านกฎหมายแรงงาน",
+     "จัดอบรมพนักงานใหม่",
+     "สรรหาและคัดเลือกพนักงาน"
+    ],
+    "end": null,
+    "start": "2565",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   },
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "ดูแลเงินเดือนและสวัสดิการ",
+     "สรรหาและคัดเลือกพนักงาน",
+     "การศึกษา"
+    ],
+    "end": null,
+    "start": "2562",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 640)"
+  ],
+  "location": "ปทุมธานี",
+  "name": "สมชาย พงษ์ไพบูลย์",
+  "phone": "082-103-7230",
+  "position": "เจ้าหน้าที่ทรัพยากรบุคคล",
+  "skills": [
+   "LinkedIn Recruiter",
+   "Google Workspace",
+   "HRIS",
+   "Canva"
+  ],
+  "summary": "เจ้าหน้าที่ทรัพยากรบุคคลที่ถนัดงานสรรหา"
+ },
+ "resume-010": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี Accounting",
+    "field": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "2017"
+   }
+  ],
+  "email": "work26@example.com",
+  "experience": [
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "จัดทำงบกำไรขาดทุน",
+     "ยื่นภาษีมูลค่าเพิ่มและภาษีหัก ณ ที่จ่าย"
+    ],
+    "end": "2020",
+    "start": "2018",
+    "title": "นักบัญชี"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 740)"
+  ],
+  "location": "Bangkok",
+  "name": "พิมพ์ชนก รุ่งเรือง",
+  "phone": "082-441-3208",
+  "position": "นักบัญชี",
+  "skills": [
+   "Power BI",
+   "SAP",
+   "Excel",
+   "Express",
+   "Peak Account"
+  ],
+  "summary": "นักบัญชีที่มีความรู้ด้านภาษีอากร"
+ },
+ "resume-011": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี",
+    "field": "การตลาด",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "/2564"
+   }
+  ],
+  "email": "hello86@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ดูแลเว็บไซต์และ SEO",
+     "สร้างคอนเทนต์บนโซเชียลมีเดีย",
+     "วางแผนและยิงโฆษณาออนไลน์"
+    ],
+    "end": null,
+    "start": "/2565",
+    "title": "เจ้าหน้าที่การตลาดออนไลน์"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 940)"
+  ],
+  "location": "เชียงใหม่",
+  "name": "อนุชา ใจดี",
+  "phone": "086-620-4902",
+  "position": "เจ้าหน้าที่การตลาดออนไลน์",
+  "skills": [
+   "Google Analytics",
+   "Facebook Ads",
+   "TikTok",
+   "Google Ads",
+   "SEO",
+   "Canva"
+  ],
+  "summary": "นักการตลาดที่เน้นผลลัพธ์จากข้อมูล"
+ },
+ "resume-012": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาการออกแบบนิเทศศิลป์",
+    "field": "การออกแบบนิเทศศิลป์",
+    "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "year": "/2557"
+   }
+  ],
+  "email": "work47@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ถ่ายภาพและตัดต่อวิดีโอ"
+    ],
+    "end": null,
+    "start": "2563",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": "2563",
+    "start": "2560",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ถ่ายภาพและตัดต่อวิดีโอ"
+    ],
+    "end": "2560",
+    "start": "2558",
+    "title": "นักออกแบบกราฟิก"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 640)"
+  ],
+  "location": "นนทบุรี",
+  "name": "วีรภัทร ใจดี",
+  "phone": "082-728-1604",
+  "position": "นักออกแบบกราฟิก",
+  "skills": [
+   "Illustrator",
+   "Figma",
+   "Photoshop",
+   "Canva"
+  ],
+  "summary": "นักออกแบบที่ถนัดงานสื่อดิจิทัล"
+ },
+ "resume-013": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "ศิลปกรรม",
+    "school": "Kasetsart University",
+    "year": "/2018/"
+   }
+  ],
+  "email": "hello42@example.com",
+  "experience": [
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "2019 - 2020",
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "Designed online advertising",
+     "Maintained the brand identity"
+    ],
+    "end": null,
+    "start": "/2019/",
+    "title": "Graphic Designer"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "ภาษาอังกฤษ (TOEIC 560)"
+  ],
+  "location": "Nonthaburi",
+  "name": "ภูมิ สายทอง",
+  "phone": "081-189-6254",
+  "position": "นักออกแบบกราฟิก",
+  "skills": [
+   "Illustrator",
+   "After Effects",
+   "Figma",
+   "Canva"
+  ],
+  "summary": "Experienced in working with leading brands"
+ },
+ "resume-014": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาวิทยาการคอมพิวเตอร์",
+    "field": "วิทยาการคอมพิวเตอร์",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "2564"
+   }
+  ],
+  "email": "hello14@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "นักวิเคราะห์ข้อมูล",
+     "สร้างแดชบอร์ดยอดขายให้ผู้บริหาร",
+     "เขียน SQL ดึงและจัดการข้อมูล"
+    ],
+    "end": null,
+    "start": "2565",
+    "title": "นักวิเคราะห์ข้อมูล"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 730)"
+  ],
+  "location": "ขอนแก่น",
+  "name": "ภูมิ พงษ์ไพบูลย์",
+  "phone": "082-225-7076",
+  "position": "นักวิเคราะห์ข้อมูล",
+  "skills": [
+   "Excel",
+   "Tableau",
+   "Power BI",
+   "Google Analytics",
+   "Python",
+   "SQL"
+  ],
+  "summary": "นักวิเคราะห์ข้อมูลที่มีประสบการณ์ด้านธุรกิจค้าปลีก"
+ },
+ "resume-015": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาวิทยาการคอมพิวเตอร์",
+    "field": "วิทยาการคอมพิวเตอร์",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "/2557"
+   }
+  ],
+  "email": "contact82@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "ดูแลฐานข้อมูลของระบบ",
+     "ทำงานร่วมกับทีมออกแบบแบบ Agile",
+     "ออกแบบและเขียน API"
+    ],
+    "end": null,
+    "start": "/2563",
+    "title": "นักพัฒนาเว็บ"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "พัฒนาเว็บแอปพลิเคชันด้วย React",
+     "ทำงานร่วมกับทีมออกแบบแบบ Agile"
+    ],
+    "end": null,
+    "start": "/2560",
+    "title": "นักพัฒนาเว็บ"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "ออกแบบและเขียน API",
+     "พัฒนาเว็บแอปพลิเคชันด้วย React"
+    ],
+    "end": null,
+    "start": "/2558",
+    "title": "นักพัฒนาเว็บ"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 630)"
+  ],
+  "location": "ภูเก็ต",
+  "name": "สมชาย ใจดี",
+  "phone": "084-574-3585",
+  "position": "นักพัฒนาเว็บ",
+  "skills": [
+   "Node.js",
+   "React",
+   "TypeScript",
+   "Git",
+   "Docker"
+  ],
+  "summary": "นักพัฒนาเว็บที่เน้นประสบการณ์ผู้ใช้"
+ },
+ "resume-016": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Psychology",
+    "school": "Kasetsart University",
+    "year": "2014"
+   }
+  ],
+  "email": "hello15@example.com",
+  "experience": [
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "Recruited and screened candidates",
+     "Advised on labor law",
+     "Ran onboarding for new staff"
+    ],
+    "end": null,
+    "start": "2015",
+    "title": "HR Officer"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 920)"
+  ],
+  "location": "Chiang Mai",
+  "name": "Wichai Suksan",
+  "phone": "082-811-9608",
+  "position": "HR Officer",
+  "skills": [
+   "Canva",
+   "HRIS",
+   "Google Workspace",
+   "LinkedIn Recruiter",
+   "Excel"
+  ],
+  "summary": "HR officer specialized in recruitment"
+ },
+ "resume-017": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี Nursing Science",
+    "field": "พยาบาลวิชาชีพ",
+    "school": "Chulalongkorn University",
+    "year": "2012"
+   }
+  ],
+  "email": "work70@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "พยาบาลวิชาชีพ",
+     "2013 - 2014",
+     "ทำงานเป็นกะ"
+    ],
+    "end": null,
+    "start": "2013",
+    "title": "พยาบาลวิชาชีพ"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 650)"
+  ],
+  "location": "นครราชสีมา",
+  "name": "สมชาย ใจดี",
+  "phone": "082-214-3336",
+  "position": "พยาบาลวิชาชีพ",
+  "skills": [
+   "HOSxP",
+   "Excel",
+   "การดูแลผู้ป่วยวิกฤต",
+   "การปฐมพยาบาล"
+  ],
+  "summary": "Registered nurse with ICU experience"
+ },
+ "resume-018": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี",
+    "field": "การบัญชี",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "/2560"
+   }
+  ],
+  "email": "hello83@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "จัดทำงบกำไรขาดทุน",
+     "ตรวจสอบเอกสารทางบัญชี"
+    ],
+    "end": null,
+    "start": "/2561",
+    "title": "นักบัญชี"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 920)"
+  ],
+  "location": "ปทุมธานี",
+  "name": "สมชาย สายทอง",
+  "phone": "085-201-8705",
+  "position": "นักบัญชี",
+  "skills": [
+   "Express",
+   "SAP",
+   "Peak Account",
+   "Excel",
+   "Power BI"
+  ],
+  "summary": "นักบัญชีที่มีความรู้ด้านภาษีอากร"
+ },
+ "resume-019": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Marketing",
+    "school": "Kasetsart University",
+    "year": "2019"
+   }
+  ],
+  "email": "me79@example.com",
+  "experience": [
+   {
+    "company": "Mekong Foods Co., Ltd.",
+    "details": [
+     "Negotiated contracts",
+     "Sold products to corporate customers"
+    ],
+    "end": "Present",
+    "start": "2022",
+    "title": "Sales Executive"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "Sold products to corporate customers",
+     "Managed accounts and found new customers"
+    ],
+    "end": "2022",
+    "start": "2021",
+    "title": "Sales Executive"
+   },
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "Managed accounts and found new customers",
+     "Sold products to corporate customers"
+    ],
+    "end": "2021",
+    "start": "2020",
+    "title": "Sales Executive"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 670)"
+  ],
+  "location": "Phuket",
+  "name": "Nattapong Suksan",
+  "phone": "085-636-6080",
+  "position": "Sales Executive",
+  "skills": [
+   "CRM",
+   "LINE Official Account",
+   "PowerPoint",
+   "Salesforce",
+   "Excel"
+  ],
+  "summary": "Sales executive who consistently hits targets"
+ },
+ "resume-020": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาศิลปกรรม",
+    "field": "ศิลปกรรม",
+    "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "year": "/2556"
+   }
+  ],
+  "email": "work60@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ออกแบบบรรจุภัณฑ์สินค้า"
+    ],
+    "end": null,
+    "start": "2562",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": "2562",
+    "start": "2560",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ดูแลอัตลักษณ์ของแบรนด์",
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ถ่ายภาพและตัดต่อวิดีโอ"
+    ],
+    "end": "2560",
+    "start": "2557",
+    "title": "นักออกแบบกราฟิก"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 700)"
+  ],
+  "location": "ขอนแก่น",
+  "name": "สมชาย รุ่งเรือง",
+  "phone": "082-231-8098",
+  "position": "นักออกแบบกราฟิก",
+  "skills": [
+   "After Effects",
+   "Figma",
+   "Illustrator",
+   "Photoshop"
+  ],
+  "summary": "นักออกแบบที่ถนัดงานสื่อดิจิทัล"
+ },
+ "resume-021": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Accounting",
+    "school": "Srinakharinwirot University",
+    "year": "2016"
+   }
+  ],
+  "email": "me42@example.com",
+  "experience": [
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "Prepared profit and loss statements",
+     "Reviewed accounting documents",
+     "Filed VAT and withholding tax"
+    ],
+    "end": "2021",
+    "start": "2019",
+    "title": "Accountant"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "Reviewed accounting documents",
+     "Closed the monthly accounts",
+     "Prepared profit and loss statements"
+    ],
+    "end": "2019",
+    "start": "2017",
+    "title": "Accountant"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 620)"
+  ],
+  "location": "Phuket",
+  "name": "Anan Suksan",
+  "phone": "087-574-9665",
+  "position": "Accountant",
+  "skills": [
+   "SAP",
+   "Excel",
+   "Express",
+   "Peak Account",
+   "Power BI"
+  ],
+  "summary": "Accountant with a strong tax background"
+ },
+ "resume-022": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Human Resource Management",
+    "school": "Chulalongkorn University",
+    "year": "{2018}"
+   }
+  ],
+  "email": "me70@example.com",
+  "experience": [
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "Managed payroll and benefits",
+     "Advised on labor law"
+    ],
+    "end": null,
+    "start": "2019",
+    "title": "HR Officer"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 810)"
+  ],
+  "location": "Nonthaburi",
+  "name": "Wichai Suksan",
+  "phone": "086-815-4481",
+  "position": "HR Officer",
+  "skills": [
+   "Google Workspace",
+   "Excel",
+   "HRIS",
+   "LinkedIn Recruiter",
+   "Canva"
+  ],
+  "summary": "HR officer specialized in recruitment"
+ },
+ "resume-023": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี Computer Engineering",
+    "field": "Computer Engineering",
+    "school": "มหาวิทยาลัยเกษตรศาสตร์",
+    "year": "/2012/"
+   }
+  ],
+  "email": "contact81@example.com",
+  "experience": [
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "Maintained the system database",
+     "Designed and built APIs",
+     "Worked with designers in Agile teams"
+    ],
+    "end": null,
+    "start": "2015",
+    "title": "นักพัฒนาเว็บ"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "Worked with designers in Agile teams",
+     "Designed and built APIs",
+     "Maintained the system database"
+    ],
+    "end": null,
+    "start": "2013",
+    "title": "นักพัฒนาเว็บ"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "ภาษาอังกฤษ (TOEIC 820)"
+  ],
+  "location": "Phuket",
+  "name": "ปิยะ รุ่งเรือง",
+  "phone": "082-425-4469",
+  "position": "Web Developer",
+  "skills": [
+   "Node.js",
+   "React",
+   "Docker",
+   "Git",
+   "PostgreSQL"
+  ],
+  "summary": "มีประสบการณ์พัฒนาระบบตั้งแต่ต้นจนจบ"
+ },
+ "resume-024": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี",
+    "field": "การตลาด",
+    "school": "มหาวิทยาลัยเกษตรศาสตร์",
+    "year": "/2561"
+   }
+  ],
+  "email": "contact35@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "พนักงานขาย",
+     "เสนอขายสินค้าให้ลูกค้าองค์กร",
+     "จัดทำรายงานยอดขาย",
+     "เจรจาต่อรองสัญญา"
+    ],
+    "end": null,
+    "start": "2565",
+    "title": "พนักงานขาย"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "เจรจาต่อรองสัญญา",
+     "เสนอขายสินค้าให้ลูกค้าองค์กร",
+     "ดูแลลูกค้าเดิมและหาลูกค้าใหม่"
+    ],
+    "end": "2565",
+    "start": "2563",
+    "title": "พนักงานขาย"
+   },
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "จัดทำรายงานยอดขาย",
+     "เจรจาต่อรองสัญญา"
+    ],
+    "end": "2563",
+    "start": "2562",
+    "title": "พนักงานขาย"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 790)"
+  ],
+  "location": "ภูเก็ต",
+  "name": "ภูมิ ชัยมงคล",
+  "phone": "089-262-5043",
+  "position": "พนักงานขาย",
+  "skills": [
+   "Salesforce",
+   "CRM",
+   "Excel",
+   "PowerPoint",
+   "LINE Official Account"
+  ],
+  "summary": "มีประสบการณ์ขายให้ลูกค้าองค์กร"
+ },
+ "resume-025": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Computer Engineering",
+    "school": "Chulalongkorn University",
+    "year": "2020"
+   }
+  ],
+  "email": "contact79@example.com",
+  "experience": [
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "Worked with designers in Agile teams",
+     "Maintained the system database",
+     "Designed and built APIs"
+    ],
+    "end": "Present",
+    "start": "2024",
+    "title": "Web Developer"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "Worked with designers in Agile teams",
+     "Maintained the system database"
+    ],
+    "end": "2024",
+    "start": "2021",
+    "title": "Web Developer"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 810)"
+  ],
+  "location": "Chiang Mai",
+  "name": "Nattapong Suksan",
+  "phone": "082-134-8023",
+  "position": "Web Developer",
+  "skills": [
+   "Docker",
+   "React",
+   "PostgreSQL",
+   "Git"
+  ],
+  "summary": "Web developer focused on user experience"
+ },
+ "resume-026": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาพยาบาลศาสตร์",
+    "field": "พยาบาลศาสตร์",
+    "school": "มหาวิทยาลัยเกษตรศาสตร์",
+    "year": "2563"
+   }
+  ],
+  "email": "hello56@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "พยาบาลวิชาชีพ",
+     "2567 - ปัจจุบัน"
+    ],
+    "end": null,
+    "start": "2567",
+    "title": "พยาบาลวิชาชีพ"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "พยาบาลวิชาชีพ",
+     "2564 - 2567"
+    ],
+    "end": null,
+    "start": "2564",
+    "title": "พยาบาลวิชาชีพ"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 780)"
+  ],
+  "location": "เชียงใหม่",
+  "name": "ภูมิ ใจดี",
+  "phone": "084-649-4878",
+  "position": "พยาบาลวิชาชีพ",
+  "skills": [
+   "Excel",
+   "การดูแลผู้ป่วยวิกฤต",
+   "การให้ยา",
+   "การปฐมพยาบาล"
+  ],
+  "summary": "เน้นการดูแลผู้ป่วยอย่างปลอดภัย"
+ },
+ "resume-027": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาจิตวิทยา",
+    "field": "จิตวิทยา",
+    "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "year": "/2557"
+   }
+  ],
+  "email": "contact77@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "ให้คำปรึกษาด้านกฎหมายแรงงาน",
+     "สรรหาและคัดเลือกพนักงาน",
+     "จัดอบรมพนักงานใหม่"
+    ],
+    "end": null,
+    "start": "2564",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "จัดอบรมพนักงานใหม่",
+     "สรรหาและคัดเลือกพนักงาน"
+    ],
+    "end": "2564",
+    "start": "2561",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "สรรหาและคัดเลือกพนักงาน",
+     "ให้คำปรึกษาด้านกฎหมายแรงงาน"
+    ],
+    "end": "2561",
+    "start": "2558",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 690)"
+  ],
+  "location": "ขอนแก่น",
+  "name": "ปิยะ รุ่งเรือง",
+  "phone": "086-361-7964",
+  "position": "เจ้าหน้าที่ทรัพยากรบุคคล",
+  "skills": [
+   "Excel",
+   "Google Workspace",
+   "HRIS",
+   "LinkedIn Recruiter"
+  ],
+  "summary": "มีประสบการณ์ดูแลพนักงานกว่าร้อยคน"
+ },
+ "resume-028": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาการบัญชี",
+    "field": "การบัญชี",
+    "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "year": "/2016/"
+   }
+  ],
+  "email": "contact23@example.com",
+  "experience": [
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "จัดทำงบกำไรขาดทุน",
+     "ตรวจสอบเอกสารทางบัญชี",
+     "ยื่นภาษีมูลค่าเพิ่มและภาษีหัก ณ ที่จ่าย"
+    ],
+    "end": "Present",
+    "start": "2023",
+    "title": "นักบัญชี"
+   },
+   {
+    "company": "Siam Data Co., Ltd",
+    "details": [
+     "ปิดงบการเงินรายเดือน",
+     "Prepared profit and loss statements",
+     "Reviewed accounting documents"
+    ],
+    "end": "2023",
+    "start": "2020",
+    "title": "นักบัญชี"
+   },
+   {
+    "company": "Healthy Clinic Co., Ltd",
+    "details": [
+     "ปิดงบการเงินรายเดือน",
+     "ตรวจสอบเอกสารทางบัญชี",
+     "Prepared profit and loss statements"
+    ],
+    "end": "2020",
+    "start": "2017",
+    "title": "นักบัญชี"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 680)"
+  ],
+  "location": "Nonthaburi",
+  "name": "ปิยะ ชัยมงคล",
+  "phone": "087-470-9892",
+  "position": "Accountant",
+  "skills": [
+   "SAP",
+   "Express",
+   "Peak Account",
+   "Power BI",
+   "Excel"
+  ],
+  "summary": "Accountant with a strong tax background"
+ },
+ "resume-029": {
+  "education": [
+   {
+    "degree": "Bachelor's degree Business Administration",
+    "field": "Business Administration",
+    "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "year": "{2019}"
+   }
+  ],
+  "email": "me80@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "Sales Executive",
+     "2024 - Present"
+    ],
+    "end": null,
+    "start": "2024",
+    "title": "Sales Executive"
+   },
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "พนักงานขาย",
+     "2023 - 2024"
+    ],
+    "end": null,
+    "start": "2023",
+    "title": "พนักงานขาย"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "พนักงานขาย",
+     "2020 - 2023"
+    ],
+    "end": null,
+    "start": "2020",
+    "title": "พนักงานขาย"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 760)"
+  ],
+  "location": "Nonthaburi",
+  "name": "ภูมิ พงษ์ไพบูลย์",
+  "phone": "084-105-1897",
+  "position": "พนักงานขาย",
+  "skills": [
+   "Salesforce",
+   "PowerPoint",
+   "LINE Official Account",
+   "CRM"
+  ],
+  "summary": "พนักงานขายที่ทำยอดได้ตามเป้าต่อเนื่อง"
+ },
+ "resume-030": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาการตลาด",
+    "field": "การตลาด",
+    "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "year": "/2562"
+   }
+  ],
+  "email": "hello54@example.com",
+  "experience": [
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "สร้างคอนเทนต์บนโซเชียลมีเดีย",
+     "วิเคราะห์ผลแคมเปญรายเดือน",
+     "ดูแลเว็บไซต์และ SEO"
+    ],
+    "end": "/2567",
+    "start": "/2566",
+    "title": "เจ้าหน้าที่การตลาดออนไลน์"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "สร้างคอนเทนต์บนโซเชียลมีเดีย",
+     "วิเคราะห์ผลแคมเปญรายเดือน"
+    ],
+    "end": "/2566",
+    "start": "/2563",
+    "title": "เจ้าหน้าที่การตลาดออนไลน์"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 940)"
+  ],
+  "location": "ปทุมธานี",
+  "name": "ภูมิ ใจดี",
+  "phone": "087-541-5324",
+  "position": "เจ้าหน้าที่การตลาดออนไลน์",
+  "skills": [
+   "SEO",
+   "TikTok",
+   "Canva",
+   "Facebook Ads",
+   "Google Analytics",
+   "Google Ads"
+  ],
+  "summary": "ถนัดการสร้างแบรนด์บนโซเชียลมีเดีย"
+ },
+ "resume-031": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Computer Engineering",
+    "school": "Srinakharinwirot University",
+    "year": "2019"
+   }
+  ],
+  "email": "hello30@example.com",
+  "experience": [
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "Worked with designers in Agile teams",
+     "Maintained the system database"
+    ],
+    "end": "Present",
+    "start": "2023",
+    "title": "Web Developer"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "Developed web applications with React",
+     "Designed and built APIs",
+     "Maintained the system database"
+    ],
+    "end": "2023",
+    "start": "2022",
+    "title": "Web Developer"
+   },
+   {
+    "company": "Mekong Foods Co., Ltd.",
+    "details": [
+     "Maintained the system database",
+     "Designed and built APIs"
+    ],
+    "end": "2022",
+    "start": "2020",
+    "title": "Web Developer"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 900)"
+  ],
+  "location": "Khon Kaen",
+  "name": "Anan Srisuk",
+  "phone": "086-281-4298",
+  "position": "Web Developer",
+  "skills": [
+   "TypeScript",
+   "Node.js",
+   "Git",
+   "Docker",
+   "PostgreSQL"
+  ],
+  "summary": "Web developer focused on user experience"
+ },
+ "resume-032": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาการตลาด",
+    "field": "การตลาด",
+    "school": "มหาวิทยาลัยเกษตรศาสตร์",
+    "year": "/2554"
+   }
+  ],
+  "email": "me81@example.com",
+  "experience": [
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "เสนอขายสินค้าให้ลูกค้าองค์กร",
+     "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+     "จัดทำรายงานยอดขาย"
+    ],
+    "end": null,
+    "start": "2558",
+    "title": "พนักงานขาย"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+     "เสนอขายสินค้าให้ลูกค้าองค์กร",
+     "เจรจาต่อรองสัญญา"
+    ],
+    "end": null,
+    "start": "2555",
+    "title": "พนักงานขาย"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 940)"
+  ],
+  "location": "ขอนแก่น",
+  "name": "พิมพ์ชนก รุ่งเรือง",
+  "phone": "083-485-2236",
+  "position": "พนักงานขาย",
+  "skills": [
+   "LINE Official Account",
+   "Salesforce",
+   "CRM",
+   "Excel",
+   "PowerPoint"
+  ],
+  "summary": "มีประสบการณ์ขายให้ลูกค้าองค์กร"
+ },
+ "resume-033": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาการจัดการทรัพยากรมนุษย์",
+    "field": "การจัดการทรัพยากรมนุษย์",
+    "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "year": "/2555"
+   }
+  ],
+  "email": "contact27@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "จัดอบรมพนักงานใหม่",
+     "ดูแลเงินเดือนและสวัสดิการ",
+     "สรรหาและคัดเลือกพนักงาน"
+    ],
+    "end": null,
+    "start": "2556",
+    "title": "เจ้าหน้าที่ทรัพยากรบุคคล"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 950)"
+  ],
+  "location": "นนทบุรี",
+  "name": "ภูมิ พงษ์ไพบูลย์",
+  "phone": "089-665-6199",
+  "position": "เจ้าหน้าที่ทรัพยากรบุคคล",
+  "skills": [
+   "HRIS",
+   "LinkedIn Recruiter",
+   "Excel",
+   "Canva"
+  ],
+  "summary": "เจ้าหน้าที่ทรัพยากรบุคคลที่ถนัดงานสรรหา"
+ },
+ "resume-034": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขาศิลปกรรม",
+    "field": "ศิลปกรรม",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "/2554"
+   }
+  ],
+  "email": "work92@example.com",
+  "experience": [
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ถ่ายภาพและตัดต่อวิดีโอ"
+    ],
+    "end": null,
+    "start": "2557",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": null,
+    "start": "2555",
+    "title": "นักออกแบบกราฟิก"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 760)"
+  ],
+  "location": "ชลบุรี",
+  "name": "ภูมิ สายทอง",
+  "phone": "088-454-9582",
+  "position": "นักออกแบบกราฟิก",
+  "skills": [
+   "After Effects",
+   "Photoshop",
+   "Illustrator",
+   "Figma",
+   "Canva"
+  ],
+  "summary": "มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ"
+ },
+ "resume-035": {
+  "education": [
+   {
+    "degree": "Bachelor's degree Nursing Science",
+    "field": "Nursing Science",
+    "school": "Kasetsart University",
+    "year": "2014"
+   }
+  ],
+  "email": "contact89@example.com",
+  "experience": [
+   {
+    "company": "Mekong Foods Co., Ltd.",
+    "details": [
+     "Worked rotating shifts",
+     "Cared for patients in the ICU"
+    ],
+    "end": "Present",
+    "start": "2019",
+    "title": "Registered Nurse"
+   },
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "Worked rotating shifts",
+     "Trained new nurses"
+    ],
+    "end": "2019",
+    "start": "2016",
+    "title": "Registered Nurse"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "Worked rotating shifts",
+     "Gave medication and recorded symptoms",
+     "Trained new nurses"
+    ],
+    "end": "2016",
+    "start": "2015",
+    "title": "Registered Nurse"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 850)"
+  ],
+  "location": "Nonthaburi",
+  "name": "Anan Suksan",
+  "phone": "087-512-3514",
+  "position": "Registered Nurse",
+  "skills": [
+   "HOSxP",
+   "การดูแลผู้ป่วยวิกฤต",
+   "การปฐมพยาบาล",
+   "การให้ยา"
+  ],
+  "summary": "Registered nurse with ICU experience"
+ },
+ "resume-036": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี สาขานิเทศศาสตร์",
+    "field": "นิเทศศาสตร์",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "/2562"
+   }
+  ],
+  "email": "hello22@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "วางแผนและยิงโฆษณาออนไลน์",
+     "ดูแลเว็บไซต์และ SEO",
+     "สร้างคอนเทนต์บนโซเชียลมีเดีย"
+    ],
+    "end": null,
+    "start": "2563",
+    "title": "เจ้าหน้าที่การตลาดออนไลน์"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 560)"
+  ],
+  "location": "ภูเก็ต",
+  "name": "ปิยะ ชัยมงคล",
+  "phone": "088-495-8323",
+  "position": "เจ้าหน้าที่การตลาดออนไลน์",
+  "skills": [
+   "Facebook Ads",
+   "Canva",
+   "Google Ads",
+   "Google Analytics",
+   "SEO"
+  ],
+  "summary": "ถนัดการสร้างแบรนด์บนโซเชียลมีเดีย"
+ },
+ "job-037": {
+  "benefits": [
+   "ทำงานแบบไฮบริด",
+   "ประกันสังคม"
+  ],
+  "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+  "contact": "hr8@example.com",
+  "employment_type": "สัญญาจ้าง",
+  "location": "ชลบุรี",
+  "position": "เจ้าหน้าที่การตลาดออนไลน์",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 1 ปี",
+    "ทำงานเป็นทีมได้ดี",
+    "มีความรับผิดชอบ"
+   ],
+   "other": [
+    "จบปริญญาตรีสาขาการตลาดหรือนิเทศศาสตร์"
+   ],
+   "personality": [
+    "มีความรับผิดชอบ"
+   ],
+   "skills": [
+    "ใช้ SEO ได้ดี",
+    "ใช้ Canva ได้ดี",
+    "ใช้ Facebook Ads ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "ดูแลเว็บไซต์และ SEO",
+   "วางแผนและยิงโฆษณาออนไลน์",
+   "วิเคราะห์ผลแคมเปญรายเดือน"
+  ],
+  "salary": "22,000 - 35,000 บาท"
+ },
+ "job-038": {
+  "benefits": [
+   "โบนัสประจำปี"
+  ],
+  "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+  "contact": "hr7@example.com",
+  "employment_type": "งานประจำ",
+  "location": "ปทุมธานี",
+  "position": "เจ้าหน้าที่การตลาดออนไลน์",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 2 ปี",
+    "ใจเย็น",
+    "ทำงานเป็นทีมได้ดี"
+   ],
+   "other": [
+    "จบปริญญาตรีสาขาการตลาดหรือนิเทศศาสตร์"
+   ],
+   "personality": [
+    "ทำงานเป็นทีมได้ดี"
+   ],
+   "skills": [
+    "ใช้ Facebook Ads ได้ดี",
+    "ใช้ Google Ads ได้ดี",
+    "ใช้ Google Analytics ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "ดูแลเว็บไซต์และ SEO",
+   "สร้างคอนเทนต์บนโซเชียลมีเดีย",
+   "วางแผนและยิงโฆษณาออนไลน์"
+  ],
+  "salary": "21,000 - 39,000 บาท"
+ },
+ "job-039": {
+  "benefits": [
+   "ทำงานแบบไฮบริด",
+   "โบนัสประจำปี"
+  ],
+  "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+  "contact": "hr3@example.com",
+  "employment_type": "สัญญาจ้าง",
+  "location": "นนทบุรี",
+  "position": "เจ้าหน้าที่การตลาดออนไลน์",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 5 ปี",
+    "ละเอียดรอบคอบ",
+    "มีความรับผิดชอบ"
+   ],
+   "other": [
+    "จบปริญญาตรีสาขาการตลาดหรือนิเทศศาสตร์"
+   ],
+   "personality": [
+    "มีความรับผิดชอบ"
+   ],
+   "skills": [
+    "ใช้ Canva ได้ดี",
+    "ใช้ Google Analytics ได้ดี",
+    "ใช้ Facebook Ads ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "สร้างคอนเทนต์บนโซเชียลมีเดีย",
+   "ดูแลเว็บไซต์และ SEO",
+   "วิเคราะห์ผลแคมเปญรายเดือน"
+  ],
+  "salary": "36,000 - 41,000 บาท"
+ },
+ "job-040": {
+  "benefits": [
+   "Hybrid work",
+   "Health insurance"
+  ],
+  "company": "Healthy Clinic Co., Ltd.",
+  "contact": "hr3@example.com",
+  "employment_type": "Contract",
+  "location": "Khon Kaen",
+  "position": "HR Officer",
+  "requirements": {
+   "abilities": [
+    "At least 2 years of experience",
+    "Detail-oriented",
+    "Calm under pressure"
+   ],
+   "other": [
+    "Bachelor's degree in Human Resource Management"
+   ],
+   "personality": [
+    "Character and soft skills"
+   ],
+   "skills": [
+    "Good knowledge of Excel",
+    "Good knowledge of Google Workspace",
+    "Good knowledge of LinkedIn Recruiter"
+   ]
+  },
+  "responsibilities": [
+   "Managed payroll and benefits",
+   "Recruited and screened candidates",
+   "Advised on labor law"
+  ],
+  "salary": "40,000 - 55,000 THB"
+ },
+ "job-041": {
+  "benefits": [
+   "Annual bonus",
+   "Health insurance"
+  ],
+  "company": "Healthy Clinic Co., Ltd.",
+  "contact": "hr2@example.com",
+  "employment_type": "Full-time",
+  "location": "Nakhon Ratchasima",
+  "position": "HR Officer",
+  "requirements": {
+   "abilities": [
+    "At least 2 years of experience",
+    "Good interpersonal skills",
+    "Good team player"
+   ],
+   "other": [
+    "Bachelor's degree in Human Resource Management"
+   ],
+   "personality": [
+    "Good communication skills"
+   ],
+   "skills": [
+    "Good knowledge of Google Workspace",
+    "Good knowledge of LinkedIn Recruiter",
+    "Good knowledge of Canva"
+   ]
+  },
+  "responsibilities": [
+   "Ran onboarding for new staff",
+   "Recruited and screened candidates",
+   "Managed payroll and benefits"
+  ],
+  "salary": "31,000 - 46,000 THB"
+ },
+ "job-042": {
+  "benefits": [
+   "Health insurance",
+   "Social security"
+  ],
+  "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+  "contact": "hr4@example.com",
+  "employment_type": "งานประจำ",
+  "location": "Bangkok",
+  "position": "พนักงานขาย",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 1 ปี",
+    "Good interpersonal skills"
+   ],
+   "other": [
+    "Bachelor's degree in any field with a driving license"
+   ],
+   "personality": [
+    "มีความรับผิดชอบ"
+   ],
+   "skills": [
+    "ใช้ Salesforce ได้ดี",
+    "ใช้ CRM ได้ดี",
+    "ใช้ PowerPoint ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "Negotiated contracts",
+   "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+   "จัดทำรายงานยอดขาย"
+  ],
+  "salary": "15,000 - 34,000 THB"
+ },
+ "job-043": {
+  "benefits": [
+   "ประกันสังคม",
+   "ประกันสุขภาพ"
+  ],
+  "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+  "contact": "hr5@example.com",
+  "employment_type": "งานประจำ",
+  "location": "ภูเก็ต",
+  "position": "นักบัญชี",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 2 ปี",
+    "ทำงานเป็นทีมได้ดี",
+    "ใจเย็น"
+   ],
+   "other": [
+    "จบปริญญาตรีสาขาการบัญชี"
+   ],
+   "personality": [
+    "ใจเย็น"
+   ],
+   "skills": [
+    "ใช้ Peak Account ได้ดี",
+    "ใช้ SAP ได้ดี",
+    "ใช้ Excel ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "ตรวจสอบเอกสารทางบัญชี",
+   "ยื่นภาษีมูลค่าเพิ่มและภาษีหัก ณ ที่จ่าย",
+   "จัดทำงบกำไรขาดทุน"
+  ],
+  "salary": "40,000 - 56,000 บาท"
+ },
+ "job-044": {
+  "benefits": [
+   "ทำงานแบบไฮบริด",
+   "โบนัสประจำปี"
+  ],
+  "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+  "contact": "hr2@example.com",
+  "employment_type": "สัญญาจ้าง",
+  "location": "ชลบุรี",
+  "position": "นักออกแบบกราฟิก",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 4 ปี",
+    "ทำงานเป็นทีมได้ดี",
+    "มีความรับผิดชอบ"
+   ],
+   "other": [
+    "จบปริญญาตรีสาขาการออกแบบหรือสาขาที่เกี่ยวข้อง"
+   ],
+   "personality": [
+    "มีความรับผิดชอบ"
+   ],
+   "skills": [
+    "ใช้ Figma ได้ดี",
+    "ใช้ Canva ได้ดี",
+    "ใช้ Illustrator ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "ออกแบบสื่อโฆษณาออนไลน์",
+   "ออกแบบบรรจุภัณฑ์สินค้า",
+   "ดูแลอัตลักษณ์ของแบรนด์"
+  ],
+  "salary": "25,000 - 41,000 บาท"
+ },
+ "job-045": {
+  "benefits": [
+   "โบนัสประจำปี"
+  ],
+  "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+  "contact": "hr1@example.com",
+  "employment_type": "งานประจำ",
+  "location": "ปทุมธานี",
+  "position": "นักบัญชี",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 5 ปี",
+    "ทำงานเป็นทีมได้ดี",
+    "ละเอียดรอบคอบ"
+   ],
+   "other": [
+    "จบปริญญาตรีสาขาการบัญชี"
+   ],
+   "personality": [
+    "มีความรับผิดชอบ"
+   ],
+   "skills": [
+    "ใช้ Express ได้ดี",
+    "ใช้ Peak Account ได้ดี",
+    "ใช้ SAP ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "จัดทำงบกำไรขาดทุน",
+   "ปิดงบการเงินรายเดือน",
+   "ตรวจสอบเอกสารทางบัญชี"
+  ],
+  "salary": "43,000 - 48,000 บาท"
+ },
+ "job-046": {
+  "benefits": [
+   "โบนัสประจำปี",
+   "Health insurance"
+  ],
+  "company": "Siam Data Co., Ltd.",
+  "contact": "hr4@example.com",
+  "employment_type": "สัญญาจ้าง",
+  "location": "Pathum Thani",
+  "position": "เจ้าหน้าที่ทรัพยากรบุคคล",
+  "requirements": {
+   "abilities": [
+    "At least 2 years of experience"
+   ],
+   "other": [
+    "จบปริญญาตรีสาขาการจัดการทรัพยากรมนุษย์"
+   ],
+   "personality": [
+    "ใจเย็น"
+   ],
+   "skills": [
+    "Good knowledge of HRIS",
+    "ใช้ Excel ได้ดี",
+    "ใช้ LinkedIn Recruiter ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "จัดอบรมพนักงานใหม่",
+   "Recruited and screened candidates",
+   "Advised on labor law"
+  ],
+  "salary": "35,000 - 50,000 THB"
+ },
+ "job-047": {
+  "benefits": [
+   "โบนัสประจำปี",
+   "ทำงานแบบไฮบริด"
+  ],
+  "company": "Mekong Foods Co., Ltd.",
+  "contact": "hr5@example.com",
+  "employment_type": "งานประจำ",
+  "location": "Chonburi",
+  "position": "พนักงานขาย",
+  "requirements": {
+   "abilities": [
+    "At least 3 years of experience",
+    "Calm under pressure"
+   ],
+   "other": [
+    "Bachelor's degree in any field with a driving license"
+   ],
+   "personality": [
+    "กระตือรือร้น"
+   ],
+   "skills": [
+    "Good knowledge of CRM",
+    "Good knowledge of Salesforce",
+    "Use LINE Official Account"
+   ]
+  },
+  "responsibilities": [
+   "เสนอขายสินค้าให้ลูกค้าองค์กร",
+   "Prepared sales reports",
+   "เจรจาต่อรองสัญญา"
+  ],
+  "salary": "17,000 - 26,000 THB"
+ },
+ "job-048": {
+  "benefits": [
+   "ประกันสังคม",
+   "ประกันสุขภาพ"
+  ],
+  "company": "บริษัท สยามดาต้า จำกัด",
+  "contact": "hr1@example.com",
+  "employment_type": "งานประจำ",
+  "location": "ปทุมธานี",
+  "position": "พนักงานขาย",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 3 ปี",
+    "มีความรับผิดชอบ",
+    "มีมนุษยสัมพันธ์ดี"
+   ],
+   "other": [
+    "จบปริญญาตรีทุกสาขา",
+    "มีใบขับขี่"
+   ],
+   "personality": [
+    "มีความรับผิดชอบ"
+   ],
+   "skills": [
+    "ใช้ LINE Official Account ได้ดี",
+    "ใช้ Excel ได้ดี",
+    "ใช้ Salesforce ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "เสนอขายสินค้าให้ลูกค้าองค์กร",
+   "จัดทำรายงานยอดขาย",
+   "ดูแลลูกค้าเดิมและหาลูกค้าใหม่"
+  ],
+  "salary": "34,000 - 47,000 บาท"
+ },
+ "job-049": {
+  "benefits": [
+   "ทำงานแบบไฮบริด",
+   "ประกันสังคม"
+  ],
+  "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+  "contact": "hr7@example.com",
+  "employment_type": "งานประจำ",
+  "location": "ชลบุรี",
+  "position": "พยาบาลวิชาชีพ",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 5 ปี",
+    "มีมนุษยสัมพันธ์ดี",
+    "กระตือรือร้น"
+   ],
+   "other": [
+    "มีใบอนุญาตประกอบวิชาชีพพยาบาล"
+   ],
+   "personality": [
+    "ทำงานเป็นกะ",
+    "อบรมพยาบาลใหม่",
+    "ดูแลผู้ป่วยในหอผู้ป่วยวิกฤต"
+   ],
+   "skills": [
+    "ใช้การให้ยาได้ดี",
+    "ใช้การปฐมพยาบาลได้ดี",
+    "ใช้การดูแลผู้ป่วยวิกฤตได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "ทำงานเป็นกะ",
+   "อบรมพยาบาลใหม่",
+   "ดูแลผู้ป่วยในหอผู้ป่วยวิกฤต"
+  ],
+  "salary": "15,000 - 21,000 บาท"
+ },
+ "job-050": {
+  "benefits": [
+   "ประกันสุขภาพ"
+  ],
+  "company": "บริษัท สยามดาต้า จำกัด",
+  "contact": "hr8@example.com",
+  "employment_type": "สัญญาจ้าง",
+  "location": "ภูเก็ต",
+  "position": "นักพัฒนาเว็บ",
+  "requirements": {
+   "abilities": [
+    "มีประสบการณ์อย่างน้อย 2 ปี"
+   ],
+   "other": [
+    "จบปริญญาตรีสาขาคอมพิวเตอร์หรือสาขาที่เกี่ยวข้อง"
+   ],
+   "personality": [
+    "ใจเย็น",
+    "ทำงานเป็นทีมได้ดี"
+   ],
+   "skills": [
+    "ใช้ Git ได้ดี",
+    "ใช้ PostgreSQL ได้ดี",
+    "ใช้ TypeScript ได้ดี"
+   ]
+  },
+  "responsibilities": [
+   "ออกแบบและเขียน API",
+   "พัฒนาเว็บแอปพลิเคชันด้วย React",
+   "ทำงานร่วมกับทีมออกแบบแบบ Agile"
+  ],
+  "salary": "26,000 - 40,000 บาท"
+ }
+}

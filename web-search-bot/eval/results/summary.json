@@ -1,0 +1,19 @@
+{
+  "paibot": {
+    "correct": "82%",
+    "wrongly says has": "13%",
+    "wrongly says no": "2%",
+    "sent to review": "12%",
+    "correct, Thai resumes": "84%",
+    "correct, English resumes": "80%",
+    "correct, absent": "100%",
+    "correct, cross": "100%",
+    "correct, direct": "90%",
+    "correct, near": "53%",
+    "correct, paraphrase": "100%",
+    "correct, trap": "59%",
+    "same answer every run": "100%",
+    "seconds per check": "2.4",
+    "categories right": "25/31"
+  }
+}

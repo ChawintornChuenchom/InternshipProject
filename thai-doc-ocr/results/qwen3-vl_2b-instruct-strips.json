@@ -1,0 +1,3856 @@
+{
+ "summary": {
+  "all": {
+   "documents": 50,
+   "cer": 0.195,
+   "fields_found": 0.834,
+   "finished": 0.98,
+   "seconds": 11.6
+  },
+  "doc_type=job_description": {
+   "documents": 14,
+   "cer": 0.071,
+   "fields_found": 0.778,
+   "finished": 1.0,
+   "seconds": 9.8
+  },
+  "doc_type=resume": {
+   "documents": 36,
+   "cer": 0.243,
+   "fields_found": 0.846,
+   "finished": 0.972,
+   "seconds": 12.4
+  },
+  "language=en": {
+   "documents": 11,
+   "cer": 0.06,
+   "fields_found": 0.997,
+   "finished": 1.0,
+   "seconds": 8.9
+  },
+  "language=mixed": {
+   "documents": 11,
+   "cer": 0.148,
+   "fields_found": 0.881,
+   "finished": 1.0,
+   "seconds": 10.2
+  },
+  "language=th": {
+   "documents": 28,
+   "cer": 0.266,
+   "fields_found": 0.745,
+   "finished": 0.964,
+   "seconds": 13.3
+  },
+  "layout=banner": {
+   "documents": 6,
+   "cer": 0.126,
+   "fields_found": 0.866,
+   "finished": 1.0,
+   "seconds": 11.1
+  },
+  "layout=boxed": {
+   "documents": 8,
+   "cer": 0.059,
+   "fields_found": 0.778,
+   "finished": 1.0,
+   "seconds": 9.9
+  },
+  "layout=classic": {
+   "documents": 15,
+   "cer": 0.132,
+   "fields_found": 0.841,
+   "finished": 1.0,
+   "seconds": 12.0
+  },
+  "layout=compact": {
+   "documents": 9,
+   "cer": 0.492,
+   "fields_found": 0.821,
+   "finished": 0.889,
+   "seconds": 14.7
+  },
+  "layout=plain": {
+   "documents": 1,
+   "cer": 0.0,
+   "fields_found": 1.0,
+   "finished": 1.0,
+   "seconds": 6.5
+  },
+  "layout=poster": {
+   "documents": 5,
+   "cer": 0.106,
+   "fields_found": 0.733,
+   "finished": 1.0,
+   "seconds": 10.2
+  },
+  "layout=sidebar": {
+   "documents": 6,
+   "cer": 0.265,
+   "fields_found": 0.878,
+   "finished": 1.0,
+   "seconds": 11.1
+  },
+  "scanned=False": {
+   "documents": 30,
+   "cer": 0.143,
+   "fields_found": 0.83,
+   "finished": 1.0,
+   "seconds": 11.2
+  },
+  "scanned=True": {
+   "documents": 20,
+   "cer": 0.273,
+   "fields_found": 0.839,
+   "finished": 0.95,
+   "seconds": 12.2
+  },
+  "by_field": {
+   "benefits": 0.5,
+   "company": 0.357,
+   "contact": 1.0,
+   "education.degree": 0.972,
+   "education.field": 0.75,
+   "education.school": 0.889,
+   "education.year": 1.0,
+   "email": 1.0,
+   "employment_type": 0.714,
+   "experience.company": 0.425,
+   "experience.details": 0.735,
+   "experience.end": 1.0,
+   "experience.start": 1.0,
+   "experience.title": 0.838,
+   "languages": 1.0,
+   "location": 0.9,
+   "name": 0.667,
+   "phone": 1.0,
+   "position": 0.88,
+   "requirements.abilities": 1.0,
+   "requirements.other": 0.857,
+   "requirements.personality": 0.679,
+   "requirements.skills": 0.976,
+   "responsibilities": 0.619,
+   "salary": 1.0,
+   "skills": 0.946,
+   "summary": 0.694
+  }
+ },
+ "rows": [
+  {
+   "id": "resume-001",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 13.23399999999674,
+   "cer": 0.1413237924865832,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     3,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     8,
+     8
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-002",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "compact",
+   "scanned": true,
+   "finished": true,
+   "seconds": 15.156000000002678,
+   "cer": 0.25261324041811845,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     0,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     0,
+     3
+    ],
+    "experience.company": [
+     1,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     3,
+     8
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-003",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "compact",
+   "scanned": false,
+   "finished": true,
+   "seconds": 12.75,
+   "cer": 0.15157894736842106,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     2,
+     2
+    ],
+    "experience.company": [
+     0,
+     2
+    ],
+    "experience.start": [
+     2,
+     2
+    ],
+    "experience.details": [
+     4,
+     6
+    ],
+    "experience.end": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "resume-004",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "compact",
+   "scanned": false,
+   "finished": true,
+   "seconds": 14.468999999997322,
+   "cer": 0.251953125,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     2,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     0,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     4,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-005",
+   "doc_type": "resume",
+   "language": "mixed",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 11.687999999994645,
+   "cer": 0.16457960644007155,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     3,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     3,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     6,
+     8
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-006",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 15.718000000008033,
+   "cer": 0.13696369636963696,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     0,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     0,
+     3
+    ],
+    "experience.company": [
+     0,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     3,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-007",
+   "doc_type": "resume",
+   "language": "mixed",
+   "layout": "compact",
+   "scanned": true,
+   "finished": true,
+   "seconds": 12.203999999997905,
+   "cer": 0.17158671586715868,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     1,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     7,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-008",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "sidebar",
+   "scanned": true,
+   "finished": true,
+   "seconds": 9.812000000005355,
+   "cer": 0.20903010033444816,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     3,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     8,
+     8
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-009",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "classic",
+   "scanned": true,
+   "finished": true,
+   "seconds": 16.030999999988126,
+   "cer": 0.3500784929356358,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     0,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     0,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     0,
+     3
+    ],
+    "experience.company": [
+     1,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     8,
+     8
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-010",
+   "doc_type": "resume",
+   "language": "mixed",
+   "layout": "classic",
+   "scanned": true,
+   "finished": true,
+   "seconds": 9.203000000008615,
+   "cer": 0.026785714285714284,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     1,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-011",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 10.546999999991385,
+   "cer": 0.07653061224489796,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     6,
+     6
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     0,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "id": "resume-012",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "banner",
+   "scanned": true,
+   "finished": true,
+   "seconds": 15.469000000011874,
+   "cer": 0.21929824561403508,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     0,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     0,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     0,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     3,
+     8
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-013",
+   "doc_type": "resume",
+   "language": "mixed",
+   "layout": "sidebar",
+   "scanned": true,
+   "finished": true,
+   "seconds": 8.75,
+   "cer": 0.23684210526315788,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     0,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     0,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "id": "resume-014",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "sidebar",
+   "scanned": false,
+   "finished": true,
+   "seconds": 11.35899999999674,
+   "cer": 0.39803439803439805,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     0,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     6,
+     6
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     0,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     0,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.details": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-015",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "sidebar",
+   "scanned": false,
+   "finished": true,
+   "seconds": 13.51600000000326,
+   "cer": 0.23971377459749552,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     1,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     5,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-016",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "classic",
+   "scanned": true,
+   "finished": true,
+   "seconds": 8.030999999988126,
+   "cer": 0.0,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     1,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     3,
+     3
+    ]
+   }
+  },
+  {
+   "id": "resume-017",
+   "doc_type": "resume",
+   "language": "mixed",
+   "layout": "banner",
+   "scanned": true,
+   "finished": true,
+   "seconds": 9.219000000011874,
+   "cer": 0.16770186335403728,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     2,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     0,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-018",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 10.125,
+   "cer": 0.11254019292604502,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     0,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-019",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 9.312999999994645,
+   "cer": 0.0472972972972973,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     3,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     7,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-020",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "banner",
+   "scanned": true,
+   "finished": true,
+   "seconds": 14.71799999999348,
+   "cer": 0.23725834797891038,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     0,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     4,
+     8
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-021",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "banner",
+   "scanned": true,
+   "finished": true,
+   "seconds": 8.875,
+   "cer": 0.020876826722338204,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     2,
+     2
+    ],
+    "experience.company": [
+     2,
+     2
+    ],
+    "experience.start": [
+     2,
+     2
+    ],
+    "experience.end": [
+     2,
+     2
+    ],
+    "experience.details": [
+     6,
+     6
+    ]
+   }
+  },
+  {
+   "id": "resume-022",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "classic",
+   "scanned": true,
+   "finished": true,
+   "seconds": 7.985000000000582,
+   "cer": 0.0,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     1,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-023",
+   "doc_type": "resume",
+   "language": "mixed",
+   "layout": "sidebar",
+   "scanned": false,
+   "finished": true,
+   "seconds": 10.734000000011292,
+   "cer": 0.2703252032520325,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     2,
+     2
+    ],
+    "experience.company": [
+     0,
+     2
+    ],
+    "experience.start": [
+     2,
+     2
+    ],
+    "experience.end": [
+     2,
+     2
+    ],
+    "experience.details": [
+     6,
+     6
+    ]
+   }
+  },
+  {
+   "id": "resume-024",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 13.98399999999674,
+   "cer": 0.18198529411764705,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     0,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     8,
+     8
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-025",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "banner",
+   "scanned": false,
+   "finished": true,
+   "seconds": 8.562999999994645,
+   "cer": 0.06595744680851064,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     2,
+     2
+    ],
+    "experience.company": [
+     2,
+     2
+    ],
+    "experience.start": [
+     2,
+     2
+    ],
+    "experience.details": [
+     5,
+     5
+    ],
+    "experience.end": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "resume-026",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 12.656000000002678,
+   "cer": 0.1511627906976744,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     2,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     2,
+     2
+    ],
+    "experience.company": [
+     1,
+     2
+    ],
+    "experience.start": [
+     2,
+     2
+    ],
+    "experience.details": [
+     4,
+     5
+    ],
+    "experience.end": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "resume-027",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 15.64100000000326,
+   "cer": 0.18425460636515914,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     0,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     0,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     0,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     0,
+     3
+    ],
+    "experience.company": [
+     1,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     2,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-028",
+   "doc_type": "resume",
+   "language": "mixed",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 12.375,
+   "cer": 0.131175468483816,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     2,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     5,
+     9
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-029",
+   "doc_type": "resume",
+   "language": "mixed",
+   "layout": "sidebar",
+   "scanned": false,
+   "finished": true,
+   "seconds": 12.421999999991385,
+   "cer": 0.23850085178875638,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     0,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     0,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     7,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-030",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "classic",
+   "scanned": false,
+   "finished": true,
+   "seconds": 12.984000000011292,
+   "cer": 0.2732673267326733,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     6,
+     6
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     0,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     2,
+     2
+    ],
+    "experience.company": [
+     0,
+     2
+    ],
+    "experience.start": [
+     2,
+     2
+    ],
+    "experience.end": [
+     2,
+     2
+    ],
+    "experience.details": [
+     0,
+     5
+    ]
+   }
+  },
+  {
+   "id": "resume-031",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "banner",
+   "scanned": true,
+   "finished": true,
+   "seconds": 9.577999999994063,
+   "cer": 0.04247787610619469,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     3,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     7,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-032",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "compact",
+   "scanned": true,
+   "finished": false,
+   "seconds": 33.437999999994645,
+   "cer": 2.962421711899791,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     2,
+     2
+    ],
+    "experience.company": [
+     0,
+     2
+    ],
+    "experience.start": [
+     2,
+     2
+    ],
+    "experience.end": [
+     2,
+     2
+    ],
+    "experience.details": [
+     6,
+     6
+    ]
+   }
+  },
+  {
+   "id": "resume-033",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "compact",
+   "scanned": true,
+   "finished": true,
+   "seconds": 11.764999999999418,
+   "cer": 0.0960591133004926,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     0,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     4,
+     4
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     0,
+     1
+    ],
+    "experience.company": [
+     1,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     3,
+     3
+    ]
+   }
+  },
+  {
+   "id": "resume-034",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "compact",
+   "scanned": false,
+   "finished": true,
+   "seconds": 12.26600000000326,
+   "cer": 0.215962441314554,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     2,
+     2
+    ],
+    "experience.company": [
+     0,
+     2
+    ],
+    "experience.start": [
+     2,
+     2
+    ],
+    "experience.end": [
+     2,
+     2
+    ],
+    "experience.details": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "id": "resume-035",
+   "doc_type": "resume",
+   "language": "en",
+   "layout": "compact",
+   "scanned": false,
+   "finished": true,
+   "seconds": 9.937000000005355,
+   "cer": 0.13443830570902393,
+   "fields": {
+    "name": [
+     1,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     1,
+     1
+    ],
+    "skills": [
+     4,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     1,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     3,
+     3
+    ],
+    "experience.company": [
+     3,
+     3
+    ],
+    "experience.start": [
+     3,
+     3
+    ],
+    "experience.details": [
+     7,
+     7
+    ],
+    "experience.end": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "id": "resume-036",
+   "doc_type": "resume",
+   "language": "th",
+   "layout": "compact",
+   "scanned": true,
+   "finished": true,
+   "seconds": 10.578999999997905,
+   "cer": 0.1928020565552699,
+   "fields": {
+    "name": [
+     0,
+     1
+    ],
+    "position": [
+     1,
+     1
+    ],
+    "email": [
+     1,
+     1
+    ],
+    "phone": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "summary": [
+     0,
+     1
+    ],
+    "skills": [
+     5,
+     5
+    ],
+    "languages": [
+     2,
+     2
+    ],
+    "education.degree": [
+     1,
+     1
+    ],
+    "education.field": [
+     0,
+     1
+    ],
+    "education.school": [
+     1,
+     1
+    ],
+    "education.year": [
+     1,
+     1
+    ],
+    "experience.title": [
+     1,
+     1
+    ],
+    "experience.company": [
+     0,
+     1
+    ],
+    "experience.start": [
+     1,
+     1
+    ],
+    "experience.end": [
+     1,
+     1
+    ],
+    "experience.details": [
+     1,
+     3
+    ]
+   }
+  },
+  {
+   "id": "job-037",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "poster",
+   "scanned": false,
+   "finished": true,
+   "seconds": 11.34299999999348,
+   "cer": 0.06666666666666667,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     0,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     0,
+     1
+    ],
+    "responsibilities": [
+     1,
+     3
+    ],
+    "benefits": [
+     1,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-038",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "boxed",
+   "scanned": false,
+   "finished": true,
+   "seconds": 11.297000000005937,
+   "cer": 0.13808463251670378,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     0,
+     1
+    ],
+    "employment_type": [
+     0,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     0,
+     3
+    ],
+    "benefits": [
+     0,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-039",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "boxed",
+   "scanned": true,
+   "finished": true,
+   "seconds": 11.562999999994645,
+   "cer": 0.0975609756097561,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     2,
+     2
+    ],
+    "requirements.other": [
+     0,
+     1
+    ],
+    "responsibilities": [
+     1,
+     3
+    ],
+    "benefits": [
+     0,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-040",
+   "doc_type": "job_description",
+   "language": "en",
+   "layout": "plain",
+   "scanned": false,
+   "finished": true,
+   "seconds": 6.5,
+   "cer": 0.0,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     2,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     3,
+     3
+    ],
+    "benefits": [
+     2,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-041",
+   "doc_type": "job_description",
+   "language": "en",
+   "layout": "boxed",
+   "scanned": false,
+   "finished": true,
+   "seconds": 6.514999999999418,
+   "cer": 0.0,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     2,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     3,
+     3
+    ],
+    "benefits": [
+     2,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-042",
+   "doc_type": "job_description",
+   "language": "mixed",
+   "layout": "boxed",
+   "scanned": false,
+   "finished": true,
+   "seconds": 7.985000000000582,
+   "cer": 0.07109004739336493,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     2,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     2,
+     3
+    ],
+    "benefits": [
+     2,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-043",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "poster",
+   "scanned": false,
+   "finished": true,
+   "seconds": 9.968000000008033,
+   "cer": 0.0925,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     0,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     1,
+     3
+    ],
+    "benefits": [
+     2,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-044",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "boxed",
+   "scanned": false,
+   "finished": true,
+   "seconds": 10.25,
+   "cer": 0.07780320366132723,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     1,
+     3
+    ],
+    "benefits": [
+     0,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-045",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "poster",
+   "scanned": true,
+   "finished": true,
+   "seconds": 11.485000000000582,
+   "cer": 0.10526315789473684,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     2,
+     3
+    ],
+    "benefits": [
+     0,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-046",
+   "doc_type": "job_description",
+   "language": "mixed",
+   "layout": "boxed",
+   "scanned": true,
+   "finished": true,
+   "seconds": 9.25,
+   "cer": 0.01694915254237288,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     0,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     2,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     3,
+     3
+    ],
+    "benefits": [
+     2,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-047",
+   "doc_type": "job_description",
+   "language": "mixed",
+   "layout": "poster",
+   "scanned": false,
+   "finished": true,
+   "seconds": 8.139999999999418,
+   "cer": 0.13551401869158877,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     1,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     2,
+     3
+    ],
+    "benefits": [
+     1,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-048",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "boxed",
+   "scanned": false,
+   "finished": true,
+   "seconds": 10.343999999997322,
+   "cer": 0.013986013986013986,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     3,
+     3
+    ],
+    "benefits": [
+     2,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-049",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "boxed",
+   "scanned": true,
+   "finished": true,
+   "seconds": 11.735000000000582,
+   "cer": 0.05502392344497608,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     2,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     1,
+     3
+    ],
+    "benefits": [
+     0,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "job-050",
+   "doc_type": "job_description",
+   "language": "th",
+   "layout": "poster",
+   "scanned": false,
+   "finished": true,
+   "seconds": 10.264999999999418,
+   "cer": 0.12993039443155452,
+   "fields": {
+    "position": [
+     1,
+     1
+    ],
+    "company": [
+     0,
+     1
+    ],
+    "location": [
+     1,
+     1
+    ],
+    "employment_type": [
+     1,
+     1
+    ],
+    "salary": [
+     1,
+     1
+    ],
+    "requirements.skills": [
+     3,
+     3
+    ],
+    "requirements.abilities": [
+     1,
+     1
+    ],
+    "requirements.personality": [
+     1,
+     2
+    ],
+    "requirements.other": [
+     1,
+     1
+    ],
+    "responsibilities": [
+     3,
+     3
+    ],
+    "benefits": [
+     0,
+     2
+    ],
+    "contact": [
+     1,
+     1
+    ]
+   }
+  }
+ ]
+}

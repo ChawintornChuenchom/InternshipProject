@@ -1,0 +1,232 @@
+﻿=== round max_samples=100  2026-11-12T15:31:30
+[prompt] using official map lambda from run_inference.py:
+lambda x: {
+            "question": "Instruction: " + x["question"].strip() + "\nตอบเฉพาะข้อความตามภาพตรง ๆ อย่างกระชับ โดยไม่ใส่คำอธิบายเพิ่มเติม" if isinstance(x["question"], str) else x["question"],
+            "answer": x["answer"].strip() if isinstance(x["answer"], str) else x["answer"]
+        }
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[data] 100 samples, first ids: ['30467D2D', '92CFD00A', '2D381A2F', 'CD3DA96B', 'A9024B46']
+[resume] 0 already saved, 100 to run
+[  1/100] Diagram VQA                      12.0s tok=   10 stop | avg 12.3s/item ETA 0:20:22
+[  2/100] Fine-grained text recognition     9.8s tok=   85 stop | avg 11.2s/item ETA 0:18:19
+[  3/100] Cognition VQA                     6.2s tok=   11 stop | avg 9.6s/item ETA 0:15:32
+[  4/100] Cognition VQA                     4.6s tok=   12 stop | avg 8.4s/item ETA 0:13:27
+[  5/100] Table parsing                   214.2s tok= 3329 stop | avg 49.6s/item ETA 1:18:30
+[  6/100] Document classification           5.2s tok=   24 stop | avg 42.2s/item ETA 1:06:06
+[  7/100] Infographics                      7.0s tok=    6 stop | avg 37.2s/item ETA 0:57:40
+[  8/100] Chart parsing                    12.0s tok=  181 stop | avg 34.1s/item ETA 0:52:13
+[  9/100] Cognition VQA                     8.0s tok=   25 stop | avg 31.2s/item ETA 0:47:20
+[ 10/100] Key information extraction       10.0s tok=  136 stop | avg 29.1s/item ETA 0:43:38
+[ 11/100] Full-page OCR                     7.2s tok=   75 stop | avg 27.1s/item ETA 0:40:12
+[ 12/100] Document classification           4.5s tok=    5 stop | avg 25.2s/item ETA 0:36:59
+[ 13/100] Text recognition                 16.5s tok=  178 stop | avg 24.6s/item ETA 0:35:39
+[ 14/100] Fine-grained text recognition     5.7s tok=   34 stop | avg 23.2s/item ETA 0:33:19
+[ 15/100] Chart parsing                    16.8s tok=  278 stop | avg 22.8s/item ETA 0:32:19
+[ 16/100] Infographics                      4.7s tok=   11 stop | avg 21.7s/item ETA 0:30:22
+[ 17/100] Infographics                      7.4s tok=   24 stop | avg 20.9s/item ETA 0:28:51
+[ 18/100] Handwritten content extraction    6.7s tok=    4 stop | avg 20.1s/item ETA 0:27:27
+[ 19/100] Text recognition                272.8s tok= 4096 length | avg 33.4s/item ETA 0:45:04
+[ 20/100] Cognition VQA                     8.4s tok=   22 stop | avg 32.2s/item ETA 0:42:52
+[ 21/100] Key information mapping          13.0s tok=  197 stop | avg 31.2s/item ETA 0:41:08
+[ 22/100] Diagram VQA                       4.5s tok=    3 stop | avg 30.0s/item ETA 0:39:02
+[ 23/100] Infographics                      4.4s tok=    5 stop | avg 28.9s/item ETA 0:37:06
+[ 24/100] Infographics                      7.6s tok=   10 stop | avg 28.0s/item ETA 0:35:31
+[ 25/100] Fine-grained text recognition     5.1s tok=   19 stop | avg 27.1s/item ETA 0:33:55
+[ 26/100] Cognition VQA                    10.4s tok=   67 stop | avg 26.5s/item ETA 0:32:41
+[ 27/100] Table parsing                   349.7s tok= 4096 length | avg 38.5s/item ETA 0:46:50
+[ 28/100] Diagram VQA                       5.7s tok=   20 stop | avg 37.3s/item ETA 0:44:47
+[ 29/100] Fine-grained text recognition     4.9s tok=   17 stop | avg 36.2s/item ETA 0:42:51
+[ 30/100] Handwritten content extraction    5.0s tok=   18 stop | avg 35.2s/item ETA 0:41:02
+[ 31/100] Text recognition                278.6s tok= 4096 length | avg 43.0s/item ETA 0:49:29
+[ 32/100] Fine-grained text recognition     5.9s tok=    7 stop | avg 41.9s/item ETA 0:47:27
+[ 33/100] Cognition VQA                     5.4s tok=    6 stop | avg 40.8s/item ETA 0:45:32
+[ 34/100] Cognition VQA                    11.2s tok=   80 stop | avg 39.9s/item ETA 0:43:54
+[ 35/100] Key information mapping          10.3s tok=  137 stop | avg 39.1s/item ETA 0:42:19
+[ 36/100] Text recognition                340.9s tok= 4096 length | avg 47.5s/item ETA 0:50:37
+[ 37/100] Key information mapping          14.9s tok=  145 stop | avg 46.6s/item ETA 0:48:55
+[ 38/100] Full-page OCR                    50.4s tok=  741 stop | avg 46.7s/item ETA 0:48:15
+[ 39/100] Key information mapping          10.9s tok=  155 stop | avg 45.8s/item ETA 0:46:32
+[ 40/100] Chart parsing                    10.7s tok=  145 stop | avg 44.9s/item ETA 0:44:54
+[ 41/100] Full-page OCR                   289.4s tok= 4096 length | avg 50.9s/item ETA 0:50:01
+[ 42/100] Infographics                      7.7s tok=   10 stop | avg 49.8s/item ETA 0:48:11
+[ 43/100] Table parsing                   276.6s tok= 4096 length | avg 55.1s/item ETA 0:52:22
+[ 44/100] Handwritten content extraction    8.7s tok=   30 stop | avg 54.1s/item ETA 0:50:28
+[ 45/100] Full-page OCR                   274.3s tok= 4096 length | avg 59.0s/item ETA 0:54:03
+[ 46/100] Table parsing                   284.4s tok= 4096 length | avg 63.9s/item ETA 0:57:29
+[ 47/100] Table parsing                    21.8s tok=  400 stop | avg 63.0s/item ETA 0:55:38
+[ 48/100] Table parsing                   272.3s tok= 4096 length | avg 67.3s/item ETA 0:58:22
+[ 49/100] Infographics                      7.5s tok=    3 stop | avg 66.1s/item ETA 0:56:12
+[ 50/100] Table parsing                    96.0s tok= 1688 stop | avg 66.7s/item ETA 0:55:36
+[ 51/100] Key information mapping           8.6s tok=   99 stop | avg 65.6s/item ETA 0:53:34
+[ 52/100] Text recognition                  6.9s tok=   65 stop | avg 64.5s/item ETA 0:51:34
+[ 53/100] Fine-grained text recognition     5.9s tok=   45 stop | avg 63.4s/item ETA 0:49:38
+[ 54/100] Full-page OCR                   280.2s tok= 4096 length | avg 67.4s/item ETA 0:51:39
+[ 55/100] Text recognition                  7.3s tok=   11 stop | avg 66.3s/item ETA 0:49:43
+[ 56/100] Infographics                    295.0s tok= 4096 length | avg 70.4s/item ETA 0:51:37
+[ 57/100] Handwritten content extraction  329.8s tok= 4096 length | avg 74.9s/item ETA 0:53:42
+[ 58/100] Full-page OCR                    18.6s tok=  319 stop | avg 74.0s/item ETA 0:51:47
+[ 59/100] Diagram VQA                       4.8s tok=   16 stop | avg 72.8s/item ETA 0:49:44
+[ 60/100] Infographics                      4.6s tok=    9 stop | avg 71.7s/item ETA 0:47:46
+[ 61/100] Diagram VQA                       5.6s tok=   13 stop | avg 70.6s/item ETA 0:45:52
+[ 62/100] Text recognition                  4.8s tok=   16 stop | avg 69.5s/item ETA 0:44:02
+[ 63/100] Text recognition                332.5s tok= 4096 length | avg 73.7s/item ETA 0:45:27
+[ 64/100] Text recognition                  6.5s tok=   19 stop | avg 72.7s/item ETA 0:43:35
+[ 65/100] Document classification           4.4s tok=    5 stop | avg 71.6s/item ETA 0:41:46
+[ 66/100] Document classification           4.4s tok=    5 stop | avg 70.6s/item ETA 0:40:00
+[ 67/100] Handwritten content extraction  306.4s tok= 4096 length | avg 74.1s/item ETA 0:40:45
+[ 68/100] Table parsing                    95.6s tok= 1733 stop | avg 74.4s/item ETA 0:39:41
+[ 69/100] Key information mapping           6.1s tok=   48 stop | avg 73.4s/item ETA 0:37:56
+[ 70/100] Key information extraction       14.4s tok=  150 stop | avg 72.6s/item ETA 0:36:18
+[ 71/100] Key information extraction       12.8s tok=  201 stop | avg 71.8s/item ETA 0:34:41
+[ 72/100] Table parsing                    93.9s tok= 1389 stop | avg 72.1s/item ETA 0:33:38
+[ 73/100] Cognition VQA                     6.1s tok=   45 stop | avg 71.2s/item ETA 0:32:01
+[ 74/100] Text recognition                  8.5s tok=   67 stop | avg 70.3s/item ETA 0:30:28
+[ 75/100] Cognition VQA                     6.7s tok=    2 stop | avg 69.5s/item ETA 0:28:56
+[ 76/100] Table parsing                    12.1s tok=  181 stop | avg 68.7s/item ETA 0:27:29
+[ 77/100] Cognition VQA                    14.6s tok=  108 stop | avg 68.0s/item ETA 0:26:04
+[ 78/100] Text recognition                  7.5s tok=   15 stop | avg 67.3s/item ETA 0:24:39
+[ 79/100] Key information extraction       10.9s tok=  157 stop | avg 66.5s/item ETA 0:23:17
+[ 80/100] Text recognition                 28.8s tok=  541 stop | avg 66.1s/item ETA 0:22:01
+[ 81/100] Key information extraction       17.3s tok=  198 stop | avg 65.5s/item ETA 0:20:43
+[ 82/100] Chart parsing                   268.8s tok= 4096 length | avg 68.0s/item ETA 0:20:23
+[ 83/100] Key information mapping          13.7s tok=  131 stop | avg 67.3s/item ETA 0:19:04
+[ 84/100] Cognition VQA                     5.7s tok=    9 stop | avg 66.6s/item ETA 0:17:45
+[ 85/100] Text recognition                  7.9s tok=   26 stop | avg 65.9s/item ETA 0:16:28
+[ 86/100] Document parsing                314.3s tok= 4096 length | avg 68.8s/item ETA 0:16:02
+=== round max_samples=100  2026-11-12T17:11:23
+[prompt] using official map lambda from run_inference.py:
+lambda x: {
+            "question": "Instruction: " + x["question"].strip() + "\nตอบเฉพาะข้อความตามภาพตรง ๆ อย่างกระชับ โดยไม่ใส่คำอธิบายเพิ่มเติม" if isinstance(x["question"], str) else x["question"],
+            "answer": x["answer"].strip() if isinstance(x["answer"], str) else x["answer"]
+        }
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[data] 100 samples, first ids: ['30467D2D', '92CFD00A', '2D381A2F', 'CD3DA96B', 'A9024B46']
+[resume] 86 already saved, 14 to run
+[ 87/100] Infographics                      2.9s tok=    6 stop | avg 3.2s/item ETA 0:00:42
+[ 88/100] Infographics                      5.3s tok=   27 stop | avg 4.4s/item ETA 0:00:52
+[ 89/100] Full-page OCR                    14.7s tok=  246 stop | avg 7.8s/item ETA 0:01:26
+[ 90/100] Key information mapping           8.7s tok=  107 stop | avg 8.1s/item ETA 0:01:20
+[ 91/100] Handwritten content extraction    6.1s tok=   34 stop | avg 7.7s/item ETA 0:01:09
+[ 92/100] Diagram VQA                       7.7s tok=    7 stop | avg 7.8s/item ETA 0:01:02
+[ 93/100] Key information extraction       10.2s tok=  126 stop | avg 8.2s/item ETA 0:00:57
+[ 94/100] Text recognition                 13.4s tok=  186 stop | avg 8.8s/item ETA 0:00:52
+[ 95/100] Text recognition                  7.4s tok=   11 stop | avg 8.7s/item ETA 0:00:43
+[ 96/100] Full-page OCR                    21.0s tok=  350 stop | avg 10.0s/item ETA 0:00:39
+[ 97/100] Key information mapping           9.0s tok=  100 stop | avg 9.9s/item ETA 0:00:29
+[ 98/100] Key information mapping          12.0s tok=  162 stop | avg 10.0s/item ETA 0:00:20
+[ 99/100] Table parsing                   101.5s tok= 1547 stop | avg 17.1s/item ETA 0:00:17
+[100/100] Cognition VQA                     4.8s tok=    9 stop | avg 16.2s/item ETA 0:00:00
+[done] 100 saved | errors/timeouts=0 | hit num_predict=16 | mean 61.2s/item
+=== round max_samples=200  2026-11-13T13:29:12
+[prompt] using official map lambda from run_inference.py:
+lambda x: {
+            "question": "Instruction: " + x["question"].strip() + "\nตอบเฉพาะข้อความตามภาพตรง ๆ อย่างกระชับ โดยไม่ใส่คำอธิบายเพิ่มเติม" if isinstance(x["question"], str) else x["question"],
+            "answer": x["answer"].strip() if isinstance(x["answer"], str) else x["answer"]
+        }
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[data] 200 samples, first ids: ['30467D2D', '92CFD00A', '2D381A2F', 'CD3DA96B', 'A9024B46']
+[resume] 100 already saved, 100 to run
+[101/200] Diagram VQA                      14.0s tok=    6 stop | avg 14.3s/item ETA 0:23:31
+[102/200] Document parsing                287.4s tok= 4096 length | avg 150.9s/item ETA 4:06:23
+[103/200] Infographics                    270.5s tok= 4096 length | avg 190.8s/item ETA 5:08:24
+[104/200] Cognition VQA                     4.3s tok=    5 stop | avg 144.2s/item ETA 3:50:41
+[105/200] Text recognition                  5.2s tok=   13 stop | avg 116.4s/item ETA 3:04:18
+[106/200] Text recognition                  4.9s tok=   19 stop | avg 97.8s/item ETA 2:33:14
+[107/200] Handwritten content extraction    4.7s tok=   13 stop | avg 84.5s/item ETA 2:11:00
+[108/200] Chart parsing                    13.6s tok=  224 stop | avg 75.7s/item ETA 1:56:00
+[109/200] Cognition VQA                     4.9s tok=   18 stop | avg 67.8s/item ETA 1:42:49
+[110/200] Key information mapping           9.1s tok=  116 stop | avg 61.9s/item ETA 1:32:54
+[111/200] Document parsing                  6.7s tok=   66 stop | avg 56.9s/item ETA 1:24:25
+[112/200] Infographics                      4.8s tok=    4 stop | avg 52.6s/item ETA 1:17:07
+[113/200] Fine-grained text recognition   278.1s tok= 4096 length | avg 69.9s/item ETA 1:41:23
+[114/200] Chart parsing                    13.5s tok=  225 stop | avg 65.9s/item ETA 1:34:27
+[115/200] Handwritten content extraction    7.3s tok=   20 stop | avg 62.0s/item ETA 1:27:50
+[116/200] Document classification           4.4s tok=    6 stop | avg 58.4s/item ETA 1:21:46
+[117/200] Key information extraction       26.6s tok=  479 stop | avg 56.5s/item ETA 1:18:12
+[118/200] Diagram VQA                       5.8s tok=   43 stop | avg 53.7s/item ETA 1:13:25
+[119/200] Chart parsing                    23.7s tok=  397 stop | avg 52.1s/item ETA 1:10:23
+[120/200] Text recognition                 10.7s tok=  136 stop | avg 50.1s/item ETA 1:06:46
+[121/200] Full-page OCR                   322.0s tok= 4096 length | avg 63.0s/item ETA 1:22:59
+[122/200] Handwritten content extraction    6.7s tok=   46 stop | avg 60.5s/item ETA 1:18:38
+[123/200] Handwritten content extraction   15.4s tok=  254 stop | avg 58.5s/item ETA 1:15:07
+[124/200] Infographics                      4.6s tok=    6 stop | avg 56.3s/item ETA 1:11:18
+[125/200] Full-page OCR                    57.2s tok=  857 stop | avg 56.3s/item ETA 1:10:25
+[126/200] Text recognition                 23.5s tok=  406 stop | avg 55.1s/item ETA 1:07:56
+[127/200] Full-page OCR                    70.1s tok= 1178 stop | avg 55.6s/item ETA 1:07:42
+[128/200] Table parsing                   262.0s tok= 4096 length | avg 63.0s/item ETA 1:15:37
+[129/200] Text recognition                  8.0s tok=   65 stop | avg 61.1s/item ETA 1:12:20
+[130/200] Cognition VQA                     4.7s tok=   10 stop | avg 59.3s/item ETA 1:09:07
+[131/200] Text recognition                 11.3s tok=  164 stop | avg 57.7s/item ETA 1:06:21
+[132/200] Handwritten content extraction    5.9s tok=   39 stop | avg 56.1s/item ETA 1:03:34
+[133/200] Infographics                      8.4s tok=   65 stop | avg 54.7s/item ETA 1:01:01
+[134/200] Key information mapping          12.6s tok=  102 stop | avg 53.4s/item ETA 0:58:46
+[135/200] Text recognition                 20.8s tok=  271 stop | avg 52.5s/item ETA 0:56:52
+[136/200] Fine-grained text recognition     5.0s tok=   15 stop | avg 51.2s/item ETA 0:54:36
+[137/200] Diagram VQA                       7.1s tok=    4 stop | avg 50.0s/item ETA 0:52:30
+[138/200] Text recognition                  9.5s tok=   48 stop | avg 49.0s/item ETA 0:50:35
+[139/200] Infographics                      6.8s tok=   63 stop | avg 47.9s/item ETA 0:48:41
+[140/200] Fine-grained text recognition   265.9s tok= 4096 length | avg 53.3s/item ETA 0:53:20
+[141/200] Document parsing                 21.9s tok=  373 stop | avg 52.6s/item ETA 0:51:41
+[142/200] Handwritten content extraction    8.0s tok=   23 stop | avg 51.5s/item ETA 0:49:48
+[143/200] Cognition VQA                     6.7s tok=   30 stop | avg 50.5s/item ETA 0:47:57
+[144/200] Chart parsing                    47.3s tok=  869 stop | avg 50.4s/item ETA 0:47:02
+[145/200] Full-page OCR                    71.1s tok= 1084 stop | avg 50.9s/item ETA 0:46:37
+[146/200] Cognition VQA                     8.3s tok=   21 stop | avg 50.0s/item ETA 0:44:57
+[147/200] Fine-grained text recognition     4.6s tok=    4 stop | avg 49.0s/item ETA 0:43:16
+[148/200] Fine-grained text recognition   322.5s tok= 4096 length | avg 54.7s/item ETA 0:47:24
+[149/200] Key information extraction       23.6s tok=  388 stop | avg 54.1s/item ETA 0:45:57
+[150/200] Fine-grained text recognition    20.1s tok=  339 stop | avg 53.4s/item ETA 0:44:30
+[151/200] Chart parsing                    17.3s tok=  286 stop | avg 52.7s/item ETA 0:43:02
+[152/200] Key information extraction       18.0s tok=  292 stop | avg 52.0s/item ETA 0:41:37
+[153/200] Diagram VQA                       6.8s tok=    4 stop | avg 51.2s/item ETA 0:40:05
+[154/200] Fine-grained text recognition     6.4s tok=   19 stop | avg 50.4s/item ETA 0:38:36
+[155/200] Infographics                      5.1s tok=   18 stop | avg 49.5s/item ETA 0:37:09
+[156/200] Key information mapping          11.3s tok=  154 stop | avg 48.9s/item ETA 0:35:49
+[157/200] Cognition VQA                     4.9s tok=   14 stop | avg 48.1s/item ETA 0:34:27
+[158/200] Full-page OCR                   265.8s tok= 4096 length | avg 51.8s/item ETA 0:36:17
+[159/200] Key information extraction       23.1s tok=  396 stop | avg 51.4s/item ETA 0:35:05
+[160/200] Document parsing                 22.7s tok=  402 stop | avg 50.9s/item ETA 0:33:55
+[161/200] Document parsing                 22.4s tok=  388 stop | avg 50.4s/item ETA 0:32:46
+[162/200] Fine-grained text recognition     7.0s tok=   69 stop | avg 49.7s/item ETA 0:31:29
+[163/200] Document classification           4.5s tok=    7 stop | avg 49.0s/item ETA 0:30:13
+[164/200] Fine-grained text recognition     8.0s tok=   19 stop | avg 48.4s/item ETA 0:29:01
+[165/200] Text recognition                 16.3s tok=  166 stop | avg 47.9s/item ETA 0:27:55
+[166/200] Diagram VQA                       4.7s tok=    7 stop | avg 47.2s/item ETA 0:26:45
+[167/200] Key information extraction       14.9s tok=  199 stop | avg 46.7s/item ETA 0:25:42
+[168/200] Document classification           4.7s tok=    7 stop | avg 46.1s/item ETA 0:24:36
+[169/200] Document classification           4.6s tok=    9 stop | avg 45.5s/item ETA 0:23:31
+[170/200] Document classification           4.6s tok=    8 stop | avg 44.9s/item ETA 0:22:28
+[171/200] Infographics                      5.6s tok=   38 stop | avg 44.4s/item ETA 0:21:27
+[172/200] Key information extraction        7.0s tok=   62 stop | avg 43.9s/item ETA 0:20:28
+[173/200] Cognition VQA                     7.2s tok=    3 stop | avg 43.4s/item ETA 0:19:31
+[174/200] Diagram VQA                     320.8s tok= 4096 length | avg 47.1s/item ETA 0:20:25
+[175/200] Table parsing                    48.2s tok=  891 stop | avg 47.2s/item ETA 0:19:38
+[176/200] Full-page OCR                    11.2s tok=   81 stop | avg 46.7s/item ETA 0:18:40
+[177/200] Diagram VQA                       5.9s tok=   34 stop | avg 46.2s/item ETA 0:17:41
+[178/200] Chart parsing                    37.5s tok=  695 stop | avg 46.1s/item ETA 0:16:53
+[179/200] Cognition VQA                     8.8s tok=   88 stop | avg 45.6s/item ETA 0:15:57
+[180/200] Key information mapping           5.9s tok=   39 stop | avg 45.1s/item ETA 0:15:01
+[181/200] Document parsing                 52.2s tok=  953 stop | avg 45.2s/item ETA 0:14:18
+[182/200] Cognition VQA                     4.7s tok=    7 stop | avg 44.7s/item ETA 0:13:24
+[183/200] Infographics                      7.3s tok=   56 stop | avg 44.2s/item ETA 0:12:32
+[184/200] Table parsing                    62.2s tok=  965 stop | avg 44.5s/item ETA 0:11:51
+[185/200] Full-page OCR                    45.5s tok=  756 stop | avg 44.5s/item ETA 0:11:07
+[186/200] Handwritten content extraction    7.9s tok=   12 stop | avg 44.0s/item ETA 0:10:16
+[187/200] Cognition VQA                     5.6s tok=   13 stop | avg 43.6s/item ETA 0:09:26
+[188/200] Infographics                      6.7s tok=    7 stop | avg 43.2s/item ETA 0:08:38
+[189/200] Fine-grained text recognition   320.7s tok= 4096 length | avg 46.3s/item ETA 0:08:29
+[190/200] Diagram VQA                       8.2s tok=   27 stop | avg 45.9s/item ETA 0:07:39
+[191/200] Chart parsing                   270.1s tok= 4096 length | avg 48.4s/item ETA 0:07:15
+[192/200] Handwritten content extraction    5.0s tok=   21 stop | avg 47.9s/item ETA 0:06:23
+[193/200] Infographics                      5.9s tok=   44 stop | avg 47.4s/item ETA 0:05:32
+[194/200] Handwritten content extraction  315.4s tok= 4096 length | avg 50.3s/item ETA 0:05:01
+[195/200] Full-page OCR                   314.0s tok= 4096 length | avg 53.1s/item ETA 0:04:25
+[196/200] Text recognition                  6.2s tok=   11 stop | avg 52.6s/item ETA 0:03:30
+[197/200] Infographics                      7.4s tok=   10 stop | avg 52.1s/item ETA 0:02:36
+[198/200] Text recognition                  4.7s tok=   13 stop | avg 51.6s/item ETA 0:01:43
+[199/200] Document classification           4.4s tok=    5 stop | avg 51.2s/item ETA 0:00:51
+[200/200] Fine-grained text recognition     4.2s tok=    4 stop | avg 50.7s/item ETA 0:00:00
+[done] 200 saved | errors/timeouts=0 | hit num_predict=29 | mean 55.9s/item

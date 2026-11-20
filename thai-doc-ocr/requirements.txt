@@ -1,0 +1,5 @@
+ollama
+pillow
+playwright
+pypdf
+rapidfuzz

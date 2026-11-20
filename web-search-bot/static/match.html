@@ -1,0 +1,1011 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PAI Passport</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600&family=Trirong:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #E6ECEE;
+    --surface: #FFFFFF;
+    --ink: #1D2B33;
+    --muted: #5B6B73;
+    --line: #C9D3D7;
+    --mark: #F5DC4F;
+    --mark-soft: #FBF0A6;
+    --mark-ink: #3A3200;
+    --user: #2D6A6E;
+    --user-ink: #F2F8F8;
+    --error: #A3352B;
+    --ui: "Anuphan", system-ui, sans-serif;
+    --read: "Trirong", Georgia, serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141C20;
+      --surface: #1C262B;
+      --ink: #E3EAEC;
+      --muted: #93A3AA;
+      --line: #2E3B41;
+      --mark: #D9C23A;
+      --mark-soft: #6B6020;
+      --mark-ink: #1A1600;
+      --user: #2F6F73;
+      --user-ink: #EEF7F7;
+      --error: #F08A7E;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr);
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 16px/1.6 var(--ui);
+  }
+  button, textarea { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--user); outline-offset: 2px; }
+
+  .col { width: 100%; max-width: 88rem; margin: 0 auto; padding: 0 16px; }
+
+  header { border-bottom: 1px solid var(--line); }
+  header .col { padding-block: 12px; }
+  .brand { font: 600 1.375rem/1.2 var(--read); margin: 0; }
+  .ghost {
+    border: 1px solid var(--line); background: transparent; border-radius: 8px;
+    padding: 6px 14px; cursor: pointer; white-space: nowrap;
+  }
+  .ghost:hover { background: var(--bg); }
+  .ghost:disabled { opacity: 0.5; cursor: default; }
+  .primary:disabled { opacity: 0.5; cursor: default; }
+  .primary {
+    border: 0; border-radius: 8px; padding: 6px 16px; cursor: pointer; white-space: nowrap;
+    background: var(--user); color: var(--user-ink); font-weight: 500;
+  }
+
+  /* The two sheets of paper on the desk */
+  main { min-height: 0; }
+  main .col { height: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding-block: 16px; }
+  .sheet {
+    display: flex; flex-direction: column; min-height: 0; overflow: hidden;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  }
+  .sheet.dragging { border-color: var(--user); box-shadow: 0 0 0 1px var(--user); }
+  .sheet-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 20px; border-bottom: 1px solid var(--line); }
+  .sheet-head h2 { font: 600 1.125rem/1.3 var(--read); margin: 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .head-actions { display: flex; gap: 8px; flex: none; }
+  .sheet-status { margin: 0; padding: 8px 20px; font-size: 0.875rem; color: var(--muted); border-bottom: 1px solid var(--line); }
+  .sheet-status.error { color: var(--error); }
+
+  .sheet textarea {
+    flex: 1; min-height: 0; width: 100%; resize: none; border: 0; background: transparent;
+    padding: 16px 20px; font: 400 1rem/1.8 var(--read);
+  }
+  .sheet textarea:focus-visible { outline: none; }
+  .sheet textarea::placeholder { color: var(--muted); font-family: var(--ui); }
+
+  /* Clicks pass through to the textarea underneath, except on the button */
+  .jd-body { position: relative; flex: 1; min-height: 0; display: flex; flex-direction: column; }
+  .jd-empty {
+    position: absolute; inset: 12px; display: grid; place-content: center; justify-items: center; gap: 8px;
+    border: 2px dashed var(--line); border-radius: 10px; padding: 24px; text-align: center; pointer-events: none;
+  }
+  .jd-empty strong { font: 400 1.375rem/1.4 var(--read); }
+  .jd-empty span { color: var(--muted); font-size: 0.875rem; }
+  .jd-empty button { pointer-events: auto; }
+
+  /* What the model understood from the job description */
+  .reading { flex: 1; min-height: 0; overflow-y: auto; padding: 12px 20px 16px; border-top: 1px solid var(--line); background: var(--bg); }
+  .reading h3 { font: 600 1rem/1.4 var(--read); margin: 0 0 8px; }
+  .reading dl { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 8px 12px; margin: 0; }
+  .reading dt { font-size: 0.875rem; font-weight: 500; color: var(--muted); }
+  .reading dd { margin: 0; overflow-wrap: anywhere; }
+  .reading ul { margin: 0; padding-left: 1.1em; }
+  .reading .none { color: var(--muted); font-size: 0.875rem; }
+  .reading-status { margin: 0; font-size: 0.875rem; color: var(--muted); }
+  .reading-status.error { color: var(--error); }
+
+  /* Resume cards */
+  .pile { flex: 1; min-height: 0; overflow-y: auto; padding: 12px; }
+  .cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .card { position: relative; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+  .card:has(.card-open:not(:disabled):hover) { border-color: var(--user); }
+  .card-open {
+    display: grid; grid-template-columns: 1.75rem minmax(0, 1fr) auto; gap: 10px; align-items: start;
+    width: 100%; padding: 12px 44px 12px 14px; border: 0; border-radius: 10px; background: none; text-align: left; cursor: pointer;
+  }
+  .card-open:disabled { cursor: default; color: inherit; }
+  .card-number { font: 600 1.125rem/1.5 var(--read); color: var(--muted); }
+  .card-name { display: block; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .card-note { display: block; margin-top: 2px; font: 400 0.9375rem/1.6 var(--read); overflow-wrap: anywhere; }
+  .card-note.waiting { font: 400 0.8125rem/1.6 var(--ui); color: var(--muted); }
+  .card-note.error { font: 400 0.8125rem/1.6 var(--ui); color: var(--error); }
+  .card-score { text-align: right; }
+  .card-points { display: block; font: 400 1.75rem/1.15 var(--read); white-space: nowrap; }
+  .card-points small { font-size: 0.875rem; color: var(--muted); }
+  .card-points.quiet { color: var(--muted); }
+  .card-label { display: block; font-size: 0.75rem; color: var(--muted); }
+  .card-confirm { margin: -4px 0 12px calc(1.75rem + 24px); font-size: 0.875rem; padding: 2px 12px; }
+  .card-remove {
+    position: absolute; top: 8px; right: 8px; display: grid; place-items: center; width: 28px; height: 28px; padding: 0;
+    border: 0; border-radius: 6px; background: transparent; color: var(--muted); cursor: pointer;
+  }
+  .card-remove:hover { background: var(--bg); color: var(--ink); }
+  .card-remove svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; }
+
+  .dropzone {
+    display: grid; place-content: center; justify-items: center; gap: 4px; height: 100%; min-height: 12rem; width: 100%;
+    border: 2px dashed var(--line); border-radius: 10px; background: none; cursor: pointer; text-align: center; padding: 24px;
+  }
+  .dropzone:hover:not(:disabled) { border-color: var(--user); }
+  .dropzone:disabled { cursor: default; color: var(--muted); }
+  .dropzone strong { font: 400 1.375rem/1.4 var(--read); }
+  .dropzone span { color: var(--muted); font-size: 0.875rem; }
+
+  /* Pasting or correcting a resume's text */
+  .editor { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+  .editor-actions { display: flex; justify-content: flex-end; gap: 8px; padding: 12px 20px; border-top: 1px solid var(--line); }
+
+  /* The resume, marked up with a highlighter */
+  .resume-view {
+    flex: 1; min-height: 0; overflow-y: auto; padding: 16px 20px;
+    font: 400 1rem/1.9 var(--read); white-space: pre-wrap; overflow-wrap: anywhere;
+  }
+  .resume-view mark {
+    background: var(--mark-soft); color: inherit; padding: 0.1em 0; border-radius: 2px;
+    transition: background 0.15s;
+  }
+  .resume-view mark.unsure { background: none; border-bottom: 2px dashed var(--mark); border-radius: 0; }
+  .resume-view mark.active { background: var(--mark); color: var(--mark-ink); }
+
+  /* The checklist */
+  .report { flex: 1; min-height: 0; overflow-y: auto; padding: 16px 20px 20px; }
+  .verdict { font: 400 2rem/1.3 var(--read); margin: 0; }
+  .verdict.working { font: 400 1rem/1.6 var(--ui); color: var(--muted); }
+  .verdict.error { font: 400 1rem/1.6 var(--ui); color: var(--error); }
+  .verdict-line { margin: 4px 0 12px; font: 400 1.0625rem/1.7 var(--read); }
+
+  .checks { list-style: none; margin: 8px 0 0; padding: 0; }
+  .checks > li { border-top: 1px solid var(--line); padding: 4px 0; }
+  .check-main {
+    display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 12px; align-items: baseline;
+    width: 100%; padding: 8px; border: 0; border-radius: 8px; background: none; text-align: left;
+  }
+  button.check-main { cursor: pointer; }
+  button.check-main:hover, .check-main.active { background: color-mix(in srgb, var(--mark) 22%, transparent); }
+  .label { font-size: 0.8125rem; font-weight: 500; color: var(--muted); }
+  .label.met { color: var(--user); }
+  .label.pending { font-weight: 400; }
+  @media (prefers-color-scheme: dark) { .label.met { color: #7FC4C8; } }
+  .requirement { display: block; overflow-wrap: anywhere; }
+  .quote { display: block; margin-top: 2px; font: 400 0.9375rem/1.6 var(--read); color: var(--muted); overflow-wrap: anywhere; }
+
+  .decide { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; padding: 0 8px 8px calc(6.5rem + 20px); font-size: 0.875rem; }
+  .decide button {
+    border: 1px solid var(--line); border-radius: 8px; background: transparent; padding: 2px 12px; cursor: pointer;
+  }
+  .decide button:hover { border-color: var(--user); }
+  .decide button[aria-pressed="true"] { background: var(--user); border-color: var(--user); color: var(--user-ink); }
+
+  .notice, .caveat { margin: 12px 0 0; font-size: 0.8125rem; color: var(--muted); }
+
+  footer { border-top: 1px solid var(--line); }
+  footer .col { display: flex; align-items: center; justify-content: flex-end; gap: 16px; padding-block: 12px; min-height: 73px; }
+  .form-error { margin: 0; font-size: 0.875rem; color: var(--error); }
+  #go {
+    height: 48px; padding: 0 24px; border: 0; border-radius: 12px; cursor: pointer;
+    background: var(--user); color: var(--user-ink); font-weight: 500;
+  }
+  #go.stop { background: var(--ink); color: var(--bg); }
+  #go:disabled { opacity: 0.5; cursor: default; }
+
+  @media (max-width: 820px) {
+    html, body { height: auto; }
+    body { min-height: 100%; }
+    main .col { grid-template-columns: minmax(0, 1fr); height: auto; }
+    .sheet { min-height: 44vh; overflow: visible; }
+    .sheet textarea { min-height: 36vh; }
+    footer { position: sticky; bottom: 0; background: var(--bg); }
+    .check-main { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .reading dl { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+    .reading dd { margin-bottom: 8px; }
+    .decide { padding-left: 8px; }
+    .verdict { font-size: 1.75rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .resume-view mark { transition: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="col">
+    <h1 class="brand">PAI Passport</h1>
+  </div>
+</header>
+
+<main>
+  <div class="col">
+    <section class="sheet" id="jd-sheet" aria-labelledby="jd-title">
+      <div class="sheet-head">
+        <h2 id="jd-title">Job description</h2>
+        <button class="ghost" id="jd-attach" type="button">แนบไฟล์</button>
+        <input id="jd-file" type="file" hidden>
+      </div>
+      <p class="sheet-status" id="jd-status" role="status" hidden></p>
+      <div class="jd-body" id="jd-body">
+        <textarea id="jd" aria-labelledby="jd-title" autofocus></textarea>
+        <div class="jd-empty" id="jd-empty">
+          <strong>เริ่มจาก job description</strong>
+          <button class="primary" id="jd-attach-center" type="button">แนบไฟล์</button>
+          <span>PDF, รูป หรือไฟล์ข้อความ หรือคลิกที่ว่างแล้ววางข้อความ</span>
+        </div>
+      </div>
+      <section class="reading" id="reading" aria-labelledby="reading-title" hidden>
+        <h3 id="reading-title">การตีความ</h3>
+        <p class="reading-status" id="reading-status" role="status"></p>
+        <dl id="reading-list"></dl>
+      </section>
+      <div class="report" id="report" hidden>
+        <p class="verdict" id="verdict" role="status"></p>
+        <p class="verdict-line" id="verdict-line" hidden></p>
+        <ul class="checks" id="checks"></ul>
+        <p class="notice" id="notice" hidden></p>
+        <p class="caveat" id="caveat" hidden>คะแนนนี้มาจากโมเดลขนาดเล็ก ใช้ช่วยคัดกรองเบื้องต้นเท่านั้น ดูหลักฐานในเรซูเม่ก่อนตัดสินใจทุกครั้ง</p>
+      </div>
+    </section>
+
+    <section class="sheet" id="resume-sheet" aria-labelledby="resume-title">
+      <div class="sheet-head">
+        <h2 id="resume-title">เรซูเม่</h2>
+        <div class="head-actions" id="list-actions">
+          <button class="ghost" id="paste" type="button">วางข้อความ</button>
+          <button class="primary" id="add" type="button">+ เพิ่มเรซูเม่</button>
+        </div>
+        <div class="head-actions" id="detail-actions" hidden>
+          <button class="ghost" id="edit" type="button">แก้ข้อความ</button>
+          <button class="ghost" id="back" type="button">กลับไปรายการ</button>
+        </div>
+        <input id="resume-files" type="file" multiple hidden>
+      </div>
+
+      <div class="pile" id="pile">
+        <button class="dropzone" id="dropzone" type="button">
+          <strong id="dropzone-title"></strong>
+          <span id="dropzone-hint"></span>
+        </button>
+        <ol class="cards" id="cards" aria-label="รายการเรซูเม่"></ol>
+      </div>
+
+      <form class="editor" id="editor" hidden>
+        <textarea id="editor-text" aria-label="ข้อความในเรซูเม่" placeholder="วางข้อความจากเรซูเม่ตรงนี้"></textarea>
+        <div class="editor-actions">
+          <button class="ghost" id="editor-cancel" type="button">ยกเลิก</button>
+          <button class="primary" type="submit">บันทึก</button>
+        </div>
+      </form>
+
+      <div class="resume-view" id="resume-view" tabindex="0" aria-label="เรซูเม่ที่ไฮไลต์หลักฐาน" hidden></div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="col">
+    <p class="form-error" id="form-error" role="alert" hidden></p>
+    <button id="go" type="button">เทียบทุกเรซูเม่</button>
+  </div>
+</footer>
+
+<script>
+const LABELS = { met: "ตรง", partial: "ตรงบางส่วน", review: "ตรวจเอง", missing: "ไม่พบในเรซูเม่" };
+// "review" isn't nothing: most of those quotes are real evidence the relevance check doubted. A little credit
+// keeps a strong resume from sinking just because nobody has opened it to decide.
+const POINTS = { met: 1, partial: 0.5, review: 0.25, missing: 0 };
+const GROUPS = [["skill", "Skill ที่ต้องการ"], ["ability", "ความสามารถ"], ["personality", "บุคลิกภาพ"], ["other", "เกณฑ์อื่นๆ"]];
+const JD_SETTLE_MS = 1200; // wait for a pause in typing before reading the job description
+const MAX_FILE_BYTES = 10 * 1024 * 1024;
+const MAX_IMAGE_SIDE = 2400; // the server cuts pages into strips, and small Thai text needs the detail
+const TEXT_EXTENSIONS = [".txt", ".md", ".csv", ".tsv", ".json", ".xml", ".yaml", ".yml", ".html"];
+const FILE_TYPES = ["image/*", ".pdf", ...TEXT_EXTENSIONS].join(",");
+
+const $ = (id) => document.getElementById(id);
+const go = $("go");
+const formError = $("form-error");
+const resumeSheet = $("resume-sheet");
+const jdSheet = $("jd-sheet");
+const resumeFiles = $("resume-files");
+const jdBox = $("jd");
+const jdFile = $("jd-file");
+const jdAttach = $("jd-attach");
+const jdStatus = $("jd-status");
+const pile = $("pile");
+const dropzone = $("dropzone");
+const cardList = $("cards");
+const editor = $("editor");
+const editorText = $("editor-text");
+const resumeView = $("resume-view");
+const report = $("report");
+const verdict = $("verdict");
+const verdictLine = $("verdict-line");
+const reading = $("reading");
+const readingStatus = $("reading-status");
+const readingList = $("reading-list");
+const checks = $("checks");
+const notice = $("notice");
+const caveat = $("caveat");
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// One card per resume:
+// { id, name, file, text, error, note, jd (the job description its rows were checked against),
+//   rows: [{ requirement, topic, category, status, spans, decision }], done, notice, el }
+let cards = [];
+let nextId = 1;
+let view = "list";      // list, detail or editor
+let selected = null;    // the card open in detail view
+let editing = null;     // the card being corrected; null when pasting a new one
+let active = null;      // index of the row picked in the checklist
+
+let running = false;    // the queue is working through the cards
+let stopped = false;
+let current = null;     // { card, controller } for the file or check in progress
+let job = { jd: null, position: "", items: [] }; // the job description as the model read it
+let interpreting = null;  // { jd, controller, promise } while that's happening
+let jobError = "";
+let jdTimer = null;
+let readingJd = false;
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+// One JSON object per line; `handle` gets each one as it arrives.
+async function readEvents(res, handle) {
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = "";
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split("\n");
+    buffer = lines.pop();
+    for (const line of lines) if (line.trim()) handle(JSON.parse(line));
+  }
+}
+
+function post(url, body, signal) {
+  return fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body), signal });
+}
+
+const networkMessage = (err) =>
+  err instanceof TypeError ? "ติดต่อเซิร์ฟเวอร์ไม่ได้ ตรวจว่ายังรัน python app.py อยู่" : err.message;
+
+// --- Reading files -----------------------------------------------------------
+
+function readDataUrl(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = () => reject(reader.error);
+    reader.readAsDataURL(file);
+  });
+}
+
+async function imageToJpeg(file) {
+  const bitmap = await createImageBitmap(file);
+  const scale = Math.min(1, MAX_IMAGE_SIDE / Math.max(bitmap.width, bitmap.height));
+  const canvas = document.createElement("canvas");
+  canvas.width = Math.round(bitmap.width * scale);
+  canvas.height = Math.round(bitmap.height * scale);
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "#fff"; // transparent PNGs would turn black as JPEG
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+  return canvas.toDataURL("image/jpeg", 0.88);
+}
+
+async function toAttachment(file) {
+  if (file.type.startsWith("image/")) {
+    let url;
+    try { url = await imageToJpeg(file); } catch { throw new Error(`เปิดรูป ${file.name} ไม่ได้ ลองบันทึกเป็น PNG หรือ JPG ก่อน`); }
+    return { name: file.name, type: "image/jpeg", data: url.split(",")[1] };
+  }
+  if (file.size > MAX_FILE_BYTES) throw new Error(`${file.name} ใหญ่เกิน 10 MB`);
+  const url = await readDataUrl(file);
+  return { name: file.name, type: file.type || "text/plain", data: url.split(",")[1] };
+}
+
+// { text, complete } for the file; `onStatus` gets progress worth showing. Throws with a message for the user.
+async function extractText(file, onStatus, signal) {
+  const res = await post("/api/extract", { attachments: [await toAttachment(file)] }, signal);
+  if (!res.ok) throw new Error(res.status === 413 ? `${file.name} ใหญ่เกินไป` : `เซิร์ฟเวอร์ตอบกลับผิดพลาด (${res.status})`);
+  let result = null;
+  let failure = null;
+  await readEvents(res, (msg) => {
+    if (msg.type === "reading") onStatus(`กำลังอ่านรูปด้วยโมเดล ${msg.model}… ครั้งแรกอาจรอโหลดโมเดลสักครู่`);
+    else if (msg.type === "text") result = { text: msg.text, complete: msg.complete !== false };
+    else if (msg.type === "error") failure = msg.message;
+  });
+  if (failure) throw new Error(failure);
+  if (result === null) throw new Error("การเชื่อมต่อขาดก่อนอ่านเสร็จ ลองแนบใหม่อีกครั้ง");
+  return result;
+}
+
+// --- The cards ---------------------------------------------------------------
+
+const scoreOf = (card) => (10 * card.rows.reduce((sum, r) => sum + POINTS[effective(r)], 0) / card.rows.length).toFixed(1);
+const isChecked = (card) => card.jd !== null && card.jd === jdBox.value && !card.error;
+const hasJd = () => jdBox.value.trim() !== "";
+const needsCheck = (card) => card.text !== null && !card.error && card.jd !== jdBox.value;
+
+// A "review" row counts as whatever the person decided, and as nothing until they do.
+function effective(row) {
+  if (row.status !== "review" || !row.decision) return row.status;
+  return row.decision === "yes" ? "met" : "missing";
+}
+
+function listTopics(rows, limit) {
+  const names = rows.slice(0, limit).map(r => r.topic).join(", ");
+  return rows.length > limit ? `${names} และอีก ${rows.length - limit} เรื่อง` : names;
+}
+
+// One line on the candidate. The model picks the words and judges each topic; only the grammar is assembled
+// here, so the line can't claim anything the checks didn't find.
+function sentenceFor(card) {
+  const having = (kind) => card.rows.filter(r => effective(r) === kind);
+  const met = having("met");
+  const skilled = met.filter(r => r.category === "skill" || r.category === "ability");
+  const fitting = met.filter(r => !skilled.includes(r));
+  const strengths = [
+    skilled.length ? `เก่ง ${listTopics(skilled, 3)}` : "",
+    fitting.length ? `ตรงเรื่อง ${listTopics(fitting, 2)}` : "",
+    having("partial").length ? `พอมี ${listTopics(having("partial"), 2)}` : "",
+  ].filter(Boolean).join(" ");
+  const gaps = having("missing").length ? `ยังไม่พบ ${listTopics(having("missing"), 3)}` : "";
+  if (strengths && gaps) return `${strengths} แต่${gaps}`;
+  return strengths || gaps || "ยังสรุปไม่ได้ เปิดดูแล้วตรวจเอง";
+}
+
+function cardStatus(card) {
+  if (card.error) return { text: card.error, kind: "error" };
+  if (card.note) return { text: card.note, kind: "waiting" };
+  if (card.text === null) return { text: "รออ่านไฟล์", kind: "waiting" };
+  if (isChecked(card)) return { text: sentenceFor(card), kind: "" };
+  if (!hasJd()) return { text: "รอ job description", kind: "waiting" };
+  if (card.jd !== null) return { text: "job description เปลี่ยนแล้ว ต้องเทียบใหม่", kind: "waiting" };
+  return { text: "รอคิวเทียบ", kind: "waiting" };
+}
+
+function renderCard(card) {
+  const hadFocus = card.el.contains(document.activeElement) ? document.activeElement.className : null;
+  const number = cards.indexOf(card) + 1;
+  const status = cardStatus(card);
+  const scored = isChecked(card);
+  card.el.innerHTML = `
+    <button type="button" class="card-open" ${card.text === null ? "disabled" : ""}>
+      <span class="card-number">${number}</span>
+      <span>
+        <span class="card-name">${escapeHtml(card.name)}</span>
+        <span class="card-note ${status.kind}">${escapeHtml(status.text)}</span>
+        ${card.incomplete ? `<span class="card-note error">อ่านรูปได้ไม่ครบ คะแนนอาจต่ำกว่าจริง กดเปิดแล้วตรวจข้อความ</span>` : ""}
+      </span>
+      <span class="card-score"${card.error ? " hidden" : ""}>
+        <span class="card-points${scored ? "" : " quiet"}">${scored ? `${scoreOf(card)}<small>/10</small>` : "–"}</span>
+        <span class="card-label">ความเหมาะสม</span>
+      </span>
+    </button>
+    ${card.doubted ? `<button type="button" class="ghost card-confirm">นี่คือเรซูเม่ เทียบต่อ</button>` : ""}
+    <button type="button" class="card-remove" title="เอาออก" aria-label="เอา ${escapeHtml(card.name)} ออก">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>`;
+  if (hadFocus) card.el.querySelector(`[class="${hadFocus}"]`)?.focus();
+}
+
+function renderAllCards() {
+  dropzone.hidden = cards.length > 0;
+  cards.forEach(renderCard);
+}
+
+function addCard(fields) {
+  const card = { id: nextId++, file: null, text: null, error: null, note: "", jd: null, rows: [], done: 0, notice: "", confirmed: false, doubted: false, incomplete: false, ...fields };
+  card.el = document.createElement("li");
+  card.el.className = "card";
+  card.el.dataset.id = card.id;
+  cardList.append(card.el);
+  cards.push(card);
+  renderAllCards();
+  syncFooter();
+  return card;
+}
+
+function addFiles(fileList) {
+  for (const file of fileList) addCard({ name: file.name, file });
+  showError("");
+  work();
+}
+
+function cancelCurrent(card) {
+  if (current?.card === card) current.controller.abort();
+}
+
+function removeCard(card) {
+  cancelCurrent(card);
+  cards = cards.filter(c => c !== card);
+  card.el.remove();
+  renderAllCards();
+  syncFooter();
+}
+
+// The document check can be wrong, and a real resume shouldn't drop out because of it.
+function confirmResume(card) {
+  Object.assign(card, { confirmed: true, doubted: false, error: null });
+  renderCard(card);
+  syncFooter();
+  work();
+}
+
+cardList.addEventListener("click", (e) => {
+  const li = e.target.closest(".card");
+  if (!li) return;
+  const card = cards.find(c => String(c.id) === li.dataset.id);
+  if (e.target.closest(".card-remove")) removeCard(card);
+  else if (e.target.closest(".card-confirm")) confirmResume(card);
+  else if (e.target.closest(".card-open")) openCard(card);
+});
+
+// --- The queue ---------------------------------------------------------------
+// One thing at a time: a 4GB card holds one model. Files go first so the vision model is loaded once
+// rather than swapped with paibot for every resume.
+
+async function readCard(card) {
+  const controller = new AbortController();
+  current = { card, controller };
+  card.note = "กำลังอ่านไฟล์…";
+  renderCard(card);
+  try {
+    const { text, complete } = await extractText(card.file, (status) => { card.note = status; renderCard(card); }, controller.signal);
+    card.text = text;
+    card.incomplete = !complete;
+    if (!card.text.trim()) card.error = "ไม่พบข้อความในไฟล์นี้";
+  } catch (err) {
+    if (err.name !== "AbortError") card.error = networkMessage(err);
+  }
+  card.note = "";
+  current = null;
+  renderCard(card);
+}
+
+// Every resume is checked against one list, or their scores couldn't be compared. Resolves to whether
+// that list is ready; asking again for the same text joins the run already going.
+function interpret(jd) {
+  if (job.jd === jd) return Promise.resolve(true);
+  if (interpreting?.jd === jd) return interpreting.promise;
+  interpreting?.controller.abort();
+
+  const controller = new AbortController();
+  const run = async () => {
+    let result = null;
+    let failure = "";
+    try {
+      const res = await post("/api/interpret", { jd }, controller.signal);
+      if (!res.ok) throw new Error(`เซิร์ฟเวอร์ตอบกลับผิดพลาด (${res.status})`);
+      await readEvents(res, (msg) => {
+        if (msg.type === "interpretation") result = msg;
+        else if (msg.type === "error") failure = msg.message;
+      });
+      if (!result && !failure) failure = "การเชื่อมต่อขาดก่อนตีความเสร็จ ลองอีกครั้ง";
+    } catch (err) {
+      if (err.name !== "AbortError") failure = networkMessage(err);
+    }
+    if (interpreting?.controller !== controller) return false; // a newer job description took over
+    interpreting = null;
+    jobError = failure;
+    if (result) job = { jd, position: result.position, items: result.items };
+    renderReading();
+    return result !== null;
+  };
+  interpreting = { jd, controller, promise: null };
+  jobError = "";
+  renderReading();
+  interpreting.promise = run();
+  return interpreting.promise;
+}
+
+function renderReading() {
+  const ready = job.jd === jdBox.value;
+  reading.hidden = !hasJd() || view !== "list";
+  readingStatus.textContent = jobError || (ready ? "" : "กำลังตีความ… ครั้งแรกอาจรอโหลดโมเดลสักครู่");
+  readingStatus.className = `reading-status${jobError ? " error" : ""}`;
+  readingStatus.hidden = ready && !jobError;
+  readingList.hidden = !ready;
+  if (!ready) return;
+
+  const section = (title, body) => `<dt>${title}</dt><dd>${body}</dd>`;
+  readingList.innerHTML = section("ตำแหน่งงาน", escapeHtml(job.position) || `<span class="none">ไม่ได้ระบุ</span>`) +
+    GROUPS.map(([category, title]) => {
+      const items = job.items.filter(item => item.category === category);
+      return section(title, items.length
+        ? `<ul>${items.map(item => `<li>${escapeHtml(item.requirement)}</li>`).join("")}</ul>`
+        : `<span class="none">ไม่ได้ระบุ</span>`);
+    }).join("");
+}
+
+async function checkCard(card, jd) {
+  const controller = new AbortController();
+  current = { card, controller };
+  const text = card.text;
+  card.rows = job.items.map(item => ({ ...item, status: null, spans: [], decision: null }));
+  card.done = 0;
+  card.notice = "";
+  card.jd = null;
+  card.note = `กำลังตรวจข้อ 1 จาก ${card.rows.length}`;
+  renderCard(card);
+  if (selected === card) renderDetail();
+
+  let finished = false;
+  let failure = null;
+  try {
+    const res = await post("/api/match", {
+      resume: text,
+      requirements: job.items.map(i => i.requirement),
+      jd,
+      confirmed: card.confirmed,
+    }, controller.signal);
+    if (!res.ok) throw new Error(`เซิร์ฟเวอร์ตอบกลับผิดพลาด (${res.status})`);
+    await readEvents(res, (msg) => {
+      if (msg.type === "check") {
+        Object.assign(card.rows[msg.index], { status: msg.status, spans: msg.spans });
+        card.done = msg.index + 1;
+        card.note = card.done < card.rows.length ? `กำลังตรวจข้อ ${card.done + 1} จาก ${card.rows.length}` : "";
+        renderCard(card);
+        if (selected === card) renderDetail();
+      } else if (msg.type === "notice") {
+        card.notice = msg.message;
+      } else if (msg.type === "not_resume") {
+        failure = msg.message;
+        card.doubted = true;
+      } else if (msg.type === "error") {
+        failure = msg.message;
+      } else if (msg.type === "done") {
+        finished = true;
+      }
+    });
+    if (!finished && !failure) failure = "การเชื่อมต่อขาดก่อนตรวจเสร็จ กดเทียบอีกครั้ง";
+  } catch (err) {
+    if (err.name !== "AbortError") failure = networkMessage(err);
+  }
+
+  current = null;
+  card.note = "";
+  if (finished) {
+    card.jd = jd;
+  } else {
+    card.rows = [];
+    if (failure) card.error = failure;
+    else if (stopped) card.note = "หยุดแล้ว";
+  }
+  renderCard(card);
+  if (selected === card) renderDetail();
+}
+
+async function work() {
+  if (running) return;
+  running = true;
+  stopped = false;
+  syncFooter();
+  try {
+    while (!stopped) {
+      const unread = cards.find(c => c.text === null && !c.error);
+      if (unread) { await readCard(unread); continue; }
+
+      const jd = jdBox.value;
+      const next = hasJd() && jdTimer === null ? cards.find(needsCheck) : null;
+      if (!next) break;
+      if (!await interpret(jd)) break;
+      if (stopped || jdBox.value !== jd) continue;
+      jdBox.readOnly = true; // the list being checked against has to stay the job description on screen
+      syncFooter();
+      await checkCard(next, jd);
+    }
+  } finally {
+    running = false;
+    jdBox.readOnly = false;
+    renderAllCards();
+    syncFooter();
+  }
+}
+
+function syncFooter() {
+  const pending = cards.some(needsCheck);
+  go.textContent = running ? "หยุด" : "เทียบทุกเรซูเม่";
+  go.className = running ? "stop" : "";
+  go.closest("footer").hidden = view !== "list" && !running;
+  go.disabled = !running && (readingJd || (cards.length > 0 && hasJd() && !pending));
+  jdAttach.disabled = $("jd-attach-center").disabled = jdBox.readOnly || readingJd;
+  $("jd-empty").hidden = hasJd();
+  // visibility, not `hidden`: the button keeps its space so the sheet doesn't jump.
+  jdAttach.style.visibility = view === "detail" || !hasJd() ? "hidden" : "";
+
+  // The job description comes first: resumes can't be added until there's one to compare them with.
+  $("add").disabled = $("paste").disabled = dropzone.disabled = !hasJd();
+  $("dropzone-title").textContent = hasJd() ? "อัปโหลดเรซูเม่" : "ใส่ job description ก่อน";
+  $("dropzone-hint").textContent = hasJd() ? "PDF, รูป หรือไฟล์ข้อความ เลือกหลายไฟล์พร้อมกันได้" : "แล้วค่อยอัปโหลดเรซูเม่ตรงนี้";
+}
+
+function showError(message) {
+  formError.textContent = message;
+  formError.hidden = !message;
+}
+
+go.addEventListener("click", () => {
+  if (running) {
+    stopped = true;
+    current?.controller.abort();
+    interpreting?.controller.abort();
+    return;
+  }
+  if (!hasJd()) { showError("ใส่ job description ทางซ้ายก่อน"); jdBox.focus(); return; }
+  if (!cards.length) return showError("อัปโหลดเรซูเม่ทางขวาก่อน");
+  showError("");
+  cards.forEach(c => { c.note = ""; });
+  work();
+});
+
+// --- The job description -----------------------------------------------------
+
+function showJdStatus(text, isError = false) {
+  jdStatus.textContent = text;
+  jdStatus.className = `sheet-status${isError ? " error" : ""}`;
+  jdStatus.hidden = !text || view !== "list";
+}
+
+async function loadJd(file) {
+  readingJd = true;
+  syncFooter();
+  showJdStatus(`กำลังอ่าน ${file.name}…`);
+  try {
+    const { text, complete } = await extractText(file, showJdStatus);
+    jdBox.value = text;
+    showJdStatus(complete ? `อ่าน ${file.name} แล้ว` : `อ่าน ${file.name} ได้ไม่ครบ ตรวจข้อความก่อนเทียบ`, !complete);
+    renderAllCards();
+    interpret(jdBox.value);
+  } catch (err) {
+    showJdStatus(networkMessage(err), true);
+  }
+  readingJd = false;
+  syncFooter();
+  work();
+}
+
+jdBox.addEventListener("input", () => {
+  showError("");
+  if (!hasJd()) showJdStatus(""); // "read file.pdf" no longer describes an empty box
+  renderAllCards();
+  syncFooter();
+
+  interpreting?.controller.abort();
+  interpreting = null;
+  jobError = "";
+  renderReading();
+  clearTimeout(jdTimer);
+  jdTimer = hasJd() ? setTimeout(() => { jdTimer = null; interpret(jdBox.value); }, JD_SETTLE_MS) : null;
+});
+jdAttach.addEventListener("click", () => jdFile.click());
+$("jd-attach-center").addEventListener("click", () => jdFile.click());
+jdFile.accept = FILE_TYPES;
+jdFile.addEventListener("change", () => {
+  if (jdFile.files[0]) loadJd(jdFile.files[0]);
+  jdFile.value = ""; // so picking the same file again still fires "change"
+});
+
+// --- Adding resumes ----------------------------------------------------------
+
+resumeFiles.accept = FILE_TYPES;
+const pickFiles = () => resumeFiles.click();
+$("add").addEventListener("click", pickFiles);
+dropzone.addEventListener("click", pickFiles);
+resumeFiles.addEventListener("change", () => {
+  addFiles(resumeFiles.files);
+  resumeFiles.value = "";
+});
+
+$("paste").addEventListener("click", () => openEditor(null));
+$("edit").addEventListener("click", () => openEditor(selected));
+$("editor-cancel").addEventListener("click", () => setView(editing ? "detail" : "list"));
+
+function openEditor(card) {
+  editing = card;
+  editorText.value = card ? card.text : "";
+  setView("editor");
+  editorText.focus();
+}
+
+editor.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const text = editorText.value;
+  if (!text.trim()) { editorText.focus(); return; }
+  if (editing) {
+    cancelCurrent(editing);
+    Object.assign(editing, { text, error: null, jd: null, rows: [], note: "", confirmed: false, doubted: false, incomplete: false });
+  } else {
+    const firstLine = text.trim().split("\n")[0].trim().slice(0, 60);
+    addCard({ name: firstLine, text });
+  }
+  selected = null;
+  setView("list");
+  renderAllCards();
+  work();
+});
+
+// Each sheet is its own drop target, so a file lands on the side it was dropped on.
+function dropTarget(sheet, allowed, onFiles) {
+  let depth = 0;
+  const hasFiles = (e) => allowed() && [...e.dataTransfer.types].includes("Files");
+  sheet.addEventListener("dragenter", (e) => { if (hasFiles(e)) { depth++; sheet.classList.add("dragging"); } });
+  sheet.addEventListener("dragleave", (e) => { if (hasFiles(e) && --depth <= 0) { depth = 0; sheet.classList.remove("dragging"); } });
+  sheet.addEventListener("dragover", (e) => { if (hasFiles(e)) e.preventDefault(); });
+  sheet.addEventListener("drop", (e) => {
+    if (!hasFiles(e)) return;
+    e.preventDefault();
+    depth = 0;
+    sheet.classList.remove("dragging");
+    onFiles(e.dataTransfer.files);
+  });
+}
+dropTarget(resumeSheet, () => view === "list" && hasJd(), addFiles);
+dropTarget(jdSheet, () => view === "list" && !jdBox.readOnly && !readingJd, (files) => { if (files[0]) loadJd(files[0]); });
+// A file dropped beside the sheets would otherwise replace the whole page.
+document.addEventListener("dragover", (e) => e.preventDefault());
+document.addEventListener("drop", (e) => e.preventDefault());
+
+// --- One resume in detail ----------------------------------------------------
+
+function setView(next) {
+  view = next;
+  const detail = view === "detail";
+  pile.hidden = view !== "list";
+  editor.hidden = view !== "editor";
+  resumeView.hidden = report.hidden = !detail;
+  $("jd-body").hidden = detail;
+  renderReading();
+  $("list-actions").hidden = view !== "list";
+  $("detail-actions").hidden = !detail;
+  $("resume-title").textContent = detail ? selected.name : view === "editor" ? (editing ? editing.name : "วางข้อความเรซูเม่") : "เรซูเม่";
+  if (view === "list") selected = null;
+  jdStatus.hidden = view !== "list" || !jdStatus.textContent;
+  syncFooter();
+}
+
+function openCard(card) {
+  selected = card;
+  active = null;
+  setView("detail");
+  renderDetail();
+}
+
+$("back").addEventListener("click", () => {
+  const el = selected.el;
+  setView("list");
+  el.querySelector(".card-open").focus();
+});
+
+const charsOf = (card) => [...card.text]; // the server counts positions in characters; JS strings count emoji as two
+const quotesOf = (row, chars) => row.spans.map(([start, end]) => chars.slice(start, end).join(""));
+
+function renderResume(card) {
+  const chars = charsOf(card);
+  const rows = card.rows;
+  const cuts = new Set([0, chars.length]);
+  rows.forEach(r => r.spans.forEach(([start, end]) => { cuts.add(start); cuts.add(end); }));
+  const points = [...cuts].sort((a, b) => a - b);
+
+  // Quotes can overlap, so the text is cut at every edge and each piece lists the rows it proves.
+  resumeView.innerHTML = points.slice(0, -1).map((start, i) => {
+    const end = points[i + 1];
+    const piece = escapeHtml(chars.slice(start, end).join(""));
+    const owners = rows.flatMap((r, n) => r.spans.some(([a, b]) => a <= start && end <= b) ? [n] : []);
+    if (!owners.length) return piece;
+    const unsure = owners.every(n => effective(rows[n]) === "review") ? "unsure" : "";
+    return `<mark class="${unsure}" data-rows="${owners.join(" ")}">${piece}</mark>`;
+  }).join("");
+}
+
+function renderChecks(card) {
+  const chars = charsOf(card);
+  checks.innerHTML = card.rows.map((r, i) => {
+    if (!r.status) {
+      return `<li><div class="check-main"><span class="label pending">รอตรวจ</span><span class="requirement">${escapeHtml(r.requirement)}</span></div></li>`;
+    }
+    const quotes = quotesOf(r, chars).map(q => `<span class="quote">${escapeHtml(q)}</span>`).join("");
+    const body = `<span class="label ${effective(r)}">${LABELS[r.status]}</span>
+      <span><span class="requirement">${escapeHtml(r.requirement)}</span>${quotes}</span>`;
+    const main = r.spans.length
+      ? `<button type="button" class="check-main${active === i ? " active" : ""}" data-row="${i}">${body}</button>`
+      : `<div class="check-main">${body}</div>`;
+    const decide = r.status !== "review" ? "" : `
+      <div class="decide" role="group" aria-label="ตัดสินข้อนี้เอง">
+        <button type="button" data-decide="${i}" data-value="yes" aria-pressed="${r.decision === "yes"}">นับว่าตรง</button>
+        <button type="button" data-decide="${i}" data-value="no" aria-pressed="${r.decision === "no"}">ไม่นับ</button>
+      </div>`;
+    return `<li>${main}${decide}</li>`;
+  }).join("");
+}
+
+function renderVerdict(card) {
+  verdictLine.hidden = caveat.hidden = true;
+  verdict.className = "verdict working";
+  if (card.error) {
+    verdict.className = "verdict error";
+    verdict.textContent = card.error;
+  } else if (isChecked(card)) {
+    const unsure = card.rows.filter(r => effective(r) === "review").length;
+    verdict.className = "verdict";
+    verdict.textContent = `เหมาะกับงานนี้ ${scoreOf(card)}/10`;
+    verdictLine.textContent = sentenceFor(card) + (unsure ? ` (ด้านล่างมี ${unsure} ข้อให้ตรวจเอง)` : "");
+    verdictLine.hidden = caveat.hidden = false;
+  } else {
+    verdict.textContent = cardStatus(card).text || "ยังไม่ได้เทียบ";
+  }
+}
+
+function renderDetail() {
+  const card = selected;
+  renderVerdict(card);
+  renderChecks(card);
+  renderResume(card);
+  notice.textContent = card.notice;
+  notice.hidden = !card.notice;
+  highlight(active);
+}
+
+function highlight(row) {
+  resumeView.querySelectorAll("mark").forEach(m => {
+    m.classList.toggle("active", row !== null && m.dataset.rows.split(" ").includes(String(row)));
+  });
+}
+
+checks.addEventListener("click", (e) => {
+  const decide = e.target.closest("[data-decide]");
+  if (decide) {
+    const index = Number(decide.dataset.decide);
+    const value = decide.dataset.value;
+    const row = selected.rows[index];
+    row.decision = row.decision === value ? null : value;
+    renderDetail();
+    renderCard(selected);
+    checks.querySelector(`[data-decide="${index}"][data-value="${value}"]`).focus();
+    return;
+  }
+  const row = e.target.closest("[data-row]");
+  if (!row) return;
+  active = Number(row.dataset.row);
+  checks.querySelectorAll(".check-main.active").forEach(el => el.classList.remove("active"));
+  row.classList.add("active");
+  highlight(active);
+  resumeView.querySelector("mark.active")?.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+});
+
+// Hovering previews the row's proof; leaving goes back to the row that was clicked.
+checks.addEventListener("mouseover", (e) => {
+  const row = e.target.closest("[data-row]");
+  if (row) highlight(Number(row.dataset.row));
+});
+checks.addEventListener("mouseout", (e) => {
+  if (e.target.closest("[data-row]")) highlight(active);
+});
+
+renderAllCards();
+syncFooter();
+renderReading();
+</script>
+</body>
+</html>

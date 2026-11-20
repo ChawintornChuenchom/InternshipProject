@@ -1,0 +1,175 @@
+{
+ "resume-001": {
+  "education": [
+   {
+    "degree": "Bachelor's degree",
+    "field": "Accounting",
+    "school": "Kasetsart University",
+    "year": "2017"
+   }
+  ],
+  "email": "work42@example.com",
+  "experience": [
+   {
+    "company": "Mekong Foods Co., Ltd.",
+    "details": [
+     "2020 - Present",
+     "• Reviewed accounting documents",
+     "• Closed the monthly accounts",
+     "• Filed VAT and withholding tax"
+    ],
+    "end": null,
+    "start": "2020",
+    "title": "Accountant"
+   },
+   {
+    "company": "Siam Data Co., Ltd.",
+    "details": [
+     "2019 - 2020",
+     "• Prepared profit and loss statements",
+     "• Reviewed accounting documents",
+     "• Filed VAT and withholding tax"
+    ],
+    "end": "2020",
+    "start": "2019",
+    "title": "Accountant"
+   },
+   {
+    "company": "Healthy Clinic Co., Ltd.",
+    "details": [
+     "2018 - 2019",
+     "• Filed VAT and withholding tax",
+     "• Reviewed accounting documents"
+    ],
+    "end": "2019",
+    "start": "2018",
+    "title": "Accountant"
+   }
+  ],
+  "languages": [
+   "Thai",
+   "English (TOEIC 800)"
+  ],
+  "location": "Bangkok",
+  "name": "Wichai Keawmanee",
+  "phone": "082-826-2759",
+  "position": "Accountant",
+  "skills": [
+   "Express",
+   "Peak Account",
+   "Excel",
+   "SAP"
+  ],
+  "summary": "Accountant with a strong tax background"
+ },
+ "resume-002": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี",
+    "field": "สาขาการออกแบบนิเทศศิลป์",
+    "school": "มหาวิทยาลัยเกษตรศาสตร์",
+    "year": "2559"
+   }
+  ],
+  "email": "contact36@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+    "details": [
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ออกแบบสื่อโฆษณาออนไลน์"
+    ],
+    "end": null,
+    "start": "2564",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ออกแบบสื่อโฆษณาออนไลน์"
+    ],
+    "end": "2564",
+    "start": "2561",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท แม่โขงฟูดส์ จำกัด",
+    "details": [
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": "2561",
+    "start": "2560",
+    "title": "นักออกแบบกราฟิก"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 830)"
+  ],
+  "location": "กรุงเทพมหานคร",
+  "name": "ภูมิ ใจดี",
+  "phone": "083-711-9079",
+  "position": "นักออกแบบกราฟิก",
+  "skills": [
+   "Canva",
+   "Figma",
+   "Illustrator",
+   "Photoshop"
+  ],
+  "summary": "มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ"
+ },
+ "resume-003": {
+  "education": [
+   {
+    "degree": "ปริญญาตรี",
+    "field": "สาขาการออกแบบนิเทศศิลป์",
+    "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "year": "2563"
+   }
+  ],
+  "email": "me84@example.com",
+  "experience": [
+   {
+    "company": "บริษัท สยามดาต้า จำกัด",
+    "details": [
+     "ถ่ายภาพและตัดต่อวิดีโอ",
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": null,
+    "start": "2566",
+    "title": "นักออกแบบกราฟิก"
+   },
+   {
+    "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+    "details": [
+     "ออกแบบบรรจุภัณฑ์สินค้า",
+     "ออกแบบสื่อโฆษณาออนไลน์",
+     "ดูแลอัตลักษณ์ของแบรนด์"
+    ],
+    "end": "2566",
+    "start": "2564",
+    "title": "นักออกแบบกราฟิก"
+   }
+  ],
+  "languages": [
+   "ภาษาไทย",
+   "ภาษาอังกฤษ (TOEIC 700)"
+  ],
+  "location": "นครราชสีมา",
+  "name": "ภูมิ ชัยมงคล",
+  "phone": "087-314-6185",
+  "position": "นักออกแบบกราฟิก",
+  "skills": [
+   "Figma",
+   "Photoshop",
+   "Canva",
+   "After Effects"
+  ],
+  "summary": "นักออกแบบที่ถนัดงานสื่อดิจิทัล"
+ }
+}

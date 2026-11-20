@@ -1,0 +1,45 @@
+# Qwen3-VL-2B QLoRA on the 400 generated training documents. Run from the LlamaFactory folder with train.py, not
+# llamafactory-cli: train.py adds the answer-only loss, without which this runs out of memory on a 4GB card.
+#   .venv\Scripts\python.exe ..\thai-doc-ocr\train.py ..\thai-doc-ocr\configs\qwen3vl_2b_qlora_train.yaml
+# Measured peak with answer-only loss, longest page, rank 16, AdamW: 2,272MB at 1,024 image tokens, 2,521MB at 2,473.
+
+### model
+model_name_or_path: Qwen/Qwen3-VL-2B-Instruct
+image_max_pixels: 1572864  # ~1,700 image tokens, a page ~1030 px wide. Full size (2.7M) ran out at step 2 by 76MB and took 72 s/step
+quantization_bit: 4
+quantization_method: bnb
+double_quantization: true
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 16
+lora_alpha: 32
+lora_target: all
+freeze_vision_tower: true
+
+### dataset
+dataset: thai_doc_ocr_train
+template: qwen3_vl_nothink
+cutoff_len: 4096  # image up to ~1,700 tokens + prompt ~60 + answer up to ~550, with room to spare
+preprocessing_num_workers: 4
+dataloader_num_workers: 0
+
+### output
+output_dir: saves/Qwen3-VL-2B-Instruct/lora/thai_doc_ocr
+logging_steps: 5
+save_steps: 25
+plot_loss: true
+overwrite_output_dir: true
+report_to: none
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 2.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true

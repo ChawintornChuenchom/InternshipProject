@@ -1,0 +1,13 @@
+# The model after training: the base model plus the LoRA adapter. From the LlamaFactory folder:
+#   .venv\Scripts\llamafactory-cli.exe api ..\thai-doc-ocr\configs\infer_tuned.yaml
+model_name_or_path: Qwen/Qwen3-VL-2B-Instruct
+adapter_name_or_path: saves/Qwen3-VL-2B-Instruct/lora/thai_doc_ocr
+image_max_pixels: 786432  # same as training
+quantization_bit: 4
+quantization_method: bnb
+double_quantization: true
+template: qwen3_vl_nothink
+infer_backend: huggingface
+finetuning_type: lora
+do_sample: false
+trust_remote_code: true

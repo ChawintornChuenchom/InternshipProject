@@ -1,0 +1,4 @@
+ollama
+flask
+pypdf
+pillow

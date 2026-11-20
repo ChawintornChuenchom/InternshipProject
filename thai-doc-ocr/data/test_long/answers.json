@@ -1,0 +1,1830 @@
+[
+ {
+  "id": "resume-001",
+  "language": "en",
+  "layout": "banner",
+  "font": "Noto Sans Thai",
+  "scanned": false,
+  "image": "images/resume-001.jpg",
+  "pdf": "pdf/resume-001.pdf",
+  "text": "Anan Keawmanee\n\nAccountant\n\nhello47@example.com\n\n083-778-8917\n\nBangkok\n\nSummary\n\nAccountant with a strong tax background Experienced in closing accounts for mid-sized firms\n\nWork Experience\nAccountant\n\nSiam Data Co., Ltd.\n\n2011 - Present\n\nClosed the monthly accounts\nPrepared profit and loss statements\nPresented results to management each quarter\nManaged project budgets of over 2 million baht\nAccountant\n\nMekong Foods Co., Ltd.\n\n2008 - 2011\n\nReviewed accounting documents\nPrepared profit and loss statements\nFiled VAT and withholding tax\nPresented results to management each quarter\nHelped plan the department's annual strategy\nAccountant\n\nHealthy Clinic Co., Ltd.\n\n2007 - 2008\n\nReviewed accounting documents\nClosed the monthly accounts\nManaged project budgets of over 2 million baht\nKept work quality in line with ISO 9001\nAccountant\n\nSri Ayutthaya Tech Co., Ltd.\n\n2006 - 2007\n\nClosed the monthly accounts\nFiled VAT and withholding tax\nPrepared profit and loss statements\nWrote standard operating procedures\nCoordinated with internal and external teams\nEducation\nMaster's degree Accounting\n\nSrinakharinwirot University\n\n2009\n\nBachelor's degree Accounting\n\nSrinakharinwirot University\n\n2005\n\nSkills\nExcel\nExpress\nSAP\nPower BI\nPeak Account\nLanguages\nThai\nEnglish (TOEIC 800)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "Anan Keawmanee",
+   "position": "Accountant",
+   "email": "hello47@example.com",
+   "phone": "083-778-8917",
+   "location": "Bangkok",
+   "summary": "Accountant with a strong tax background Experienced in closing accounts for mid-sized firms",
+   "skills": [
+    "Excel",
+    "Express",
+    "SAP",
+    "Power BI",
+    "Peak Account"
+   ],
+   "languages": [
+    "Thai",
+    "English (TOEIC 800)"
+   ],
+   "education": [
+    {
+     "degree": "Master's degree",
+     "field": "Accounting",
+     "school": "Srinakharinwirot University",
+     "year": "2009"
+    },
+    {
+     "degree": "Bachelor's degree",
+     "field": "Accounting",
+     "school": "Srinakharinwirot University",
+     "year": "2005"
+    }
+   ],
+   "experience": [
+    {
+     "title": "Accountant",
+     "company": "Siam Data Co., Ltd.",
+     "start": "2011",
+     "end": null,
+     "details": [
+      "Closed the monthly accounts",
+      "Prepared profit and loss statements",
+      "Presented results to management each quarter",
+      "Managed project budgets of over 2 million baht"
+     ]
+    },
+    {
+     "title": "Accountant",
+     "company": "Mekong Foods Co., Ltd.",
+     "start": "2008",
+     "end": "2011",
+     "details": [
+      "Reviewed accounting documents",
+      "Prepared profit and loss statements",
+      "Filed VAT and withholding tax",
+      "Presented results to management each quarter",
+      "Helped plan the department's annual strategy"
+     ]
+    },
+    {
+     "title": "Accountant",
+     "company": "Healthy Clinic Co., Ltd.",
+     "start": "2007",
+     "end": "2008",
+     "details": [
+      "Reviewed accounting documents",
+      "Closed the monthly accounts",
+      "Managed project budgets of over 2 million baht",
+      "Kept work quality in line with ISO 9001"
+     ]
+    },
+    {
+     "title": "Accountant",
+     "company": "Sri Ayutthaya Tech Co., Ltd.",
+     "start": "2006",
+     "end": "2007",
+     "details": [
+      "Closed the monthly accounts",
+      "Filed VAT and withholding tax",
+      "Prepared profit and loss statements",
+      "Wrote standard operating procedures",
+      "Coordinated with internal and external teams"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-002",
+  "language": "th",
+  "layout": "banner",
+  "font": "Noto Sans Thai",
+  "scanned": true,
+  "image": "images/resume-002.jpg",
+  "pdf": "pdf/resume-002.pdf",
+  "text": "อนุชา สายทอง\n\nพนักงานขาย\n\nhello25@example.com\n\n083-749-1070\n\nขอนแก่น\n\nสรุปประวัติ\n\nพนักงานขายที่ทำยอดได้ตามเป้าต่อเนื่อง มีประสบการณ์ขายให้ลูกค้าองค์กร\n\nประสบการณ์ทำงาน\nพนักงานขาย\n\nบริษัท แม่โขงฟู้ดส์ จำกัด\n\n2556 - ปัจจุบัน\n\nดูแลลูกค้าเดิมและหาลูกค้าใหม่\nเจรจาต่อรองสัญญา\nจัดทำรายงานยอดขาย\nร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย\nเข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล\nพนักงานขาย\n\nบริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด\n\n2555 - 2556\n\nเจรจาต่อรองสัญญา\nเสนอขายสินค้าให้ลูกค้าองค์กร\nประสานงานกับหน่วยงานภายในและภายนอกองค์กร\nติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา\nพนักงานขาย\n\nบริษัท สุขภาพดีคลินิก จำกัด\n\n2553 - 2555\n\nจัดทำรายงานยอดขาย\nเจรจาต่อรองสัญญา\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย\nพนักงานขาย\n\nบริษัท ศรีอยุธยาเทค จำกัด\n\n2550 - 2553\n\nจัดทำรายงานยอดขาย\nเจรจาต่อรองสัญญา\nดูแลลูกค้าเดิมและหาลูกค้าใหม่\nควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nการศึกษา\nปริญญาโท สาขาการตลาด\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2554\n\nปริญญาตรี สาขาบริหารธุรกิจ\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2549\n\nทักษะ\nSalesforce\nExcel\nPowerPoint\nCRM\nLINE Official Account\nภาษา\nภาษาไทย\nภาษาอังกฤษ (TOEIC 880)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "อนุชา สายทอง",
+   "position": "พนักงานขาย",
+   "email": "hello25@example.com",
+   "phone": "083-749-1070",
+   "location": "ขอนแก่น",
+   "summary": "พนักงานขายที่ทำยอดได้ตามเป้าต่อเนื่อง มีประสบการณ์ขายให้ลูกค้าองค์กร",
+   "skills": [
+    "Salesforce",
+    "Excel",
+    "PowerPoint",
+    "CRM",
+    "LINE Official Account"
+   ],
+   "languages": [
+    "ภาษาไทย",
+    "ภาษาอังกฤษ (TOEIC 880)"
+   ],
+   "education": [
+    {
+     "degree": "ปริญญาโท",
+     "field": "สาขาการตลาด",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2554"
+    },
+    {
+     "degree": "ปริญญาตรี",
+     "field": "สาขาบริหารธุรกิจ",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2549"
+    }
+   ],
+   "experience": [
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+     "start": "2556",
+     "end": null,
+     "details": [
+      "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+      "เจรจาต่อรองสัญญา",
+      "จัดทำรายงานยอดขาย",
+      "ร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย",
+      "เข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด",
+     "start": "2555",
+     "end": "2556",
+     "details": [
+      "เจรจาต่อรองสัญญา",
+      "เสนอขายสินค้าให้ลูกค้าองค์กร",
+      "ประสานงานกับหน่วยงานภายในและภายนอกองค์กร",
+      "ติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+     "start": "2553",
+     "end": "2555",
+     "details": [
+      "จัดทำรายงานยอดขาย",
+      "เจรจาต่อรองสัญญา",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น",
+      "ร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท ศรีอยุธยาเทค จำกัด",
+     "start": "2550",
+     "end": "2553",
+     "details": [
+      "จัดทำรายงานยอดขาย",
+      "เจรจาต่อรองสัญญา",
+      "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+      "ควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-003",
+  "language": "th",
+  "layout": "sidebar",
+  "font": "IBM Plex Sans Thai",
+  "scanned": true,
+  "image": "images/resume-003.jpg",
+  "pdf": "pdf/resume-003.pdf",
+  "text": "ภูมิ สายทอง\n\nพนักงานขาย\n\nติดต่อ\n\ncontact67@example.com\n\n084-956-5238\n\nภูเก็ต\n\nทักษะ\nSalesforce\nExcel\nPowerPoint\nCRM\nLINE Official Account\nภาษา\nภาษาไทย\nภาษาอังกฤษ (TOEIC 640)\nสรุปประวัติ\n\nพนักงานขายที่ทำยอดได้ตามเป้าต่อเนื่อง มีประสบการณ์ขายให้ลูกค้าองค์กร\n\nประสบการณ์ทำงาน\nพนักงานขาย\n\nบริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด\n\n2564 - ปัจจุบัน\n\nจัดทำรายงานยอดขาย\nดูแลลูกค้าเดิมและหาลูกค้าใหม่\nเจรจาต่อรองสัญญา\nควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001\nจัดทำเอกสารคู่มือการปฏิบัติงาน\nพนักงานขาย\n\nบริษัท ศรีอยุธยาเทค จำกัด\n\n2561 - 2564\n\nดูแลลูกค้าเดิมและหาลูกค้าใหม่\nเจรจาต่อรองสัญญา\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nนำเสนอผลงานต่อผู้บริหารทุกไตรมาส\nพนักงานขาย\n\nบริษัท สุขภาพดีคลินิก จำกัด\n\n2558 - 2561\n\nเจรจาต่อรองสัญญา\nเสนอขายสินค้าให้ลูกค้าองค์กร\nจัดทำรายงานยอดขาย\nจัดทำรายงานสรุปผลการดำเนินงานประจำเดือน\nเข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล\nพนักงานขาย\n\nบริษัท แม่โขงฟู้ดส์ จำกัด\n\n2556 - 2558\n\nดูแลลูกค้าเดิมและหาลูกค้าใหม่\nเจรจาต่อรองสัญญา\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nประเมินผลและคัดเลือกผู้ขายรายใหม่\nพนักงานขาย\n\nบริษัท สยามดาต้า จำกัด\n\n2553 - 2556\n\nเสนอขายสินค้าให้ลูกค้าองค์กร\nเจรจาต่อรองสัญญา\nจัดทำรายงานสรุปผลการดำเนินงานประจำเดือน\nนำเสนอผลงานต่อผู้บริหารทุกไตรมาส\nการศึกษา\nปริญญาโท สาขาบริหารธุรกิจ\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2556\n\nปริญญาตรี สาขาการตลาด\n\nมหาวิทยาลัยเกษตรศาสตร์\n\n2552",
+  "answer": {
+   "doc_type": "resume",
+   "name": "ภูมิ สายทอง",
+   "position": "พนักงานขาย",
+   "email": "contact67@example.com",
+   "phone": "084-956-5238",
+   "location": "ภูเก็ต",
+   "summary": "พนักงานขายที่ทำยอดได้ตามเป้าต่อเนื่อง มีประสบการณ์ขายให้ลูกค้าองค์กร",
+   "skills": [
+    "Salesforce",
+    "Excel",
+    "PowerPoint",
+    "CRM",
+    "LINE Official Account"
+   ],
+   "languages": [
+    "ภาษาไทย",
+    "ภาษาอังกฤษ (TOEIC 640)"
+   ],
+   "education": [
+    {
+     "degree": "ปริญญาโท",
+     "field": "สาขาบริหารธุรกิจ",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2556"
+    },
+    {
+     "degree": "ปริญญาตรี",
+     "field": "สาขาการตลาด",
+     "school": "มหาวิทยาลัยเกษตรศาสตร์",
+     "year": "2552"
+    }
+   ],
+   "experience": [
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด",
+     "start": "2564",
+     "end": null,
+     "details": [
+      "จัดทำรายงานยอดขาย",
+      "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+      "เจรจาต่อรองสัญญา",
+      "ควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001",
+      "จัดทำเอกสารคู่มือการปฏิบัติงาน"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท ศรีอยุธยาเทค จำกัด",
+     "start": "2561",
+     "end": "2564",
+     "details": [
+      "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+      "เจรจาต่อรองสัญญา",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น",
+      "นำเสนอผลงานต่อผู้บริหารทุกไตรมาส"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+     "start": "2558",
+     "end": "2561",
+     "details": [
+      "เจรจาต่อรองสัญญา",
+      "เสนอขายสินค้าให้ลูกค้าองค์กร",
+      "จัดทำรายงานยอดขาย",
+      "จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน",
+      "เข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+     "start": "2556",
+     "end": "2558",
+     "details": [
+      "ดูแลลูกค้าเดิมและหาลูกค้าใหม่",
+      "เจรจาต่อรองสัญญา",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น",
+      "ประเมินผลและคัดเลือกผู้ขายรายใหม่"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "บริษัท สยามดาต้า จำกัด",
+     "start": "2553",
+     "end": "2556",
+     "details": [
+      "เสนอขายสินค้าให้ลูกค้าองค์กร",
+      "เจรจาต่อรองสัญญา",
+      "จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน",
+      "นำเสนอผลงานต่อผู้บริหารทุกไตรมาส"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-004",
+  "language": "en",
+  "layout": "compact",
+  "font": "Bai Jamjuree",
+  "scanned": false,
+  "image": "images/resume-004.jpg",
+  "pdf": "pdf/resume-004.pdf",
+  "text": "Nattapong Suksan\n\nAccountant\n\nwork27@example.com\n\n087-371-7747\n\nPathum Thani\n\nSummary\n\nAccountant with a strong tax background Experienced in closing accounts for mid-sized firms\n\nWork Experience\nAccountant\n\nSuvarnabhumi Air Cargo Co., Ltd.\n\n2017 - Present\n\nReviewed accounting documents\nFiled VAT and withholding tax\nPrepared profit and loss statements\nEvaluated and selected new vendors\nManaged project budgets of over 2 million baht\nAccountant\n\nHealthy Clinic Co., Ltd.\n\n2016 - 2017\n\nPrepared profit and loss statements\nReviewed accounting documents\nClosed the monthly accounts\nEvaluated and selected new vendors\nWrote standard operating procedures\nAccountant\n\nSiam Data Co., Ltd.\n\n2015 - 2016\n\nClosed the monthly accounts\nPrepared profit and loss statements\nWrote standard operating procedures\nEvaluated and selected new vendors\nAccountant\n\nMekong Foods Co., Ltd.\n\n2013 - 2015\n\nPrepared profit and loss statements\nClosed the monthly accounts\nHelped plan the department's annual strategy\nPresented results to management each quarter\nAccountant\n\nSri Ayutthaya Tech Co., Ltd.\n\n2010 - 2013\n\nReviewed accounting documents\nFiled VAT and withholding tax\nTrained and mentored new staff\nImproved team workflows\nEducation\nMaster's degree Accounting\n\nSrinakharinwirot University\n\n2016\n\nBachelor's degree Accounting\n\nChulalongkorn University\n\n2009\n\nSkills\nExcel\nExpress\nSAP\nPower BI\nPeak Account\nLanguages\nThai\nEnglish (TOEIC 720)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "Nattapong Suksan",
+   "position": "Accountant",
+   "email": "work27@example.com",
+   "phone": "087-371-7747",
+   "location": "Pathum Thani",
+   "summary": "Accountant with a strong tax background Experienced in closing accounts for mid-sized firms",
+   "skills": [
+    "Excel",
+    "Express",
+    "SAP",
+    "Power BI",
+    "Peak Account"
+   ],
+   "languages": [
+    "Thai",
+    "English (TOEIC 720)"
+   ],
+   "education": [
+    {
+     "degree": "Master's degree",
+     "field": "Accounting",
+     "school": "Srinakharinwirot University",
+     "year": "2016"
+    },
+    {
+     "degree": "Bachelor's degree",
+     "field": "Accounting",
+     "school": "Chulalongkorn University",
+     "year": "2009"
+    }
+   ],
+   "experience": [
+    {
+     "title": "Accountant",
+     "company": "Suvarnabhumi Air Cargo Co., Ltd.",
+     "start": "2017",
+     "end": null,
+     "details": [
+      "Reviewed accounting documents",
+      "Filed VAT and withholding tax",
+      "Prepared profit and loss statements",
+      "Evaluated and selected new vendors",
+      "Managed project budgets of over 2 million baht"
+     ]
+    },
+    {
+     "title": "Accountant",
+     "company": "Healthy Clinic Co., Ltd.",
+     "start": "2016",
+     "end": "2017",
+     "details": [
+      "Prepared profit and loss statements",
+      "Reviewed accounting documents",
+      "Closed the monthly accounts",
+      "Evaluated and selected new vendors",
+      "Wrote standard operating procedures"
+     ]
+    },
+    {
+     "title": "Accountant",
+     "company": "Siam Data Co., Ltd.",
+     "start": "2015",
+     "end": "2016",
+     "details": [
+      "Closed the monthly accounts",
+      "Prepared profit and loss statements",
+      "Wrote standard operating procedures",
+      "Evaluated and selected new vendors"
+     ]
+    },
+    {
+     "title": "Accountant",
+     "company": "Mekong Foods Co., Ltd.",
+     "start": "2013",
+     "end": "2015",
+     "details": [
+      "Prepared profit and loss statements",
+      "Closed the monthly accounts",
+      "Helped plan the department's annual strategy",
+      "Presented results to management each quarter"
+     ]
+    },
+    {
+     "title": "Accountant",
+     "company": "Sri Ayutthaya Tech Co., Ltd.",
+     "start": "2010",
+     "end": "2013",
+     "details": [
+      "Reviewed accounting documents",
+      "Filed VAT and withholding tax",
+      "Trained and mentored new staff",
+      "Improved team workflows"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-005",
+  "language": "mixed",
+  "layout": "banner",
+  "font": "Sarabun",
+  "scanned": false,
+  "image": "images/resume-005.jpg",
+  "pdf": "pdf/resume-005.pdf",
+  "text": "ภูมิ รุ่งเรือง\n\nนักพัฒนาเว็บ\n\nme91@example.com\n\n083-486-2113\n\nภูเก็ต\n\nSummary\n\nWeb developer focused on user experience Experienced in building systems end to end\n\nWork Experience\nนักพัฒนาเว็บ\n\nSuvarnabhumi Air Cargo Co., Ltd.\n\n2017 - Present\n\nออกแบบและเขียน API\nMaintained the system database\nทำงานร่วมกับทีมออกแบบแบบ Agile\nTrained and mentored new staff\nEvaluated and selected new vendors\nนักพัฒนาเว็บ\n\nMekong Foods Co., Ltd.\n\n2014 - 2017\n\nพัฒนาเว็บแอปพลิเคชันด้วย React\nออกแบบและเขียน API\nWorked with designers in Agile teams\nCoordinated with internal and external teams\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nนักพัฒนาเว็บ\n\nHealthy Clinic Co., Ltd.\n\n2012 - 2014\n\nดูแลฐานข้อมูลของระบบ\nDeveloped web applications with React\nTrained and mentored new staff\nImproved team workflows\nนักพัฒนาเว็บ\n\nบริษัท ศรีอยุธยาเทค จำกัด\n\n2010 - 2012\n\nDeveloped web applications with React\nWorked with designers in Agile teams\nฝึกอบรมและให้คำแนะนำพนักงานใหม่\nนำเสนอผลงานต่อผู้บริหารทุกไตรมาส\nEducation\nปริญญาโท Computer Science\n\nSrinakharinwirot University\n\n2013\n\nปริญญาตรี Computer Science\n\nKasetsart University\n\n2009\n\nSkills\nReact\nTypeScript\nNode.js\nPostgreSQL\nDocker\nGit\nLanguages\nภาษาไทย\nEnglish (TOEIC 690)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "ภูมิ รุ่งเรือง",
+   "position": "นักพัฒนาเว็บ",
+   "email": "me91@example.com",
+   "phone": "083-486-2113",
+   "location": "ภูเก็ต",
+   "summary": "Web developer focused on user experience Experienced in building systems end to end",
+   "skills": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL",
+    "Docker",
+    "Git"
+   ],
+   "languages": [
+    "ภาษาไทย",
+    "English (TOEIC 690)"
+   ],
+   "education": [
+    {
+     "degree": "ปริญญาโท",
+     "field": "Computer Science",
+     "school": "Srinakharinwirot University",
+     "year": "2013"
+    },
+    {
+     "degree": "ปริญญาตรี",
+     "field": "Computer Science",
+     "school": "Kasetsart University",
+     "year": "2009"
+    }
+   ],
+   "experience": [
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "Suvarnabhumi Air Cargo Co., Ltd.",
+     "start": "2017",
+     "end": null,
+     "details": [
+      "ออกแบบและเขียน API",
+      "Maintained the system database",
+      "ทำงานร่วมกับทีมออกแบบแบบ Agile",
+      "Trained and mentored new staff",
+      "Evaluated and selected new vendors"
+     ]
+    },
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "Mekong Foods Co., Ltd.",
+     "start": "2014",
+     "end": "2017",
+     "details": [
+      "พัฒนาเว็บแอปพลิเคชันด้วย React",
+      "ออกแบบและเขียน API",
+      "Worked with designers in Agile teams",
+      "Coordinated with internal and external teams",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น"
+     ]
+    },
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "Healthy Clinic Co., Ltd.",
+     "start": "2012",
+     "end": "2014",
+     "details": [
+      "ดูแลฐานข้อมูลของระบบ",
+      "Developed web applications with React",
+      "Trained and mentored new staff",
+      "Improved team workflows"
+     ]
+    },
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "บริษัท ศรีอยุธยาเทค จำกัด",
+     "start": "2010",
+     "end": "2012",
+     "details": [
+      "Developed web applications with React",
+      "Worked with designers in Agile teams",
+      "ฝึกอบรมและให้คำแนะนำพนักงานใหม่",
+      "นำเสนอผลงานต่อผู้บริหารทุกไตรมาส"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-006",
+  "language": "th",
+  "layout": "banner",
+  "font": "Kanit",
+  "scanned": true,
+  "image": "images/resume-006.jpg",
+  "pdf": "pdf/resume-006.pdf",
+  "text": "ปิยะ สายทอง\n\nนักออกแบบกราฟิก\n\nme38@example.com\n\n088-143-4798\n\nเชียงใหม่\n\nสรุปประวัติ\n\nนักออกแบบที่ถนัดงานสื่อดิจิทัล มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ\n\nประสบการณ์ทำงาน\nนักออกแบบกราฟิก\n\nบริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด\n\n2554 - ปัจจุบัน\n\nถ่ายภาพและตัดต่อวิดีโอ\nดูแลอัตลักษณ์ของแบรนด์\nร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย\nประสานงานกับหน่วยงานภายในและภายนอกองค์กร\nนักออกแบบกราฟิก\n\nบริษัท แม่โขงฟู้ดส์ จำกัด\n\n2553 - 2554\n\nออกแบบบรรจุภัณฑ์สินค้า\nดูแลอัตลักษณ์ของแบรนด์\nถ่ายภาพและตัดต่อวิดีโอ\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nฝึกอบรมและให้คำแนะนำพนักงานใหม่\nนักออกแบบกราฟิก\n\nบริษัท ศรีอยุธยาเทค จำกัด\n\n2552 - 2553\n\nออกแบบบรรจุภัณฑ์สินค้า\nออกแบบสื่อโฆษณาออนไลน์\nดูแลอัตลักษณ์ของแบรนด์\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nประเมินผลและคัดเลือกผู้ขายรายใหม่\nนักออกแบบกราฟิก\n\nบริษัท สุขภาพดีคลินิก จำกัด\n\n2551 - 2552\n\nออกแบบสื่อโฆษณาออนไลน์\nถ่ายภาพและตัดต่อวิดีโอ\nติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา\nจัดทำรายงานสรุปผลการดำเนินงานประจำเดือน\nการศึกษา\nปริญญาโท สาขาศิลปกรรม\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2556\n\nปริญญาตรี สาขาศิลปกรรม\n\nจุฬาลงกรณ์มหาวิทยาลัย\n\n2550\n\nทักษะ\nPhotoshop\nIllustrator\nFigma\nAfter Effects\nCanva\nภาษา\nภาษาไทย\nภาษาอังกฤษ (TOEIC 760)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "ปิยะ สายทอง",
+   "position": "นักออกแบบกราฟิก",
+   "email": "me38@example.com",
+   "phone": "088-143-4798",
+   "location": "เชียงใหม่",
+   "summary": "นักออกแบบที่ถนัดงานสื่อดิจิทัล มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ",
+   "skills": [
+    "Photoshop",
+    "Illustrator",
+    "Figma",
+    "After Effects",
+    "Canva"
+   ],
+   "languages": [
+    "ภาษาไทย",
+    "ภาษาอังกฤษ (TOEIC 760)"
+   ],
+   "education": [
+    {
+     "degree": "ปริญญาโท",
+     "field": "สาขาศิลปกรรม",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2556"
+    },
+    {
+     "degree": "ปริญญาตรี",
+     "field": "สาขาศิลปกรรม",
+     "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+     "year": "2550"
+    }
+   ],
+   "experience": [
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด",
+     "start": "2554",
+     "end": null,
+     "details": [
+      "ถ่ายภาพและตัดต่อวิดีโอ",
+      "ดูแลอัตลักษณ์ของแบรนด์",
+      "ร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย",
+      "ประสานงานกับหน่วยงานภายในและภายนอกองค์กร"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+     "start": "2553",
+     "end": "2554",
+     "details": [
+      "ออกแบบบรรจุภัณฑ์สินค้า",
+      "ดูแลอัตลักษณ์ของแบรนด์",
+      "ถ่ายภาพและตัดต่อวิดีโอ",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท",
+      "ฝึกอบรมและให้คำแนะนำพนักงานใหม่"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท ศรีอยุธยาเทค จำกัด",
+     "start": "2552",
+     "end": "2553",
+     "details": [
+      "ออกแบบบรรจุภัณฑ์สินค้า",
+      "ออกแบบสื่อโฆษณาออนไลน์",
+      "ดูแลอัตลักษณ์ของแบรนด์",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท",
+      "ประเมินผลและคัดเลือกผู้ขายรายใหม่"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+     "start": "2551",
+     "end": "2552",
+     "details": [
+      "ออกแบบสื่อโฆษณาออนไลน์",
+      "ถ่ายภาพและตัดต่อวิดีโอ",
+      "ติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา",
+      "จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-007",
+  "language": "mixed",
+  "layout": "banner",
+  "font": "Noto Serif Thai",
+  "scanned": true,
+  "image": "images/resume-007.jpg",
+  "pdf": "pdf/resume-007.pdf",
+  "text": "ภูมิ พงษ์ไพบูลย์\n\nGraphic Designer\n\ncontact35@example.com\n\n087-962-8552\n\nปทุมธานี\n\nSummary\n\nDesigner focused on digital media มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ\n\nWork Experience\nGraphic Designer\n\nMekong Foods Co., Ltd.\n\n2015 - Present\n\nออกแบบสื่อโฆษณาออนไลน์\nDesigned product packaging\nMaintained the brand identity\nCoordinated with internal and external teams\nประเมินผลและคัดเลือกผู้ขายรายใหม่\nนักออกแบบกราฟิก\n\nSuvarnabhumi Air Cargo Co., Ltd.\n\n2012 - 2015\n\nถ่ายภาพและตัดต่อวิดีโอ\nDesigned online advertising\nTook part in the digital transformation project\nนำเสนอผลงานต่อผู้บริหารทุกไตรมาส\nนักออกแบบกราฟิก\n\nบริษัท สุขภาพดีคลินิก จำกัด\n\n2010 - 2012\n\nMaintained the brand identity\nDesigned product packaging\nออกแบบสื่อโฆษณาออนไลน์\nฝึกอบรมและให้คำแนะนำพนักงานใหม่\nEvaluated and selected new vendors\nนักออกแบบกราฟิก\n\nบริษัท ศรีอยุธยาเทค จำกัด\n\n2009 - 2010\n\nMaintained the brand identity\nออกแบบสื่อโฆษณาออนไลน์\nDesigned product packaging\nควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001\nนำเสนอผลงานต่อผู้บริหารทุกไตรมาส\nGraphic Designer\n\nบริษัท สยามดาต้า จำกัด\n\n2007 - 2009\n\nถ่ายภาพและตัดต่อวิดีโอ\nDesigned product packaging\nMaintained the brand identity\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nนำเสนอผลงานต่อผู้บริหารทุกไตรมาส\nEducation\nปริญญาโท Fine Arts\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2011\n\nBachelor's degree Fine Arts\n\nจุฬาลงกรณ์มหาวิทยาลัย\n\n2006\n\nSkills\nPhotoshop\nIllustrator\nFigma\nAfter Effects\nCanva\nLanguages\nThai\nภาษาอังกฤษ (TOEIC 780)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "ภูมิ พงษ์ไพบูลย์",
+   "position": "Graphic Designer",
+   "email": "contact35@example.com",
+   "phone": "087-962-8552",
+   "location": "ปทุมธานี",
+   "summary": "Designer focused on digital media มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ",
+   "skills": [
+    "Photoshop",
+    "Illustrator",
+    "Figma",
+    "After Effects",
+    "Canva"
+   ],
+   "languages": [
+    "Thai",
+    "ภาษาอังกฤษ (TOEIC 780)"
+   ],
+   "education": [
+    {
+     "degree": "ปริญญาโท",
+     "field": "Fine Arts",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2011"
+    },
+    {
+     "degree": "Bachelor's degree",
+     "field": "Fine Arts",
+     "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+     "year": "2006"
+    }
+   ],
+   "experience": [
+    {
+     "title": "Graphic Designer",
+     "company": "Mekong Foods Co., Ltd.",
+     "start": "2015",
+     "end": null,
+     "details": [
+      "ออกแบบสื่อโฆษณาออนไลน์",
+      "Designed product packaging",
+      "Maintained the brand identity",
+      "Coordinated with internal and external teams",
+      "ประเมินผลและคัดเลือกผู้ขายรายใหม่"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "Suvarnabhumi Air Cargo Co., Ltd.",
+     "start": "2012",
+     "end": "2015",
+     "details": [
+      "ถ่ายภาพและตัดต่อวิดีโอ",
+      "Designed online advertising",
+      "Took part in the digital transformation project",
+      "นำเสนอผลงานต่อผู้บริหารทุกไตรมาส"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+     "start": "2010",
+     "end": "2012",
+     "details": [
+      "Maintained the brand identity",
+      "Designed product packaging",
+      "ออกแบบสื่อโฆษณาออนไลน์",
+      "ฝึกอบรมและให้คำแนะนำพนักงานใหม่",
+      "Evaluated and selected new vendors"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท ศรีอยุธยาเทค จำกัด",
+     "start": "2009",
+     "end": "2010",
+     "details": [
+      "Maintained the brand identity",
+      "ออกแบบสื่อโฆษณาออนไลน์",
+      "Designed product packaging",
+      "ควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001",
+      "นำเสนอผลงานต่อผู้บริหารทุกไตรมาส"
+     ]
+    },
+    {
+     "title": "Graphic Designer",
+     "company": "บริษัท สยามดาต้า จำกัด",
+     "start": "2007",
+     "end": "2009",
+     "details": [
+      "ถ่ายภาพและตัดต่อวิดีโอ",
+      "Designed product packaging",
+      "Maintained the brand identity",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท",
+      "นำเสนอผลงานต่อผู้บริหารทุกไตรมาส"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-008",
+  "language": "mixed",
+  "layout": "sidebar",
+  "font": "Bai Jamjuree",
+  "scanned": false,
+  "image": "images/resume-008.jpg",
+  "pdf": "pdf/resume-008.pdf",
+  "text": "อนุชา รุ่งเรือง\n\nนักพัฒนาเว็บ\n\nContact\n\nhello72@example.com\n\n088-841-9681\n\nNakhon Ratchasima\n\nSkills\nReact\nTypeScript\nNode.js\nPostgreSQL\nDocker\nGit\nLanguages\nThai\nEnglish (TOEIC 750)\nSummary\n\nWeb developer focused on user experience Experienced in building systems end to end\n\nWork Experience\nนักพัฒนาเว็บ\n\nSiam Data Co., Ltd.\n\n2012 - Present\n\nDeveloped web applications with React\nMaintained the system database\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nPrepared monthly performance reports\nWeb Developer\n\nSri Ayutthaya Tech Co., Ltd.\n\n2011 - 2012\n\nออกแบบและเขียน API\nพัฒนาเว็บแอปพลิเคชันด้วย React\nเข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล\nติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา\nWeb Developer\n\nHealthy Clinic Co., Ltd.\n\n2010 - 2011\n\nDeveloped web applications with React\nทำงานร่วมกับทีมออกแบบแบบ Agile\nMaintained the system database\nEvaluated and selected new vendors\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nนักพัฒนาเว็บ\n\nบริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด\n\n2009 - 2010\n\nทำงานร่วมกับทีมออกแบบแบบ Agile\nพัฒนาเว็บแอปพลิเคชันด้วย React\nDesigned and built APIs\nPresented results to management each quarter\nManaged project budgets of over 2 million baht\nEducation\nMaster's degree สาขาวิทยาการคอมพิวเตอร์\n\nSrinakharinwirot University\n\n2015\n\nBachelor's degree Computer Engineering\n\nมหาวิทยาลัยเกษตรศาสตร์\n\n2008",
+  "answer": {
+   "doc_type": "resume",
+   "name": "อนุชา รุ่งเรือง",
+   "position": "นักพัฒนาเว็บ",
+   "email": "hello72@example.com",
+   "phone": "088-841-9681",
+   "location": "Nakhon Ratchasima",
+   "summary": "Web developer focused on user experience Experienced in building systems end to end",
+   "skills": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL",
+    "Docker",
+    "Git"
+   ],
+   "languages": [
+    "Thai",
+    "English (TOEIC 750)"
+   ],
+   "education": [
+    {
+     "degree": "Master's degree",
+     "field": "สาขาวิทยาการคอมพิวเตอร์",
+     "school": "Srinakharinwirot University",
+     "year": "2015"
+    },
+    {
+     "degree": "Bachelor's degree",
+     "field": "Computer Engineering",
+     "school": "มหาวิทยาลัยเกษตรศาสตร์",
+     "year": "2008"
+    }
+   ],
+   "experience": [
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "Siam Data Co., Ltd.",
+     "start": "2012",
+     "end": null,
+     "details": [
+      "Developed web applications with React",
+      "Maintained the system database",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท",
+      "Prepared monthly performance reports"
+     ]
+    },
+    {
+     "title": "Web Developer",
+     "company": "Sri Ayutthaya Tech Co., Ltd.",
+     "start": "2011",
+     "end": "2012",
+     "details": [
+      "ออกแบบและเขียน API",
+      "พัฒนาเว็บแอปพลิเคชันด้วย React",
+      "เข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล",
+      "ติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา"
+     ]
+    },
+    {
+     "title": "Web Developer",
+     "company": "Healthy Clinic Co., Ltd.",
+     "start": "2010",
+     "end": "2011",
+     "details": [
+      "Developed web applications with React",
+      "ทำงานร่วมกับทีมออกแบบแบบ Agile",
+      "Maintained the system database",
+      "Evaluated and selected new vendors",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น"
+     ]
+    },
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "บริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด",
+     "start": "2009",
+     "end": "2010",
+     "details": [
+      "ทำงานร่วมกับทีมออกแบบแบบ Agile",
+      "พัฒนาเว็บแอปพลิเคชันด้วย React",
+      "Designed and built APIs",
+      "Presented results to management each quarter",
+      "Managed project budgets of over 2 million baht"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-009",
+  "language": "th",
+  "layout": "compact",
+  "font": "Prompt",
+  "scanned": false,
+  "image": "images/resume-009.jpg",
+  "pdf": "pdf/resume-009.pdf",
+  "text": "ปิยะ รุ่งเรือง\n\nนักพัฒนาเว็บ\n\nwork29@example.com\n\n088-440-6227\n\nเชียงใหม่\n\nสรุปประวัติ\n\nนักพัฒนาเว็บที่เน้นประสบการณ์ผู้ใช้ มีประสบการณ์พัฒนาระบบตั้งแต่ต้นจนจบ\n\nประสบการณ์ทำงาน\nนักพัฒนาเว็บ\n\nบริษัท ศรีอยุธยาเทค จำกัด\n\n2557 - ปัจจุบัน\n\nพัฒนาเว็บแอปพลิเคชันด้วย React\nดูแลฐานข้อมูลของระบบ\nออกแบบและเขียน API\nร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย\nเข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล\nนักพัฒนาเว็บ\n\nบริษัท แม่โขงฟู้ดส์ จำกัด\n\n2555 - 2557\n\nทำงานร่วมกับทีมออกแบบแบบ Agile\nดูแลฐานข้อมูลของระบบ\nติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nนักพัฒนาเว็บ\n\nบริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด\n\n2554 - 2555\n\nออกแบบและเขียน API\nทำงานร่วมกับทีมออกแบบแบบ Agile\nฝึกอบรมและให้คำแนะนำพนักงานใหม่\nจัดทำเอกสารคู่มือการปฏิบัติงาน\nนักพัฒนาเว็บ\n\nบริษัท สยามดาต้า จำกัด\n\n2553 - 2554\n\nพัฒนาเว็บแอปพลิเคชันด้วย React\nดูแลฐานข้อมูลของระบบ\nฝึกอบรมและให้คำแนะนำพนักงานใหม่\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nนักพัฒนาเว็บ\n\nบริษัท สุขภาพดีคลินิก จำกัด\n\n2551 - 2553\n\nดูแลฐานข้อมูลของระบบ\nพัฒนาเว็บแอปพลิเคชันด้วย React\nออกแบบและเขียน API\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nจัดทำเอกสารคู่มือการปฏิบัติงาน\nการศึกษา\nปริญญาโท สาขาวิศวกรรมคอมพิวเตอร์\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2557\n\nปริญญาตรี สาขาวิศวกรรมคอมพิวเตอร์\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2550\n\nทักษะ\nReact\nTypeScript\nNode.js\nPostgreSQL\nDocker\nGit\nภาษา\nภาษาไทย\nภาษาอังกฤษ (TOEIC 710)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "ปิยะ รุ่งเรือง",
+   "position": "นักพัฒนาเว็บ",
+   "email": "work29@example.com",
+   "phone": "088-440-6227",
+   "location": "เชียงใหม่",
+   "summary": "นักพัฒนาเว็บที่เน้นประสบการณ์ผู้ใช้ มีประสบการณ์พัฒนาระบบตั้งแต่ต้นจนจบ",
+   "skills": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL",
+    "Docker",
+    "Git"
+   ],
+   "languages": [
+    "ภาษาไทย",
+    "ภาษาอังกฤษ (TOEIC 710)"
+   ],
+   "education": [
+    {
+     "degree": "ปริญญาโท",
+     "field": "สาขาวิศวกรรมคอมพิวเตอร์",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2557"
+    },
+    {
+     "degree": "ปริญญาตรี",
+     "field": "สาขาวิศวกรรมคอมพิวเตอร์",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2550"
+    }
+   ],
+   "experience": [
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "บริษัท ศรีอยุธยาเทค จำกัด",
+     "start": "2557",
+     "end": null,
+     "details": [
+      "พัฒนาเว็บแอปพลิเคชันด้วย React",
+      "ดูแลฐานข้อมูลของระบบ",
+      "ออกแบบและเขียน API",
+      "ร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย",
+      "เข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล"
+     ]
+    },
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+     "start": "2555",
+     "end": "2557",
+     "details": [
+      "ทำงานร่วมกับทีมออกแบบแบบ Agile",
+      "ดูแลฐานข้อมูลของระบบ",
+      "ติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น"
+     ]
+    },
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "บริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด",
+     "start": "2554",
+     "end": "2555",
+     "details": [
+      "ออกแบบและเขียน API",
+      "ทำงานร่วมกับทีมออกแบบแบบ Agile",
+      "ฝึกอบรมและให้คำแนะนำพนักงานใหม่",
+      "จัดทำเอกสารคู่มือการปฏิบัติงาน"
+     ]
+    },
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "บริษัท สยามดาต้า จำกัด",
+     "start": "2553",
+     "end": "2554",
+     "details": [
+      "พัฒนาเว็บแอปพลิเคชันด้วย React",
+      "ดูแลฐานข้อมูลของระบบ",
+      "ฝึกอบรมและให้คำแนะนำพนักงานใหม่",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท"
+     ]
+    },
+    {
+     "title": "นักพัฒนาเว็บ",
+     "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+     "start": "2551",
+     "end": "2553",
+     "details": [
+      "ดูแลฐานข้อมูลของระบบ",
+      "พัฒนาเว็บแอปพลิเคชันด้วย React",
+      "ออกแบบและเขียน API",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท",
+      "จัดทำเอกสารคู่มือการปฏิบัติงาน"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-010",
+  "language": "en",
+  "layout": "sidebar",
+  "font": "Bai Jamjuree",
+  "scanned": false,
+  "image": "images/resume-010.jpg",
+  "pdf": "pdf/resume-010.pdf",
+  "text": "Thanakorn Keawmanee\n\nWeb Developer\n\nContact\n\nhello99@example.com\n\n089-770-7746\n\nPhuket\n\nSkills\nReact\nTypeScript\nNode.js\nPostgreSQL\nDocker\nGit\nLanguages\nThai\nEnglish (TOEIC 900)\nSummary\n\nWeb developer focused on user experience Experienced in building systems end to end\n\nWork Experience\nWeb Developer\n\nHealthy Clinic Co., Ltd.\n\n2018 - Present\n\nDeveloped web applications with React\nMaintained the system database\nKept work quality in line with ISO 9001\nPrepared monthly performance reports\nWeb Developer\n\nSuvarnabhumi Air Cargo Co., Ltd.\n\n2015 - 2018\n\nDeveloped web applications with React\nMaintained the system database\nWorked with designers in Agile teams\nPresented results to management each quarter\nFollowed up and resolved customer issues\nWeb Developer\n\nMekong Foods Co., Ltd.\n\n2013 - 2015\n\nMaintained the system database\nDeveloped web applications with React\nTook part in the digital transformation project\nPresented results to management each quarter\nWeb Developer\n\nSiam Data Co., Ltd.\n\n2010 - 2013\n\nDeveloped web applications with React\nWorked with designers in Agile teams\nFollowed up and resolved customer issues\nWrote standard operating procedures\nWeb Developer\n\nSri Ayutthaya Tech Co., Ltd.\n\n2009 - 2010\n\nWorked with designers in Agile teams\nDesigned and built APIs\nHelped plan the department's annual strategy\nCoordinated with internal and external teams\nEducation\nMaster's degree Computer Science\n\nSrinakharinwirot University\n\n2014\n\nBachelor's degree Computer Engineering\n\nChulalongkorn University\n\n2008",
+  "answer": {
+   "doc_type": "resume",
+   "name": "Thanakorn Keawmanee",
+   "position": "Web Developer",
+   "email": "hello99@example.com",
+   "phone": "089-770-7746",
+   "location": "Phuket",
+   "summary": "Web developer focused on user experience Experienced in building systems end to end",
+   "skills": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL",
+    "Docker",
+    "Git"
+   ],
+   "languages": [
+    "Thai",
+    "English (TOEIC 900)"
+   ],
+   "education": [
+    {
+     "degree": "Master's degree",
+     "field": "Computer Science",
+     "school": "Srinakharinwirot University",
+     "year": "2014"
+    },
+    {
+     "degree": "Bachelor's degree",
+     "field": "Computer Engineering",
+     "school": "Chulalongkorn University",
+     "year": "2008"
+    }
+   ],
+   "experience": [
+    {
+     "title": "Web Developer",
+     "company": "Healthy Clinic Co., Ltd.",
+     "start": "2018",
+     "end": null,
+     "details": [
+      "Developed web applications with React",
+      "Maintained the system database",
+      "Kept work quality in line with ISO 9001",
+      "Prepared monthly performance reports"
+     ]
+    },
+    {
+     "title": "Web Developer",
+     "company": "Suvarnabhumi Air Cargo Co., Ltd.",
+     "start": "2015",
+     "end": "2018",
+     "details": [
+      "Developed web applications with React",
+      "Maintained the system database",
+      "Worked with designers in Agile teams",
+      "Presented results to management each quarter",
+      "Followed up and resolved customer issues"
+     ]
+    },
+    {
+     "title": "Web Developer",
+     "company": "Mekong Foods Co., Ltd.",
+     "start": "2013",
+     "end": "2015",
+     "details": [
+      "Maintained the system database",
+      "Developed web applications with React",
+      "Took part in the digital transformation project",
+      "Presented results to management each quarter"
+     ]
+    },
+    {
+     "title": "Web Developer",
+     "company": "Siam Data Co., Ltd.",
+     "start": "2010",
+     "end": "2013",
+     "details": [
+      "Developed web applications with React",
+      "Worked with designers in Agile teams",
+      "Followed up and resolved customer issues",
+      "Wrote standard operating procedures"
+     ]
+    },
+    {
+     "title": "Web Developer",
+     "company": "Sri Ayutthaya Tech Co., Ltd.",
+     "start": "2009",
+     "end": "2010",
+     "details": [
+      "Worked with designers in Agile teams",
+      "Designed and built APIs",
+      "Helped plan the department's annual strategy",
+      "Coordinated with internal and external teams"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-011",
+  "language": "mixed",
+  "layout": "banner",
+  "font": "Noto Serif Thai",
+  "scanned": true,
+  "image": "images/resume-011.jpg",
+  "pdf": "pdf/resume-011.pdf",
+  "text": "อนุชา รุ่งเรือง\n\nพนักงานขาย\n\nme37@example.com\n\n088-637-4781\n\nBangkok\n\nSummary\n\nSales executive who consistently hits targets มีประสบการณ์ขายให้ลูกค้าองค์กร\n\nWork Experience\nSales Executive\n\nบริษัท สยามดาต้า จำกัด\n\n2014 - Present\n\nNegotiated contracts\nจัดทำรายงานยอดขาย\nเสนอขายสินค้าให้ลูกค้าองค์กร\nKept work quality in line with ISO 9001\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nพนักงานขาย\n\nHealthy Clinic Co., Ltd.\n\n2013 - 2014\n\nเจรจาต่อรองสัญญา\nเสนอขายสินค้าให้ลูกค้าองค์กร\nประสานงานกับหน่วยงานภายในและภายนอกองค์กร\nจัดทำเอกสารคู่มือการปฏิบัติงาน\nSales Executive\n\nบริษัท แม่โขงฟู้ดส์ จำกัด\n\n2011 - 2013\n\nSold products to corporate customers\nจัดทำรายงานยอดขาย\nManaged accounts and found new customers\nฝึกอบรมและให้คำแนะนำพนักงานใหม่\nควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001\nSales Executive\n\nSri Ayutthaya Tech Co., Ltd.\n\n2010 - 2011\n\nSold products to corporate customers\nเจรจาต่อรองสัญญา\nFollowed up and resolved customer issues\nจัดทำรายงานสรุปผลการดำเนินงานประจำเดือน\nพนักงานขาย\n\nSuvarnabhumi Air Cargo Co., Ltd.\n\n2008 - 2010\n\nNegotiated contracts\nSold products to corporate customers\nจัดทำรายงานยอดขาย\nTrained and mentored new staff\nควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001\nEducation\nMaster's degree Marketing\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2011\n\nBachelor's degree Marketing\n\nจุฬาลงกรณ์มหาวิทยาลัย\n\n2007\n\nSkills\nSalesforce\nExcel\nPowerPoint\nCRM\nLINE Official Account\nLanguages\nภาษาไทย\nEnglish (TOEIC 760)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "อนุชา รุ่งเรือง",
+   "position": "พนักงานขาย",
+   "email": "me37@example.com",
+   "phone": "088-637-4781",
+   "location": "Bangkok",
+   "summary": "Sales executive who consistently hits targets มีประสบการณ์ขายให้ลูกค้าองค์กร",
+   "skills": [
+    "Salesforce",
+    "Excel",
+    "PowerPoint",
+    "CRM",
+    "LINE Official Account"
+   ],
+   "languages": [
+    "ภาษาไทย",
+    "English (TOEIC 760)"
+   ],
+   "education": [
+    {
+     "degree": "Master's degree",
+     "field": "Marketing",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2011"
+    },
+    {
+     "degree": "Bachelor's degree",
+     "field": "Marketing",
+     "school": "จุฬาลงกรณ์มหาวิทยาลัย",
+     "year": "2007"
+    }
+   ],
+   "experience": [
+    {
+     "title": "Sales Executive",
+     "company": "บริษัท สยามดาต้า จำกัด",
+     "start": "2014",
+     "end": null,
+     "details": [
+      "Negotiated contracts",
+      "จัดทำรายงานยอดขาย",
+      "เสนอขายสินค้าให้ลูกค้าองค์กร",
+      "Kept work quality in line with ISO 9001",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "Healthy Clinic Co., Ltd.",
+     "start": "2013",
+     "end": "2014",
+     "details": [
+      "เจรจาต่อรองสัญญา",
+      "เสนอขายสินค้าให้ลูกค้าองค์กร",
+      "ประสานงานกับหน่วยงานภายในและภายนอกองค์กร",
+      "จัดทำเอกสารคู่มือการปฏิบัติงาน"
+     ]
+    },
+    {
+     "title": "Sales Executive",
+     "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+     "start": "2011",
+     "end": "2013",
+     "details": [
+      "Sold products to corporate customers",
+      "จัดทำรายงานยอดขาย",
+      "Managed accounts and found new customers",
+      "ฝึกอบรมและให้คำแนะนำพนักงานใหม่",
+      "ควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001"
+     ]
+    },
+    {
+     "title": "Sales Executive",
+     "company": "Sri Ayutthaya Tech Co., Ltd.",
+     "start": "2010",
+     "end": "2011",
+     "details": [
+      "Sold products to corporate customers",
+      "เจรจาต่อรองสัญญา",
+      "Followed up and resolved customer issues",
+      "จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน"
+     ]
+    },
+    {
+     "title": "พนักงานขาย",
+     "company": "Suvarnabhumi Air Cargo Co., Ltd.",
+     "start": "2008",
+     "end": "2010",
+     "details": [
+      "Negotiated contracts",
+      "Sold products to corporate customers",
+      "จัดทำรายงานยอดขาย",
+      "Trained and mentored new staff",
+      "ควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-012",
+  "language": "th",
+  "layout": "banner",
+  "font": "Sarabun",
+  "scanned": false,
+  "image": "images/resume-012.jpg",
+  "pdf": "pdf/resume-012.pdf",
+  "text": "วีรภัทร รุ่งเรือง\n\nนักออกแบบกราฟิก\n\nme33@example.com\n\n081-896-2677\n\nกรุงเทพมหานคร\n\nสรุปประวัติ\n\nนักออกแบบที่ถนัดงานสื่อดิจิทัล มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ\n\nประสบการณ์ทำงาน\nนักออกแบบกราฟิก\n\nบริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด\n\n2560 - ปัจจุบัน\n\nดูแลอัตลักษณ์ของแบรนด์\nถ่ายภาพและตัดต่อวิดีโอ\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nเข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล\nนักออกแบบกราฟิก\n\nบริษัท สยามดาต้า จำกัด\n\n2557 - 2560\n\nดูแลอัตลักษณ์ของแบรนด์\nออกแบบสื่อโฆษณาออนไลน์\nออกแบบบรรจุภัณฑ์สินค้า\nจัดทำเอกสารคู่มือการปฏิบัติงาน\nเข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล\nนักออกแบบกราฟิก\n\nบริษัท สุขภาพดีคลินิก จำกัด\n\n2554 - 2557\n\nออกแบบบรรจุภัณฑ์สินค้า\nดูแลอัตลักษณ์ของแบรนด์\nออกแบบสื่อโฆษณาออนไลน์\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nจัดทำรายงานสรุปผลการดำเนินงานประจำเดือน\nนักออกแบบกราฟิก\n\nบริษัท แม่โขงฟู้ดส์ จำกัด\n\n2552 - 2554\n\nถ่ายภาพและตัดต่อวิดีโอ\nดูแลอัตลักษณ์ของแบรนด์\nออกแบบสื่อโฆษณาออนไลน์\nร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nนักออกแบบกราฟิก\n\nบริษัท ศรีอยุธยาเทค จำกัด\n\n2549 - 2552\n\nออกแบบบรรจุภัณฑ์สินค้า\nดูแลอัตลักษณ์ของแบรนด์\nร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย\nฝึกอบรมและให้คำแนะนำพนักงานใหม่\nการศึกษา\nปริญญาโท สาขาการออกแบบนิเทศศิลป์\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2553\n\nปริญญาตรี สาขาศิลปกรรม\n\nมหาวิทยาลัยเกษตรศาสตร์\n\n2548\n\nทักษะ\nPhotoshop\nIllustrator\nFigma\nAfter Effects\nCanva\nภาษา\nภาษาไทย\nภาษาอังกฤษ (TOEIC 800)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "วีรภัทร รุ่งเรือง",
+   "position": "นักออกแบบกราฟิก",
+   "email": "me33@example.com",
+   "phone": "081-896-2677",
+   "location": "กรุงเทพมหานคร",
+   "summary": "นักออกแบบที่ถนัดงานสื่อดิจิทัล มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ",
+   "skills": [
+    "Photoshop",
+    "Illustrator",
+    "Figma",
+    "After Effects",
+    "Canva"
+   ],
+   "languages": [
+    "ภาษาไทย",
+    "ภาษาอังกฤษ (TOEIC 800)"
+   ],
+   "education": [
+    {
+     "degree": "ปริญญาโท",
+     "field": "สาขาการออกแบบนิเทศศิลป์",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2553"
+    },
+    {
+     "degree": "ปริญญาตรี",
+     "field": "สาขาศิลปกรรม",
+     "school": "มหาวิทยาลัยเกษตรศาสตร์",
+     "year": "2548"
+    }
+   ],
+   "experience": [
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด",
+     "start": "2560",
+     "end": null,
+     "details": [
+      "ดูแลอัตลักษณ์ของแบรนด์",
+      "ถ่ายภาพและตัดต่อวิดีโอ",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น",
+      "เข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท สยามดาต้า จำกัด",
+     "start": "2557",
+     "end": "2560",
+     "details": [
+      "ดูแลอัตลักษณ์ของแบรนด์",
+      "ออกแบบสื่อโฆษณาออนไลน์",
+      "ออกแบบบรรจุภัณฑ์สินค้า",
+      "จัดทำเอกสารคู่มือการปฏิบัติงาน",
+      "เข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+     "start": "2554",
+     "end": "2557",
+     "details": [
+      "ออกแบบบรรจุภัณฑ์สินค้า",
+      "ดูแลอัตลักษณ์ของแบรนด์",
+      "ออกแบบสื่อโฆษณาออนไลน์",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท",
+      "จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+     "start": "2552",
+     "end": "2554",
+     "details": [
+      "ถ่ายภาพและตัดต่อวิดีโอ",
+      "ดูแลอัตลักษณ์ของแบรนด์",
+      "ออกแบบสื่อโฆษณาออนไลน์",
+      "ร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย",
+      "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท"
+     ]
+    },
+    {
+     "title": "นักออกแบบกราฟิก",
+     "company": "บริษัท ศรีอยุธยาเทค จำกัด",
+     "start": "2549",
+     "end": "2552",
+     "details": [
+      "ออกแบบบรรจุภัณฑ์สินค้า",
+      "ดูแลอัตลักษณ์ของแบรนด์",
+      "ร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย",
+      "ฝึกอบรมและให้คำแนะนำพนักงานใหม่"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-013",
+  "language": "en",
+  "layout": "banner",
+  "font": "Kanit",
+  "scanned": false,
+  "image": "images/resume-013.jpg",
+  "pdf": "pdf/resume-013.pdf",
+  "text": "Wichai Suksan\n\nData Analyst\n\ncontact67@example.com\n\n086-822-8080\n\nChonburi\n\nSummary\n\nData analyst with retail experience Skilled at turning data into business insight\n\nWork Experience\nData Analyst\n\nSri Ayutthaya Tech Co., Ltd.\n\n2016 - Present\n\nBuilt sales dashboards for executives\nAutomated reports with Python\nManaged project budgets of over 2 million baht\nFollowed up and resolved customer issues\nData Analyst\n\nMekong Foods Co., Ltd.\n\n2014 - 2016\n\nAutomated reports with Python\nWrote SQL to extract and clean data\nAnalyzed customer behavior\nHelped plan the department's annual strategy\nFollowed up and resolved customer issues\nData Analyst\n\nSuvarnabhumi Air Cargo Co., Ltd.\n\n2012 - 2014\n\nAnalyzed customer behavior\nWrote SQL to extract and clean data\nPrepared monthly performance reports\nTrained and mentored new staff\nData Analyst\n\nSiam Data Co., Ltd.\n\n2009 - 2012\n\nAutomated reports with Python\nWrote SQL to extract and clean data\nBuilt sales dashboards for executives\nWrote standard operating procedures\nManaged project budgets of over 2 million baht\nEducation\nMaster's degree Computer Science\n\nSrinakharinwirot University\n\n2012\n\nBachelor's degree Statistics\n\nSrinakharinwirot University\n\n2008\n\nSkills\nSQL\nPython\nPower BI\nExcel\nTableau\nGoogle Analytics\nLanguages\nThai\nEnglish (TOEIC 560)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "Wichai Suksan",
+   "position": "Data Analyst",
+   "email": "contact67@example.com",
+   "phone": "086-822-8080",
+   "location": "Chonburi",
+   "summary": "Data analyst with retail experience Skilled at turning data into business insight",
+   "skills": [
+    "SQL",
+    "Python",
+    "Power BI",
+    "Excel",
+    "Tableau",
+    "Google Analytics"
+   ],
+   "languages": [
+    "Thai",
+    "English (TOEIC 560)"
+   ],
+   "education": [
+    {
+     "degree": "Master's degree",
+     "field": "Computer Science",
+     "school": "Srinakharinwirot University",
+     "year": "2012"
+    },
+    {
+     "degree": "Bachelor's degree",
+     "field": "Statistics",
+     "school": "Srinakharinwirot University",
+     "year": "2008"
+    }
+   ],
+   "experience": [
+    {
+     "title": "Data Analyst",
+     "company": "Sri Ayutthaya Tech Co., Ltd.",
+     "start": "2016",
+     "end": null,
+     "details": [
+      "Built sales dashboards for executives",
+      "Automated reports with Python",
+      "Managed project budgets of over 2 million baht",
+      "Followed up and resolved customer issues"
+     ]
+    },
+    {
+     "title": "Data Analyst",
+     "company": "Mekong Foods Co., Ltd.",
+     "start": "2014",
+     "end": "2016",
+     "details": [
+      "Automated reports with Python",
+      "Wrote SQL to extract and clean data",
+      "Analyzed customer behavior",
+      "Helped plan the department's annual strategy",
+      "Followed up and resolved customer issues"
+     ]
+    },
+    {
+     "title": "Data Analyst",
+     "company": "Suvarnabhumi Air Cargo Co., Ltd.",
+     "start": "2012",
+     "end": "2014",
+     "details": [
+      "Analyzed customer behavior",
+      "Wrote SQL to extract and clean data",
+      "Prepared monthly performance reports",
+      "Trained and mentored new staff"
+     ]
+    },
+    {
+     "title": "Data Analyst",
+     "company": "Siam Data Co., Ltd.",
+     "start": "2009",
+     "end": "2012",
+     "details": [
+      "Automated reports with Python",
+      "Wrote SQL to extract and clean data",
+      "Built sales dashboards for executives",
+      "Wrote standard operating procedures",
+      "Managed project budgets of over 2 million baht"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-014",
+  "language": "mixed",
+  "layout": "classic",
+  "font": "Noto Serif Thai",
+  "scanned": true,
+  "image": "images/resume-014.jpg",
+  "pdf": "pdf/resume-014.pdf",
+  "text": "วีรภัทร ใจดี\n\nเจ้าหน้าที่การตลาดออนไลน์\n\nhello25@example.com\n\n082-394-7830\n\nกรุงเทพมหานคร\n\nSummary\n\nMarketer driven by data and results ถนัดการสร้างแบรนด์บนโซเชียลมีเดีย\n\nWork Experience\nDigital Marketing Officer\n\nบริษัท สุขภาพดีคลินิก จำกัด\n\n2019 - Present\n\nสร้างคอนเทนต์บนโซเชียลมีเดีย\nPlanned and ran online ads\nดูแลเว็บไซต์และ SEO\nร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nDigital Marketing Officer\n\nบริษัท แม่โขงฟู้ดส์ จำกัด\n\n2016 - 2019\n\nสร้างคอนเทนต์บนโซเชียลมีเดีย\nวิเคราะห์ผลแคมเปญรายเดือน\nดูแลเว็บไซต์และ SEO\nจัดทำรายงานสรุปผลการดำเนินงานประจำเดือน\nKept work quality in line with ISO 9001\nDigital Marketing Officer\n\nบริษัท ศรีอยุธยาเทค จำกัด\n\n2013 - 2016\n\nManaged the website and SEO\nวิเคราะห์ผลแคมเปญรายเดือน\nสร้างคอนเทนต์บนโซเชียลมีเดีย\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nWrote standard operating procedures\nDigital Marketing Officer\n\nSuvarnabhumi Air Cargo Co., Ltd.\n\n2011 - 2013\n\nCreated social media content\nดูแลเว็บไซต์และ SEO\nPresented results to management each quarter\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nDigital Marketing Officer\n\nบริษัท สยามดาต้า จำกัด\n\n2008 - 2011\n\nManaged the website and SEO\nAnalyzed monthly campaign results\nจัดทำเอกสารคู่มือการปฏิบัติงาน\nEvaluated and selected new vendors\nEducation\nปริญญาโท สาขานิเทศศาสตร์\n\nมหาวิทยาลัยศรีนครินทรวิโรฒ\n\n2014\n\nปริญญาตรี Communication Arts\n\nมหาวิทยาลัยเกษตรศาสตร์\n\n2007\n\nSkills\nFacebook Ads\nGoogle Ads\nCanva\nGoogle Analytics\nTikTok\nSEO\nLanguages\nThai\nEnglish (TOEIC 670)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "วีรภัทร ใจดี",
+   "position": "เจ้าหน้าที่การตลาดออนไลน์",
+   "email": "hello25@example.com",
+   "phone": "082-394-7830",
+   "location": "กรุงเทพมหานคร",
+   "summary": "Marketer driven by data and results ถนัดการสร้างแบรนด์บนโซเชียลมีเดีย",
+   "skills": [
+    "Facebook Ads",
+    "Google Ads",
+    "Canva",
+    "Google Analytics",
+    "TikTok",
+    "SEO"
+   ],
+   "languages": [
+    "Thai",
+    "English (TOEIC 670)"
+   ],
+   "education": [
+    {
+     "degree": "ปริญญาโท",
+     "field": "สาขานิเทศศาสตร์",
+     "school": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+     "year": "2014"
+    },
+    {
+     "degree": "ปริญญาตรี",
+     "field": "Communication Arts",
+     "school": "มหาวิทยาลัยเกษตรศาสตร์",
+     "year": "2007"
+    }
+   ],
+   "experience": [
+    {
+     "title": "Digital Marketing Officer",
+     "company": "บริษัท สุขภาพดีคลินิก จำกัด",
+     "start": "2019",
+     "end": null,
+     "details": [
+      "สร้างคอนเทนต์บนโซเชียลมีเดีย",
+      "Planned and ran online ads",
+      "ดูแลเว็บไซต์และ SEO",
+      "ร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น"
+     ]
+    },
+    {
+     "title": "Digital Marketing Officer",
+     "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+     "start": "2016",
+     "end": "2019",
+     "details": [
+      "สร้างคอนเทนต์บนโซเชียลมีเดีย",
+      "วิเคราะห์ผลแคมเปญรายเดือน",
+      "ดูแลเว็บไซต์และ SEO",
+      "จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน",
+      "Kept work quality in line with ISO 9001"
+     ]
+    },
+    {
+     "title": "Digital Marketing Officer",
+     "company": "บริษัท ศรีอยุธยาเทค จำกัด",
+     "start": "2013",
+     "end": "2016",
+     "details": [
+      "Managed the website and SEO",
+      "วิเคราะห์ผลแคมเปญรายเดือน",
+      "สร้างคอนเทนต์บนโซเชียลมีเดีย",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น",
+      "Wrote standard operating procedures"
+     ]
+    },
+    {
+     "title": "Digital Marketing Officer",
+     "company": "Suvarnabhumi Air Cargo Co., Ltd.",
+     "start": "2011",
+     "end": "2013",
+     "details": [
+      "Created social media content",
+      "ดูแลเว็บไซต์และ SEO",
+      "Presented results to management each quarter",
+      "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น"
+     ]
+    },
+    {
+     "title": "Digital Marketing Officer",
+     "company": "บริษัท สยามดาต้า จำกัด",
+     "start": "2008",
+     "end": "2011",
+     "details": [
+      "Managed the website and SEO",
+      "Analyzed monthly campaign results",
+      "จัดทำเอกสารคู่มือการปฏิบัติงาน",
+      "Evaluated and selected new vendors"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "resume-015",
+  "language": "en",
+  "layout": "classic",
+  "font": "Prompt",
+  "scanned": true,
+  "image": "images/resume-015.jpg",
+  "pdf": "pdf/resume-015.pdf",
+  "text": "Wichai Suksan\n\nHR Officer\n\nhello58@example.com\n\n083-154-6778\n\nPathum Thani\n\nSummary\n\nHR officer specialized in recruitment Experienced in supporting over a hundred staff\n\nWork Experience\nHR Officer\n\nHealthy Clinic Co., Ltd.\n\n2014 - Present\n\nAdvised on labor law\nManaged payroll and benefits\nHelped plan the department's annual strategy\nFollowed up and resolved customer issues\nHR Officer\n\nMekong Foods Co., Ltd.\n\n2012 - 2014\n\nRan onboarding for new staff\nAdvised on labor law\nImproved team workflows\nManaged project budgets of over 2 million baht\nHR Officer\n\nSuvarnabhumi Air Cargo Co., Ltd.\n\n2011 - 2012\n\nManaged payroll and benefits\nAdvised on labor law\nRan onboarding for new staff\nPresented results to management each quarter\nHelped plan the department's annual strategy\nHR Officer\n\nSiam Data Co., Ltd.\n\n2010 - 2011\n\nManaged payroll and benefits\nAdvised on labor law\nEvaluated and selected new vendors\nKept work quality in line with ISO 9001\nHR Officer\n\nSri Ayutthaya Tech Co., Ltd.\n\n2007 - 2010\n\nRecruited and screened candidates\nManaged payroll and benefits\nAdvised on labor law\nFollowed up and resolved customer issues\nWrote standard operating procedures\nEducation\nMaster's degree Human Resource Management\n\nSrinakharinwirot University\n\n2010\n\nBachelor's degree Human Resource Management\n\nSrinakharinwirot University\n\n2006\n\nSkills\nExcel\nCanva\nGoogle Workspace\nHRIS\nLinkedIn Recruiter\nLanguages\nThai\nEnglish (TOEIC 590)",
+  "answer": {
+   "doc_type": "resume",
+   "name": "Wichai Suksan",
+   "position": "HR Officer",
+   "email": "hello58@example.com",
+   "phone": "083-154-6778",
+   "location": "Pathum Thani",
+   "summary": "HR officer specialized in recruitment Experienced in supporting over a hundred staff",
+   "skills": [
+    "Excel",
+    "Canva",
+    "Google Workspace",
+    "HRIS",
+    "LinkedIn Recruiter"
+   ],
+   "languages": [
+    "Thai",
+    "English (TOEIC 590)"
+   ],
+   "education": [
+    {
+     "degree": "Master's degree",
+     "field": "Human Resource Management",
+     "school": "Srinakharinwirot University",
+     "year": "2010"
+    },
+    {
+     "degree": "Bachelor's degree",
+     "field": "Human Resource Management",
+     "school": "Srinakharinwirot University",
+     "year": "2006"
+    }
+   ],
+   "experience": [
+    {
+     "title": "HR Officer",
+     "company": "Healthy Clinic Co., Ltd.",
+     "start": "2014",
+     "end": null,
+     "details": [
+      "Advised on labor law",
+      "Managed payroll and benefits",
+      "Helped plan the department's annual strategy",
+      "Followed up and resolved customer issues"
+     ]
+    },
+    {
+     "title": "HR Officer",
+     "company": "Mekong Foods Co., Ltd.",
+     "start": "2012",
+     "end": "2014",
+     "details": [
+      "Ran onboarding for new staff",
+      "Advised on labor law",
+      "Improved team workflows",
+      "Managed project budgets of over 2 million baht"
+     ]
+    },
+    {
+     "title": "HR Officer",
+     "company": "Suvarnabhumi Air Cargo Co., Ltd.",
+     "start": "2011",
+     "end": "2012",
+     "details": [
+      "Managed payroll and benefits",
+      "Advised on labor law",
+      "Ran onboarding for new staff",
+      "Presented results to management each quarter",
+      "Helped plan the department's annual strategy"
+     ]
+    },
+    {
+     "title": "HR Officer",
+     "company": "Siam Data Co., Ltd.",
+     "start": "2010",
+     "end": "2011",
+     "details": [
+      "Managed payroll and benefits",
+      "Advised on labor law",
+      "Evaluated and selected new vendors",
+      "Kept work quality in line with ISO 9001"
+     ]
+    },
+    {
+     "title": "HR Officer",
+     "company": "Sri Ayutthaya Tech Co., Ltd.",
+     "start": "2007",
+     "end": "2010",
+     "details": [
+      "Recruited and screened candidates",
+      "Managed payroll and benefits",
+      "Advised on labor law",
+      "Followed up and resolved customer issues",
+      "Wrote standard operating procedures"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "job-016",
+  "language": "mixed",
+  "layout": "boxed",
+  "font": "Kanit",
+  "scanned": false,
+  "image": "images/job-016.jpg",
+  "pdf": "pdf/job-016.pdf",
+  "text": "We are hiring - บริษัท แม่โขงฟู้ดส์ จำกัด\n\nพยาบาลวิชาชีพ\n\nEmployment type: งานประจำ\n\nLocation: ปทุมธานี\n\nSalary: 26,000 - 32,000 THB\n\nResponsibilities\nอบรมพยาบาลใหม่\nWorked rotating shifts\nCared for patients in the ICU\nให้ยาและบันทึกอาการ\nFollowed up and resolved customer issues\nประสานงานกับหน่วยงานภายในและภายนอกองค์กร\nจัดทำรายงานสรุปผลการดำเนินงานประจำเดือน\nประเมินผลและคัดเลือกผู้ขายรายใหม่\nRequirements\nGood knowledge of Excel\nGood knowledge of การดูแลผู้ป่วยวิกฤต\nGood knowledge of การให้ยา\nมีประสบการณ์อย่างน้อย 3 ปี\nCalm under pressure\nมีมนุษยสัมพันธ์ดี\nGood team player\nEnthusiastic\nมีใบอนุญาตประกอบวิชาชีพพยาบาล\nBenefits\nทำงานแบบไฮบริด\nประกันสังคม\nHealth insurance\nโบนัสประจำปี\n\nSend your resume to hr6@example.com",
+  "answer": {
+   "doc_type": "job_description",
+   "position": "พยาบาลวิชาชีพ",
+   "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+   "location": "ปทุมธานี",
+   "employment_type": "งานประจำ",
+   "salary": "26,000 - 32,000 THB",
+   "requirements": {
+    "skills": [
+     "Good knowledge of Excel",
+     "Good knowledge of การดูแลผู้ป่วยวิกฤต",
+     "Good knowledge of การให้ยา"
+    ],
+    "abilities": [
+     "มีประสบการณ์อย่างน้อย 3 ปี"
+    ],
+    "personality": [
+     "Calm under pressure",
+     "มีมนุษยสัมพันธ์ดี",
+     "Good team player",
+     "Enthusiastic"
+    ],
+    "other": [
+     "มีใบอนุญาตประกอบวิชาชีพพยาบาล"
+    ]
+   },
+   "responsibilities": [
+    "อบรมพยาบาลใหม่",
+    "Worked rotating shifts",
+    "Cared for patients in the ICU",
+    "ให้ยาและบันทึกอาการ",
+    "Followed up and resolved customer issues",
+    "ประสานงานกับหน่วยงานภายในและภายนอกองค์กร",
+    "จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน",
+    "ประเมินผลและคัดเลือกผู้ขายรายใหม่"
+   ],
+   "benefits": [
+    "ทำงานแบบไฮบริด",
+    "ประกันสังคม",
+    "Health insurance",
+    "โบนัสประจำปี"
+   ],
+   "contact": "hr6@example.com"
+  }
+ },
+ {
+  "id": "job-017",
+  "language": "th",
+  "layout": "plain",
+  "font": "Kanit",
+  "scanned": false,
+  "image": "images/job-017.jpg",
+  "pdf": "pdf/job-017.pdf",
+  "text": "รับสมัครงาน - บริษัท สยามดาต้า จำกัด\n\nพยาบาลวิชาชีพ\n\nรูปแบบงาน: สัญญาจ้าง\n\nสถานที่ทำงาน: เชียงใหม่\n\nเงินเดือน: 36,000 - 52,000 บาท\n\nหน้าที่ความรับผิดชอบ\nให้ยาและบันทึกอาการ\nทำงานเป็นกะ\nดูแลผู้ป่วยในหอผู้ป่วยวิกฤต\nอบรมพยาบาลใหม่\nควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001\nจัดทำเอกสารคู่มือการปฏิบัติงาน\nจัดทำรายงานสรุปผลการดำเนินงานประจำเดือน\nปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น\nคุณสมบัติผู้สมัคร\nใช้ Excel ได้ดี\nใช้ HOSxP ได้ดี\nใช้ การให้ยา ได้ดี\nมีประสบการณ์อย่างน้อย 5 ปี\nละเอียดรอบคอบ\nกระตือรือร้น\nใจเย็น\nมีความรับผิดชอบ\nมีใบอนุญาตประกอบวิชาชีพพยาบาล\nสวัสดิการ\nประกันสุขภาพ\nทำงานแบบไฮบริด\nประกันสังคม\nโบนัสประจำปี\n\nสนใจสมัครส่งประวัติมาที่ hr5@example.com",
+  "answer": {
+   "doc_type": "job_description",
+   "position": "พยาบาลวิชาชีพ",
+   "company": "บริษัท สยามดาต้า จำกัด",
+   "location": "เชียงใหม่",
+   "employment_type": "สัญญาจ้าง",
+   "salary": "36,000 - 52,000 บาท",
+   "requirements": {
+    "skills": [
+     "ใช้ Excel ได้ดี",
+     "ใช้ HOSxP ได้ดี",
+     "ใช้ การให้ยา ได้ดี"
+    ],
+    "abilities": [
+     "มีประสบการณ์อย่างน้อย 5 ปี"
+    ],
+    "personality": [
+     "ละเอียดรอบคอบ",
+     "กระตือรือร้น",
+     "ใจเย็น",
+     "มีความรับผิดชอบ"
+    ],
+    "other": [
+     "มีใบอนุญาตประกอบวิชาชีพพยาบาล"
+    ]
+   },
+   "responsibilities": [
+    "ให้ยาและบันทึกอาการ",
+    "ทำงานเป็นกะ",
+    "ดูแลผู้ป่วยในหอผู้ป่วยวิกฤต",
+    "อบรมพยาบาลใหม่",
+    "ควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001",
+    "จัดทำเอกสารคู่มือการปฏิบัติงาน",
+    "จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน",
+    "ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น"
+   ],
+   "benefits": [
+    "ประกันสุขภาพ",
+    "ทำงานแบบไฮบริด",
+    "ประกันสังคม",
+    "โบนัสประจำปี"
+   ],
+   "contact": "hr5@example.com"
+  }
+ },
+ {
+  "id": "job-018",
+  "language": "en",
+  "layout": "boxed",
+  "font": "Sarabun",
+  "scanned": false,
+  "image": "images/job-018.jpg",
+  "pdf": "pdf/job-018.pdf",
+  "text": "We are hiring - Siam Data Co., Ltd.\n\nDigital Marketing Officer\n\nEmployment type: Contract\n\nLocation: Khon Kaen\n\nSalary: 39,000 - 59,000 THB\n\nResponsibilities\nCreated social media content\nManaged the website and SEO\nAnalyzed monthly campaign results\nPlanned and ran online ads\nCoordinated with internal and external teams\nFollowed up and resolved customer issues\nManaged project budgets of over 2 million baht\nImproved team workflows\nRequirements\nGood knowledge of TikTok\nGood knowledge of Facebook Ads\nGood knowledge of Canva\nAt least 4 years of experience\nEnthusiastic\nResponsible\nGood interpersonal skills\nCalm under pressure\nBachelor's degree in Marketing or Communication Arts\nBenefits\nAnnual bonus\nHealth insurance\nSocial security\nHybrid work\n\nSend your resume to hr3@example.com",
+  "answer": {
+   "doc_type": "job_description",
+   "position": "Digital Marketing Officer",
+   "company": "Siam Data Co., Ltd.",
+   "location": "Khon Kaen",
+   "employment_type": "Contract",
+   "salary": "39,000 - 59,000 THB",
+   "requirements": {
+    "skills": [
+     "Good knowledge of TikTok",
+     "Good knowledge of Facebook Ads",
+     "Good knowledge of Canva"
+    ],
+    "abilities": [
+     "At least 4 years of experience"
+    ],
+    "personality": [
+     "Enthusiastic",
+     "Responsible",
+     "Good interpersonal skills",
+     "Calm under pressure"
+    ],
+    "other": [
+     "Bachelor's degree in Marketing or Communication Arts"
+    ]
+   },
+   "responsibilities": [
+    "Created social media content",
+    "Managed the website and SEO",
+    "Analyzed monthly campaign results",
+    "Planned and ran online ads",
+    "Coordinated with internal and external teams",
+    "Followed up and resolved customer issues",
+    "Managed project budgets of over 2 million baht",
+    "Improved team workflows"
+   ],
+   "benefits": [
+    "Annual bonus",
+    "Health insurance",
+    "Social security",
+    "Hybrid work"
+   ],
+   "contact": "hr3@example.com"
+  }
+ },
+ {
+  "id": "job-019",
+  "language": "th",
+  "layout": "boxed",
+  "font": "Sarabun",
+  "scanned": false,
+  "image": "images/job-019.jpg",
+  "pdf": "pdf/job-019.pdf",
+  "text": "รับสมัครงาน - บริษัท แม่โขงฟู้ดส์ จำกัด\n\nนักวิเคราะห์ข้อมูล\n\nรูปแบบงาน: งานประจำ\n\nสถานที่ทำงาน: เชียงใหม่\n\nเงินเดือน: 45,000 - 57,000 บาท\n\nหน้าที่ความรับผิดชอบ\nเขียน SQL ดึงและจัดการข้อมูล\nวิเคราะห์พฤติกรรมลูกค้า\nสร้างแดชบอร์ดยอดขายให้ผู้บริหาร\nทำรายงานอัตโนมัติด้วย Python\nนำเสนอผลงานต่อผู้บริหารทุกไตรมาส\nดูแลงบประมาณโครงการกว่า 2 ล้านบาท\nเข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล\nควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001\nคุณสมบัติผู้สมัคร\nใช้ Excel ได้ดี\nใช้ Google Analytics ได้ดี\nใช้ Python ได้ดี\nมีประสบการณ์อย่างน้อย 3 ปี\nใจเย็น\nทำงานเป็นทีมได้ดี\nมีมนุษยสัมพันธ์ดี\nละเอียดรอบคอบ\nจบปริญญาตรีสาขาสถิติหรือสาขาที่เกี่ยวข้อง\nสวัสดิการ\nทำงานแบบไฮบริด\nประกันสังคม\nโบนัสประจำปี\nประกันสุขภาพ\n\nสนใจสมัครส่งประวัติมาที่ hr7@example.com",
+  "answer": {
+   "doc_type": "job_description",
+   "position": "นักวิเคราะห์ข้อมูล",
+   "company": "บริษัท แม่โขงฟู้ดส์ จำกัด",
+   "location": "เชียงใหม่",
+   "employment_type": "งานประจำ",
+   "salary": "45,000 - 57,000 บาท",
+   "requirements": {
+    "skills": [
+     "ใช้ Excel ได้ดี",
+     "ใช้ Google Analytics ได้ดี",
+     "ใช้ Python ได้ดี"
+    ],
+    "abilities": [
+     "มีประสบการณ์อย่างน้อย 3 ปี"
+    ],
+    "personality": [
+     "ใจเย็น",
+     "ทำงานเป็นทีมได้ดี",
+     "มีมนุษยสัมพันธ์ดี",
+     "ละเอียดรอบคอบ"
+    ],
+    "other": [
+     "จบปริญญาตรีสาขาสถิติหรือสาขาที่เกี่ยวข้อง"
+    ]
+   },
+   "responsibilities": [
+    "เขียน SQL ดึงและจัดการข้อมูล",
+    "วิเคราะห์พฤติกรรมลูกค้า",
+    "สร้างแดชบอร์ดยอดขายให้ผู้บริหาร",
+    "ทำรายงานอัตโนมัติด้วย Python",
+    "นำเสนอผลงานต่อผู้บริหารทุกไตรมาส",
+    "ดูแลงบประมาณโครงการกว่า 2 ล้านบาท",
+    "เข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล",
+    "ควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001"
+   ],
+   "benefits": [
+    "ทำงานแบบไฮบริด",
+    "ประกันสังคม",
+    "โบนัสประจำปี",
+    "ประกันสุขภาพ"
+   ],
+   "contact": "hr7@example.com"
+  }
+ },
+ {
+  "id": "job-020",
+  "language": "en",
+  "layout": "boxed",
+  "font": "Kanit",
+  "scanned": true,
+  "image": "images/job-020.jpg",
+  "pdf": "pdf/job-020.pdf",
+  "text": "We are hiring - Healthy Clinic Co., Ltd.\n\nHR Officer\n\nEmployment type: Contract\n\nLocation: Chiang Mai\n\nSalary: 43,000 - 51,000 THB\n\nResponsibilities\nAdvised on labor law\nRecruited and screened candidates\nRan onboarding for new staff\nManaged payroll and benefits\nImproved team workflows\nWrote standard operating procedures\nManaged project budgets of over 2 million baht\nCoordinated with internal and external teams\nRequirements\nGood knowledge of LinkedIn Recruiter\nGood knowledge of Excel\nGood knowledge of Google Workspace\nAt least 2 years of experience\nGood team player\nDetail-oriented\nCalm under pressure\nResponsible\nBachelor's degree in Human Resource Management\nBenefits\nHybrid work\nHealth insurance\nSocial security\nAnnual bonus\n\nSend your resume to hr2@example.com",
+  "answer": {
+   "doc_type": "job_description",
+   "position": "HR Officer",
+   "company": "Healthy Clinic Co., Ltd.",
+   "location": "Chiang Mai",
+   "employment_type": "Contract",
+   "salary": "43,000 - 51,000 THB",
+   "requirements": {
+    "skills": [
+     "Good knowledge of LinkedIn Recruiter",
+     "Good knowledge of Excel",
+     "Good knowledge of Google Workspace"
+    ],
+    "abilities": [
+     "At least 2 years of experience"
+    ],
+    "personality": [
+     "Good team player",
+     "Detail-oriented",
+     "Calm under pressure",
+     "Responsible"
+    ],
+    "other": [
+     "Bachelor's degree in Human Resource Management"
+    ]
+   },
+   "responsibilities": [
+    "Advised on labor law",
+    "Recruited and screened candidates",
+    "Ran onboarding for new staff",
+    "Managed payroll and benefits",
+    "Improved team workflows",
+    "Wrote standard operating procedures",
+    "Managed project budgets of over 2 million baht",
+    "Coordinated with internal and external teams"
+   ],
+   "benefits": [
+    "Hybrid work",
+    "Health insurance",
+    "Social security",
+    "Annual bonus"
+   ],
+   "contact": "hr2@example.com"
+  }
+ }
+]

@@ -1,0 +1,44 @@
+# Does Qwen3-VL-2B QLoRA fit in 4GB? Ten examples, one pass. Run from the LlamaFactory folder:
+#   .venv\Scripts\llamafactory-cli.exe train ..\thai-doc-ocr\configs\qwen3vl_2b_qlora_smoke.yaml
+# If it runs out of memory: lower image_max_pixels, then cutoff_len. The vision tower is frozen by default.
+
+### model
+model_name_or_path: Qwen/Qwen3-VL-2B-Instruct
+image_max_pixels: 1048576  # about 1,000 image tokens; a page is 1270x1900, so it is shrunk to about 830x1260
+quantization_bit: 4
+quantization_method: bnb
+double_quantization: true
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_alpha: 16
+lora_target: all
+freeze_vision_tower: true
+
+### dataset
+dataset: thai_doc_ocr_train
+template: qwen3_vl_nothink
+cutoff_len: 2048  # image ~1,000 + prompt ~60 + answer up to ~410 tokens
+max_samples: 10
+preprocessing_num_workers: 4
+dataloader_num_workers: 0
+
+### output
+output_dir: saves/Qwen3-VL-2B-Instruct/lora/smoke
+logging_steps: 1
+save_strategy: "no"
+overwrite_output_dir: true
+report_to: none
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-4
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true

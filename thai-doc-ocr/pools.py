@@ -1,0 +1,143 @@
+"""Fictional building blocks for generate.py. Tuples are (Thai, English); plain strings are the same in both."""
+
+FIRST_TH = ["สมชาย", "สมหญิง", "กิตติ", "ณัฐพล", "พิมพ์ชนก", "อรทัย", "ธนากร", "วรรณา", "ปิยะ", "ศิริพร", "ชนาธิป", "มาลี",
+            "ภูมิ", "จิราพร", "เอกชัย", "นภัสสร", "วีรภัทร", "กนกวรรณ", "สุรชัย", "ปาริชาติ", "อนุชา", "ฐิติมา", "ธีรเดช", "รัตนา"]
+LAST_TH = ["ใจดี", "สุขสันต์", "ศรีสุข", "มั่นคง", "รุ่งเรือง", "ทองดี", "บุญมี", "แก้วมณี", "พงษ์ไพบูลย์", "วงศ์สวัสดิ์", "จันทร์เพ็ญ",
+           "เจริญผล", "สายทอง", "อินทร์แก้ว", "ธรรมรักษ์", "ประเสริฐศรี", "ชัยมงคล", "ดวงดี", "พิทักษ์ไทย", "เกียรติกุล"]
+FIRST_EN = ["Anan", "Malee", "Krit", "Ploy", "Nattapong", "Siriporn", "Tanawat", "Pimchanok", "Wichai", "Kanokwan", "Ekachai",
+            "Rattana", "Thanakorn", "Aranya", "Peerapat", "Sasithorn"]
+LAST_EN = ["Suksan", "Jaidee", "Thongdee", "Boonmee", "Srisuk", "Rungruang", "Wongsawat", "Chaiyamongkol", "Keawmanee",
+           "Duangdee", "Phongphaibun", "Sinsomboon"]
+
+COMPANIES = [("บริษัท สยามดาต้า จำกัด", "Siam Data Co., Ltd."), ("บริษัท ไทยรีเทล กรุ๊ป จำกัด", "Thai Retail Group Co., Ltd."),
+             ("บริษัท เจริญการค้า จำกัด", "Charoen Trading Co., Ltd."), ("บริษัท ดิจิทัลไทย จำกัด", "Digital Thai Co., Ltd."),
+             ("บริษัท แม่โขงฟู้ดส์ จำกัด", "Mekong Foods Co., Ltd."), ("บริษัท อันดามันโลจิสติกส์ จำกัด", "Andaman Logistics Co., Ltd."),
+             ("บริษัท เหนือสุดซอฟต์แวร์ จำกัด", "Northern Soft Co., Ltd."), ("บริษัท บางกอกมีเดีย จำกัด", "Bangkok Media Co., Ltd."),
+             ("บริษัท สุขภาพดีคลินิก จำกัด", "Healthy Clinic Co., Ltd."), ("บริษัท ลานนาดีไซน์ จำกัด", "Lanna Design Co., Ltd."),
+             ("บริษัท ไทยพาวเวอร์ จำกัด", "Thai Power Co., Ltd."), ("บริษัท อีสานเทรดดิ้ง จำกัด", "Isan Trading Co., Ltd.")]
+
+SCHOOLS = [("จุฬาลงกรณ์มหาวิทยาลัย", "Chulalongkorn University"), ("มหาวิทยาลัยธรรมศาสตร์", "Thammasat University"),
+           ("มหาวิทยาลัยเชียงใหม่", "Chiang Mai University"), ("มหาวิทยาลัยขอนแก่น", "Khon Kaen University"),
+           ("มหาวิทยาลัยเกษตรศาสตร์", "Kasetsart University"), ("มหาวิทยาลัยมหิดล", "Mahidol University"),
+           ("มหาวิทยาลัยสงขลานครินทร์", "Prince of Songkla University"), ("มหาวิทยาลัยกรุงเทพ", "Bangkok University"),
+           ("มหาวิทยาลัยศรีนครินทรวิโรฒ", "Srinakharinwirot University"), ("มหาวิทยาลัยบูรพา", "Burapha University"),
+           ("มหาวิทยาลัยนเรศวร", "Naresuan University"), ("มหาวิทยาลัยแม่ฟ้าหลวง", "Mae Fah Luang University")]
+
+PROVINCES = [("กรุงเทพมหานคร", "Bangkok"), ("เชียงใหม่", "Chiang Mai"), ("ขอนแก่น", "Khon Kaen"), ("ภูเก็ต", "Phuket"),
+             ("นนทบุรี", "Nonthaburi"), ("ชลบุรี", "Chonburi"), ("นครราชสีมา", "Nakhon Ratchasima"), ("ปทุมธานี", "Pathum Thani")]
+
+TRAITS = [("มีความรับผิดชอบ", "Responsible"), ("ทำงานเป็นทีมได้ดี", "Good team player"), ("ใจเย็น", "Calm under pressure"),
+          ("กระตือรือร้น", "Enthusiastic"), ("มีมนุษยสัมพันธ์ดี", "Good interpersonal skills"), ("ละเอียดรอบคอบ", "Detail-oriented")]
+
+ROLES = [
+    {"title": ("นักวิเคราะห์ข้อมูล", "Data Analyst"),
+     "skills": ["SQL", "Python", "Power BI", "Excel", "Tableau", "Google Analytics"],
+     "duties": [("สร้างแดชบอร์ดยอดขายให้ผู้บริหาร", "Built sales dashboards for executives"),
+                ("เขียน SQL ดึงและจัดการข้อมูล", "Wrote SQL to extract and clean data"),
+                ("ทำรายงานอัตโนมัติด้วย Python", "Automated reports with Python"),
+                ("วิเคราะห์พฤติกรรมลูกค้า", "Analyzed customer behavior")],
+     "summaries": [("นักวิเคราะห์ข้อมูลที่มีประสบการณ์ด้านธุรกิจค้าปลีก", "Data analyst with retail experience"),
+                   ("ถนัดการแปลงข้อมูลเป็นข้อมูลเชิงลึกทางธุรกิจ", "Skilled at turning data into business insight")],
+     "fields": [("สาขาสถิติ", "Statistics"), ("สาขาวิทยาการคอมพิวเตอร์", "Computer Science")],
+     "fields_required": [("จบปริญญาตรีสาขาสถิติหรือสาขาที่เกี่ยวข้อง", "Bachelor's degree in Statistics or a related field")]},
+    {"title": ("นักพัฒนาเว็บ", "Web Developer"),
+     "skills": ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker", "Git"],
+     "duties": [("พัฒนาเว็บแอปพลิเคชันด้วย React", "Developed web applications with React"),
+                ("ออกแบบและเขียน API", "Designed and built APIs"),
+                ("ดูแลฐานข้อมูลของระบบ", "Maintained the system database"),
+                ("ทำงานร่วมกับทีมออกแบบแบบ Agile", "Worked with designers in Agile teams")],
+     "summaries": [("นักพัฒนาเว็บที่เน้นประสบการณ์ผู้ใช้", "Web developer focused on user experience"),
+                   ("มีประสบการณ์พัฒนาระบบตั้งแต่ต้นจนจบ", "Experienced in building systems end to end")],
+     "fields": [("สาขาวิทยาการคอมพิวเตอร์", "Computer Science"), ("สาขาวิศวกรรมคอมพิวเตอร์", "Computer Engineering")],
+     "fields_required": [("จบปริญญาตรีสาขาคอมพิวเตอร์หรือสาขาที่เกี่ยวข้อง", "Bachelor's degree in Computer Science or a related field")]},
+    {"title": ("นักบัญชี", "Accountant"),
+     "skills": ["Excel", "Express", "SAP", "Power BI", "Peak Account"],
+     "duties": [("ปิดงบการเงินรายเดือน", "Closed the monthly accounts"),
+                ("ยื่นภาษีมูลค่าเพิ่มและภาษีหัก ณ ที่จ่าย", "Filed VAT and withholding tax"),
+                ("จัดทำงบกำไรขาดทุน", "Prepared profit and loss statements"),
+                ("ตรวจสอบเอกสารทางบัญชี", "Reviewed accounting documents")],
+     "summaries": [("นักบัญชีที่มีความรู้ด้านภาษีอากร", "Accountant with a strong tax background"),
+                   ("มีประสบการณ์ปิดงบให้ธุรกิจขนาดกลาง", "Experienced in closing accounts for mid-sized firms")],
+     "fields": [("สาขาการบัญชี", "Accounting")],
+     "fields_required": [("จบปริญญาตรีสาขาการบัญชี", "Bachelor's degree in Accounting")]},
+    {"title": ("เจ้าหน้าที่ทรัพยากรบุคคล", "HR Officer"),
+     "skills": ["Excel", "Canva", "Google Workspace", "HRIS", "LinkedIn Recruiter"],
+     "duties": [("สรรหาและคัดเลือกพนักงาน", "Recruited and screened candidates"),
+                ("จัดอบรมพนักงานใหม่", "Ran onboarding for new staff"),
+                ("ดูแลเงินเดือนและสวัสดิการ", "Managed payroll and benefits"),
+                ("ให้คำปรึกษาด้านกฎหมายแรงงาน", "Advised on labor law")],
+     "summaries": [("เจ้าหน้าที่ทรัพยากรบุคคลที่ถนัดงานสรรหา", "HR officer specialized in recruitment"),
+                   ("มีประสบการณ์ดูแลพนักงานกว่าร้อยคน", "Experienced in supporting over a hundred staff")],
+     "fields": [("สาขาการจัดการทรัพยากรมนุษย์", "Human Resource Management"), ("สาขาจิตวิทยา", "Psychology")],
+     "fields_required": [("จบปริญญาตรีสาขาการจัดการทรัพยากรมนุษย์", "Bachelor's degree in Human Resource Management")]},
+    {"title": ("เจ้าหน้าที่การตลาดออนไลน์", "Digital Marketing Officer"),
+     "skills": ["Facebook Ads", "Google Ads", "Canva", "Google Analytics", "TikTok", "SEO"],
+     "duties": [("วางแผนและยิงโฆษณาออนไลน์", "Planned and ran online ads"),
+                ("สร้างคอนเทนต์บนโซเชียลมีเดีย", "Created social media content"),
+                ("วิเคราะห์ผลแคมเปญรายเดือน", "Analyzed monthly campaign results"),
+                ("ดูแลเว็บไซต์และ SEO", "Managed the website and SEO")],
+     "summaries": [("นักการตลาดที่เน้นผลลัพธ์จากข้อมูล", "Marketer driven by data and results"),
+                   ("ถนัดการสร้างแบรนด์บนโซเชียลมีเดีย", "Skilled at building brands on social media")],
+     "fields": [("สาขาการตลาด", "Marketing"), ("สาขานิเทศศาสตร์", "Communication Arts")],
+     "fields_required": [("จบปริญญาตรีสาขาการตลาดหรือนิเทศศาสตร์", "Bachelor's degree in Marketing or Communication Arts")]},
+    {"title": ("พนักงานขาย", "Sales Executive"),
+     "skills": ["Salesforce", "Excel", "PowerPoint", "CRM", "LINE Official Account"],
+     "duties": [("เสนอขายสินค้าให้ลูกค้าองค์กร", "Sold products to corporate customers"),
+                ("ดูแลลูกค้าเดิมและหาลูกค้าใหม่", "Managed accounts and found new customers"),
+                ("เจรจาต่อรองสัญญา", "Negotiated contracts"),
+                ("จัดทำรายงานยอดขาย", "Prepared sales reports")],
+     "summaries": [("พนักงานขายที่ทำยอดได้ตามเป้าต่อเนื่อง", "Sales executive who consistently hits targets"),
+                   ("มีประสบการณ์ขายให้ลูกค้าองค์กร", "Experienced in selling to corporate clients")],
+     "fields": [("สาขาการตลาด", "Marketing"), ("สาขาบริหารธุรกิจ", "Business Administration")],
+     "fields_required": [("จบปริญญาตรีทุกสาขา มีใบขับขี่", "Bachelor's degree in any field with a driving license")]},
+    {"title": ("พยาบาลวิชาชีพ", "Registered Nurse"),
+     "skills": ["การดูแลผู้ป่วยวิกฤต", "การให้ยา", "การปฐมพยาบาล", "HOSxP", "Excel"],
+     "duties": [("ดูแลผู้ป่วยในหอผู้ป่วยวิกฤต", "Cared for patients in the ICU"),
+                ("ให้ยาและบันทึกอาการ", "Gave medication and recorded symptoms"),
+                ("อบรมพยาบาลใหม่", "Trained new nurses"),
+                ("ทำงานเป็นกะ", "Worked rotating shifts")],
+     "summaries": [("พยาบาลวิชาชีพที่มีประสบการณ์ด้านผู้ป่วยวิกฤต", "Registered nurse with ICU experience"),
+                   ("เน้นการดูแลผู้ป่วยอย่างปลอดภัย", "Focused on safe patient care")],
+     "fields": [("สาขาพยาบาลศาสตร์", "Nursing Science")],
+     "fields_required": [("มีใบอนุญาตประกอบวิชาชีพพยาบาล", "Professional nursing license")]},
+    {"title": ("นักออกแบบกราฟิก", "Graphic Designer"),
+     "skills": ["Photoshop", "Illustrator", "Figma", "After Effects", "Canva"],
+     "duties": [("ออกแบบสื่อโฆษณาออนไลน์", "Designed online advertising"),
+                ("ถ่ายภาพและตัดต่อวิดีโอ", "Shot photos and edited video"),
+                ("ออกแบบบรรจุภัณฑ์สินค้า", "Designed product packaging"),
+                ("ดูแลอัตลักษณ์ของแบรนด์", "Maintained the brand identity")],
+     "summaries": [("นักออกแบบที่ถนัดงานสื่อดิจิทัล", "Designer focused on digital media"),
+                   ("มีประสบการณ์ทำงานกับแบรนด์ชั้นนำ", "Experienced in working with leading brands")],
+     "fields": [("สาขาการออกแบบนิเทศศิลป์", "Visual Communication Design"), ("สาขาศิลปกรรม", "Fine Arts")],
+     "fields_required": [("จบปริญญาตรีสาขาการออกแบบหรือสาขาที่เกี่ยวข้อง", "Bachelor's degree in Design or a related field")]},
+]
+
+# Only for --long documents. Kept apart so the original pools, and the documents they already produced, never change.
+LONG_COMPANIES = [("บริษัท ศรีอยุธยาเทค จำกัด", "Sri Ayutthaya Tech Co., Ltd."), ("บริษัท ลานนาคอนซัลติ้ง จำกัด", "Lanna Consulting Co., Ltd."),
+                  ("บริษัท อีสานพัฒนา จำกัด", "Isan Pattana Co., Ltd."), ("บริษัท ทองหล่อเวนเจอร์ส จำกัด", "Thonglor Ventures Co., Ltd."),
+                  ("บริษัท สุวรรณภูมิแอร์คาร์โก้ จำกัด", "Suvarnabhumi Air Cargo Co., Ltd."), ("บริษัท พฤกษาเฮลท์แคร์ จำกัด", "Pruksa Healthcare Co., Ltd."),
+                  ("บริษัท รัตนโกสินทร์ครีเอทีฟ จำกัด", "Rattanakosin Creative Co., Ltd."), ("บริษัท ชายฝั่งตะวันออกพลังงาน จำกัด", "Eastern Coast Energy Co., Ltd.")]
+LONG_SCHOOLS = [("มหาวิทยาลัยศรีนครินทรวิโรฒ", "Srinakharinwirot University"), ("มหาวิทยาลัยนเรศวร", "Naresuan University"),
+                ("มหาวิทยาลัยแม่ฟ้าหลวง", "Mae Fah Luang University"), ("มหาวิทยาลัยวลัยลักษณ์", "Walailak University")]
+LONG_DUTIES = [("ประสานงานกับหน่วยงานภายในและภายนอกองค์กร", "Coordinated with internal and external teams"),
+               ("จัดทำรายงานสรุปผลการดำเนินงานประจำเดือน", "Prepared monthly performance reports"),
+               ("ฝึกอบรมและให้คำแนะนำพนักงานใหม่", "Trained and mentored new staff"),
+               ("ปรับปรุงขั้นตอนการทำงานให้มีประสิทธิภาพมากขึ้น", "Improved team workflows"),
+               ("นำเสนอผลงานต่อผู้บริหารทุกไตรมาส", "Presented results to management each quarter"),
+               ("ดูแลงบประมาณโครงการกว่า 2 ล้านบาท", "Managed project budgets of over 2 million baht"),
+               ("ร่วมวางแผนกลยุทธ์ประจำปีของฝ่าย", "Helped plan the department's annual strategy"),
+               ("จัดทำเอกสารคู่มือการปฏิบัติงาน", "Wrote standard operating procedures"),
+               ("ติดตามและแก้ไขปัญหาที่ลูกค้าแจ้งเข้ามา", "Followed up and resolved customer issues"),
+               ("ควบคุมคุณภาพงานให้เป็นไปตามมาตรฐาน ISO 9001", "Kept work quality in line with ISO 9001"),
+               ("เข้าร่วมโครงการเปลี่ยนระบบงานเป็นดิจิทัล", "Took part in the digital transformation project"),
+               ("ประเมินผลและคัดเลือกผู้ขายรายใหม่", "Evaluated and selected new vendors")]
+
+# Only for --varied job descriptions, so real-looking JDs don't always list 3 skills, 1 ability, 2 traits, 1 other.
+VARIED_ABILITIES = [("มีประสบการณ์ทำงานในบริษัทข้ามชาติ", "Experience in a multinational company"),
+                    ("เคยดูแลทีมอย่างน้อย 3 คน", "Has led a team of at least 3 people"),
+                    ("นำเสนองานต่อลูกค้าได้", "Can present work to clients"),
+                    ("เคยทำงานกับระบบ ERP", "Has worked with an ERP system")]
+VARIED_OTHER = [("ภาษาอังกฤษระดับดี", "Good command of English"), ("มีใบขับขี่รถยนต์", "Holds a driving licence"),
+                ("สามารถเดินทางไปต่างจังหวัดได้", "Willing to travel upcountry"), ("TOEIC 600 ขึ้นไป", "TOEIC 600 or above")]
+BENEFITS = [("ประกันสุขภาพ", "Health insurance"), ("โบนัสประจำปี", "Annual bonus"),
+            ("ทำงานแบบไฮบริด", "Hybrid work"), ("ประกันสังคม", "Social security")]

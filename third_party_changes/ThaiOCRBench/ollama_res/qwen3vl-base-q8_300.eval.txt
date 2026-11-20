@@ -1,0 +1,98 @@
+  0%|          | 0/200 [00:00<?, ?it/s]  1%|          | 2/200 [00:01<02:53,  1.14it/s]  2%|▎         | 5/200 [00:10<07:24,  2.28s/it]  4%|▍         | 8/200 [00:11<04:25,  1.38s/it]  8%|▊         | 15/200 [00:12<01:43,  1.78it/s]C:\Users\Pai\Desktop\Work\Work_2569\AI-Internship\NewProject\ThaiOCRBench\.venv\Lib\site-packages\nltk\translate\bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+C:\Users\Pai\Desktop\Work\Work_2569\AI-Internship\NewProject\ThaiOCRBench\.venv\Lib\site-packages\nltk\translate\bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 3-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+C:\Users\Pai\Desktop\Work\Work_2569\AI-Internship\NewProject\ThaiOCRBench\.venv\Lib\site-packages\nltk\translate\bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+ 10%|▉         | 19/200 [00:12<01:12,  2.49it/s] 16%|█▌        | 31/200 [00:12<00:29,  5.64it/s] 19%|█▉        | 38/200 [00:13<00:25,  6.29it/s] 20%|██        | 40/200 [00:14<00:25,  6.28it/s] 21%|██        | 42/200 [00:19<01:21,  1.94it/s] 22%|██▏       | 43/200 [00:25<02:37,  1.00s/it] 22%|██▎       | 45/200 [00:29<03:19,  1.29s/it] 23%|██▎       | 46/200 [00:30<03:05,  1.21s/it] 25%|██▌       | 50/200 [00:30<01:51,  1.35it/s] 27%|██▋       | 54/200 [00:42<03:42,  1.52s/it] 28%|██▊       | 56/200 [00:42<02:57,  1.23s/it] 29%|██▉       | 58/200 [00:42<02:19,  1.02it/s] 32%|███▏      | 63/200 [00:43<01:15,  1.80it/s] 34%|███▎      | 67/200 [00:43<00:52,  2.56it/s] 34%|███▍      | 69/200 [00:43<00:47,  2.74it/s] 36%|███▌      | 72/200 [00:44<00:45,  2.79it/s] 43%|████▎     | 86/200 [00:45<00:17,  6.58it/s] 44%|████▍     | 89/200 [00:45<00:15,  7.39it/s] 48%|████▊     | 96/200 [00:45<00:09, 10.51it/s] 50%|████▉     | 99/200 [00:48<00:22,  4.49it/s] 52%|█████▏    | 103/200 [00:48<00:17,  5.55it/s] 54%|█████▍    | 108/200 [00:50<00:21,  4.21it/s] 57%|█████▋    | 114/200 [00:50<00:16,  5.16it/s] 60%|█████▉    | 119/200 [00:52<00:18,  4.42it/s] 60%|██████    | 121/200 [01:02<01:12,  1.09it/s] 62%|██████▎   | 125/200 [01:03<00:53,  1.40it/s] 64%|██████▎   | 127/200 [01:05<00:56,  1.29it/s] 64%|██████▍   | 128/200 [01:09<01:19,  1.11s/it] 70%|███████   | 140/200 [01:09<00:23,  2.54it/s] 72%|███████▎  | 145/200 [01:11<00:20,  2.63it/s] 76%|███████▌  | 151/200 [01:12<00:15,  3.26it/s] 79%|███████▉  | 158/200 [01:24<00:34,  1.23it/s] 88%|████████▊ | 175/200 [01:24<00:09,  2.69it/s] 90%|████████▉ | 179/200 [01:33<00:13,  1.53it/s] 91%|█████████ | 182/200 [01:33<00:10,  1.77it/s] 92%|█████████▎| 185/200 [01:34<00:08,  1.85it/s] 97%|█████████▋| 194/200 [01:35<00:02,  2.85it/s] 98%|█████████▊| 196/200 [01:41<00:02,  1.53it/s]100%|██████████| 200/200 [01:41<00:00,  1.97it/s]
+Average F1 Score: 0.8571428571428571
+Average F1 Score: 0.6923076923076923
+Average F1 Score: 0.5
+Average F1 Score: 1.0
+Average F1 Score: 0.7777777777777778
+Average F1 Score: 0.75
+Average F1 Score: 0.3333333333333333
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.5555555555555556
+Average F1 Score: 0.42857142857142855
+Average F1 Score: 0.0
+Average F1 Score: 0.0
+Average F1 Score: 0.38461538461538464
+Average F1 Score: 0.8571428571428571
+Average F1 Score: 0.07407407407407407
+Average F1 Score: 0.8333333333333334
+Average F1 Score: 0.04
+Average F1 Score: 0.0
+Average F1 Score: 0.16666666666666666
+Average F1 Score: 0.0
+Average F1 Score: 0.6
+Average F1 Score: 1.0
+Average F1 Score: 0.3333333333333333
+
+Fine-grained text recognition
+Task Fine-grained text recognition, total instructions: 17.0, average score: 0.178
+
+
+Key information extraction
+Task Key information extraction, total instructions: 12.0, average score: 0.214
+
+
+Document classification
+Task Document classification, total instructions: 10.0, average score: 0.400
+
+
+Chart parsing
+Task Chart parsing, total instructions: 11.0, average score: 0.540
+
+
+Table parsing
+Task Table parsing, total instructions: 14.0, average score: 0.405
+
+
+Diagram VQA
+Task Diagram VQA, total instructions: 14.0, average score: 0.183
+
+
+Full-page OCR
+Task Full-page OCR, total instructions: 16.0, average score: 0.535
+
+
+Handwritten content extraction
+Task Handwritten content extraction, total instructions: 15.0, average score: 0.214
+
+
+Text recognition
+Task Text recognition, total instructions: 26.0, average score: 0.339
+
+
+Key information mapping
+Task Key information mapping, total instructions: 14.0, average score: 0.544
+
+
+Infographics
+Task Infographics, total instructions: 22.0, average score: 0.437
+
+
+Document parsing
+Task Document parsing, total instructions: 7.0, average score: 0.199
+
+
+Cognition VQA
+Task Cognition VQA, total instructions: 22.0, average score: 0.444
+
+End of Code!

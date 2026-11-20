@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.claude/settings.local.json
+.env
+*.safetensors
+*.gguf
+/LlamaFactory/
+/llama.cpp/
+/ThaiOCRBench/

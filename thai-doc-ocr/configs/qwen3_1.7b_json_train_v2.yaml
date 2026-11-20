@@ -1,0 +1,45 @@
+# Round 2: 500 documents (200 JDs with varied, shuffled requirement groups), answers with keys sorted to match Ollama. From LlamaFactory:
+#   .venv\Scripts\python.exe ..\thai-doc-ocr\train.py ..\thai-doc-ocr\configs\qwen3_1.7b_json_train_v2.yaml
+# Data: ..\thai-doc-ocr\to_llamafactory.py --split train_varied --task json (generate.py --split train --varied --resumes 300 --jobs 200). Prompts match evaluate_json.py.
+# Untrained, this model got 89.6% of fields; its misses were conventions: degree vs field, "Present" instead of
+# null for a current job, and personality traits filed under abilities.
+
+### model
+model_name_or_path: Qwen/Qwen3-1.7B
+quantization_bit: 4
+quantization_method: bnb
+double_quantization: true
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 16
+lora_alpha: 32
+lora_target: all
+
+### dataset
+dataset: thai_doc_json_train_varied
+template: qwen3
+enable_thinking: false  # empty <think></think>, the same as the Ollama Modelfile from to_ollama.py --text
+cutoff_len: 1536  # longest example is 1,021 tokens
+preprocessing_num_workers: 4
+dataloader_num_workers: 0
+
+### output
+output_dir: saves/Qwen3-1.7B/lora/thai_doc_json_v2
+logging_steps: 5
+save_steps: 25
+plot_loss: true
+overwrite_output_dir: true
+report_to: none
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 2.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
